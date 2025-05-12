@@ -1,0 +1,184 @@
+openapi: 3.0.0
+info:
+  title: Indices - Basic 1.0.0
+  description: Access to the lists and composition of the indices calculated by TASE.
+  version: 1.0.0
+  x-git:
+    repo: http://gitappdvl1:7990/scm/maya/datahub.git
+    branch: development
+    commit: ca3cb7efb
+  x-build-info:
+    build-number: "176"
+    spec-version: 1.0.0
+    artifact-version: 1.0.0.176
+    pipeline-version: origin/release/konnect/2.2.0
+servers:
+  - url: "https://datawise.tase.co.il"
+    description: "Tase API"
+tags:
+#   - name: Please enter a tag (optional, you can set more than 1 tag)
+#     description: Please enter a tag description (optional)
+paths:
+  /v1/basic-indices/indices-list:
+    get:
+      tags:
+        - APIs
+      summary: Indices List
+      description: In this interface, a listing of the TASE indices can be found.
+      operationId: getIndices
+      parameters:
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum:
+              - en-US
+              - he-IL
+            default: he-IL
+          required: true
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/IndicesListResponse"
+        "400":
+          description: Invalid status value
+  /v1/basic-indices/index-components-basic/{indexId}/{year}/{month}/{day}:
+    get:
+      tags:
+        - APIs
+      summary: Index Components basic
+      description: In this interface, the components of the indices on the Tel Aviv Stock Exchange can be found.
+      operationId: getIndexComponentBasic
+      parameters:
+        - in: path
+          name: indexId
+          required: true
+          description: >-
+            Enter TASE index id. Index ID list can be found in the following API - TASE Basic Indices > Indices List
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 999
+            example: 142
+        - in: path
+          name: year
+          required: true
+          description: Enter specific year
+          schema:
+            type: integer
+            minimum: 1999
+            maximum: 2030
+            example: 2018
+        - in: path
+          name: month
+          required: true
+          description: Enter specific month
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 12
+            example: 10
+        - in: path
+          name: day
+          required: true
+          description: Enter specific day
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 31
+            example: 22
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum:
+              - en-US
+              - he-IL
+            default: he-IL
+          required: true
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/IndexComponentBasicResponse"
+        "400":
+          description: Invalid status value
+components:
+  schemas:
+    IndexComponentBasicResponse:
+      type: object
+      description: List of securities included in each index.
+      properties:
+        indexComponents:
+          type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                properties:
+                  securityName:
+                    type: string
+                    description: Security Name
+                    example: BEZEQ
+                  symbol:
+                    type: string
+                    description: Security Symbol
+                    example: BEZEQ
+                  securityId:
+                    type: string
+                    description: Security Number
+                    example: 230011
+                  isin:
+                    type: string
+                    description: ISIN
+                    example: IL0002300114
+            total:
+              type: integer
+              description: Total items
+              example: 100
+      xml:
+        name: IndexComponentBasicResponse
+    IndicesListResponse:
+      type: object
+      description: List of indices traded on the Tel Aviv Stock Exchange.
+      properties:
+        indicesList:
+          type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                properties:
+                  indexId:
+                    type: integer
+                    format: int64
+                    description: Index Id
+                    example: 1
+                  indexName:
+                    type: string
+                    description: Index Name
+                    example: General Shares and Convertibles
+                  isin:
+                    type: string
+                    description: International security identification number
+                    example: IL0004250176
+            total:
+              type: integer
+              description: Total items
+              example: 3
+      xml:
+        name: IndicesListResponse
+  securitySchemes:
+    apiKey:
+      type: apiKey
+      in: header
+      name: apikey
+security:
+  - apiKey: []

@@ -1,0 +1,707 @@
+openapi: 3.0.0
+info:
+  title: Mutual Funds- Basic 1.0.0
+  description: Access to general data about all the mutual funds that are cleared and traded on TASE, such as the types of funds, their underlying assets, their exposure to equities and foreign currency, registration status, etc.
+  version: 1.0.0
+  x-git:
+    repo: http://gitappdvl1:7990/scm/maya/datahub.git
+    branch: development
+    commit: bc721f8f9
+  x-build-info:
+    build-number: "210"
+    spec-version: 1.0.0
+    artifact-version: 1.0.0.210
+    pipeline-version: origin/release/konnect/2.2.0
+servers:
+  - url: "https://datawise.tase.co.il"
+    description: "Tase API"
+# tags:
+#   - name: Please enter a tag (optional, you can set more than 1 tag)
+#     description: Please enter a tag description (optional)
+paths:
+  /v1/fund/fund-list:
+    get:
+      tags:
+        - APIs
+      summary: funds list
+      description: In this interface, a list of the funds and their data can be found, including the listing status of each fund.
+      operationId: getMutualFundList
+      parameters:
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum: [en-US, he-IL]
+            default: he-IL
+          required: true
+        - in: query
+          name: listingStatusId
+          required: false
+          description: Listing Status Id
+          schema:
+            type: integer
+            enum: [1, 2, 3, 4]
+            default: 1
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FundListResponse"
+        "400":
+          description: Invalid status value
+  /v1/fund/currency-exposure-profile:
+    get:
+      tags:
+        - APIs
+      summary: Exposure profile- Currencies
+      description: In this interface, the profile of the funds’ exposure to foreign currency can be found.
+      operationId: getCurrencyExposureProfile
+      parameters:
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum: [en-US, he-IL]
+            default: he-IL
+          required: true
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CurrencyExposureProfileResponse"
+        "400":
+          description: Invalid status value
+  /v1/fund/distribution-commission:
+    get:
+      tags:
+        - APIs
+      summary: Distribution Commission
+      description: In this interface, the types of distribution fees for the funds can be found.
+      operationId: getDistributionCommission
+      parameters:
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum: [en-US, he-IL]
+            default: he-IL
+          required: true
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DistributionCommissionResponse"
+        "400":
+          description: Invalid status value
+  /v1/fund/fund-type:
+    get:
+      tags:
+        - APIs
+      summary: fund types
+      description: In this interface, the types of funds cleared and traded on the Tel Aviv Stock Exchange can be found.
+      operationId: getFundType
+      parameters:
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum: [en-US, he-IL]
+            default: he-IL
+          required: true
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FundTypeResponse"
+        "400":
+          description: Invalid status value
+  /v1/fund/listing-status:
+    get:
+      tags:
+        - APIs
+      summary: listing status
+      description: In this interface, all types of listing statuses of the funds cleared on the Tel Aviv Stock Exchange can be found.
+      operationId: getFundListingStatus
+      parameters:
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum: [en-US, he-IL]
+            default: he-IL
+          required: false
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ListingsStatusResponse"
+        "400":
+          description: Invalid status value
+  /v1/fund/mutual-fund-classification:
+    get:
+      tags:
+        - APIs
+      summary: Mutual Fund Classification
+      description: In this interface, a listing of the classifications for the open mutual funds cleared on the Tel Aviv Stock Exchange can be found.
+      operationId: getMutualFundClassification
+      parameters:
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum: [en-US, he-IL]
+            default: he-IL
+          required: true
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FundClassificationResponse"
+        "400":
+          description: Invalid status value
+  /v1/fund/payment-policy:
+    get:
+      tags:
+        - APIs
+      summary: Payment policy
+      description: In this interface, the type of payments policy of the funds cleared and traded on the Tel Aviv Stock Exchange can be found.
+      operationId: getPaymentPolicy
+      parameters:
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum: [en-US, he-IL]
+            default: he-IL
+          required: true
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PaymentPolicyResponse"
+        "400":
+          description: Invalid status value
+  /v1/fund/share-exposure-profile:
+    get:
+      tags:
+        - APIs
+      summary: Exposure profile- Shares
+      description: In this interface, the profile of the equities exposure of the funds cleared and traded on the Tel Aviv Stock Exchange can be found.
+      operationId: getShareExposureProfile
+      parameters:
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum: [en-US, he-IL]
+            default: he-IL
+          required: true
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ShareExposureProfileResponse"
+        "400":
+          description: Invalid status value
+  /v1/fund/stock-exchange:
+    get:
+      tags:
+        - APIs
+      summary: Stock Exchange
+      description: In this interface, the various trading exchanges on which the funds are cleared and traded can be found.
+      operationId: getForeignEtfStockExchange
+      parameters:
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum: [en-US, he-IL]
+            default: he-IL
+          required: true
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ForeignEtfStockExchangeResponse"
+        "400":
+          description: Invalid status value
+  /v1/fund/tax-status:
+    get:
+      tags:
+        - APIs
+      summary: Tax status
+      description: In this interface, the tax status of the various funds cleared and traded on the Tel Aviv Stock Exchange can be found.
+      operationId: getTaxStatus
+      parameters:
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum: [en-US, he-IL]
+            default: he-IL
+          required: true
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TaxStatusResponse"
+        "400":
+          description: Invalid status value
+  /v1/fund/tracking-fund-classification:
+    get:
+      tags:
+        - APIs
+      summary: Tracking fund classification
+      description: In this interface, a list of the classifications for the tracking mutual funds cleared on the Tel Aviv Stock Exchange can be found.
+      operationId: getTrackingFundClassification
+      parameters:
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum: [en-US, he-IL]
+            default: he-IL
+          required: true
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FundClassificationResponse"
+        "400":
+          description: Invalid status value
+  /v1/fund/underlying-asset:
+    get:
+      tags:
+        - APIs
+      summary: Underlying assets
+      description: In this interface, a list of the underlying assets of the funds cleared and traded on the Tel Aviv Stock Exchange can be found.
+      operationId: getUnderlyingAsset
+      parameters:
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum: [en-US, he-IL]
+            default: he-IL
+          required: true
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UnderlyingAssetBasicResponse"
+        "400":
+          description: Invalid status value
+components:
+  schemas:
+    FundListResponse:
+      type: object
+      description: List of funds
+      properties:
+        funds:
+          type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                properties:
+                  fundId:
+                    type: string
+                    description: Mutual fund number
+                    example: "1"
+                  fundName:
+                    type: string
+                    description: Fund name
+                    example: "Up to 10% of the fund's NAV"
+                  fundLongName:
+                    type: string
+                    description: Fund Long Name
+                    example: "I.B.I. (5D) Tech Fund – High Technology"
+                  listingStatusId:
+                    type: integer
+                    description: Listing Status Id
+                    example: 1
+                  classificationMajor:
+                    type: object
+                    properties:
+                      code:
+                        type: integer
+                        description: Classification major ID
+                        example: 147
+                      value:
+                        type: string
+                        description: Classification major  Description
+                        example: "Closed Fund"
+                  classificationMain:
+                    type: object
+                    properties:
+                      code:
+                        type: integer
+                        description: Classification main ID
+                        example: 148
+                      value:
+                        type: string
+                        description: Classification main ID   Description
+                        example: "Hitech Fund"
+                  classificationSecondary:
+                    type: object
+                    properties:
+                      code:
+                        type: integer
+                        description: Classification secondary ID
+                        example: ""
+                      value:
+                        type: string
+                        description: Classification secondary Description
+                        example: ""
+                  exposureProfile:
+                    type: string
+                    description: Exposure profile description to stocks
+                    example: "4D"
+                  isin:
+                    type: string
+                    description: International Security Identification Number
+                    example: null
+                  underlyingAsset:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/UnderlyingAssetResponse"
+                  fundType:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/FundTypeResponse"
+            total:
+              type: integer
+              description: Total items
+              example: 23
+      xml:
+        name: FundListResponse
+    FundTypeResponse:
+      type: object
+      description: List of fund type
+      properties:
+        fundType:
+          type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                properties:
+                  code:
+                    type: integer
+                    description: Fund type id
+                    example: 1
+                  value:
+                    type: string
+                    description: Fund type description
+                    example: "Open mutual fund  "
+            total:
+              type: integer
+              description: Total items
+              example: 3
+      xml:
+        name: FundTypeResponse
+    ShareExposureProfileResponse:
+      type: object
+      description: List of share exposure Profile
+      properties:
+        shareExposureProfile:
+          type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                properties:
+                  code:
+                    type: string
+                    description: Share Exposure Profile id
+                    example: "1"
+                  value:
+                    type: string
+                    description: Share Exposure Profile description
+                    example: "Up to 10% of the fund's NAV"
+            total:
+              type: integer
+              description: Total items
+              example: 3
+      xml:
+        name: ShareExposureProfileResponse
+    CurrencyExposureProfileResponse:
+      type: object
+      description: List of Currency exposure Profile
+      properties:
+        currencyExposureProfile:
+          type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                properties:
+                  code:
+                    type: string
+                    description: Currency Exposure Profile id
+                    example: "A"
+                  value:
+                    type: string
+                    description: Currency Exposure Profile description
+                    example: "Up to 10% of the fund's NAV"
+            total:
+              type: integer
+              description: Total items
+              example: 3
+      xml:
+        name: CurrencyExposureProfileResponse
+    PaymentPolicyResponse:
+      type: object
+      description: List of Payment Policy
+      properties:
+        paymentPolicy:
+          type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                properties:
+                  code:
+                    type: string
+                    description: Payment Policy id
+                    example: 2
+                  value:
+                    type: string
+                    description: Payment Policy description
+                    example: "Monthly Income Payment Distribution"
+            total:
+              type: integer
+              description: Total items
+              example: 5
+      xml:
+        name: PaymentPolicyResponse
+    TaxStatusResponse:
+      type: object
+      description: List of Tax Status
+      properties:
+        taxStatus:
+          type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                properties:
+                  code:
+                    type: string
+                    description: Tax Status id
+                    example: 1
+                  value:
+                    type: string
+                    description: Tax Status value
+                    example: "Tax Exempt"
+            total:
+              type: integer
+              description: Total items
+              example: 5
+    DistributionCommissionResponse:
+      type: object
+      description: List of Distribution Commission
+      properties:
+        distributionCommission:
+          type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                properties:
+                  code:
+                    type: string
+                    description: Distribution Commission id
+                    example: 1
+                  value:
+                    type: string
+                    description: Distribution Commission value
+                    example: "0.2%"
+            total:
+              type: integer
+              description: Total items
+              example: 5
+    ForeignEtfStockExchangeResponse:
+      type: object
+      description: List of Distribution Commission
+      properties:
+        foreignEtfStockExchange:
+          type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                properties:
+                  code:
+                    type: string
+                    description: Stock Exchange id
+                    example: 2
+                  value:
+                    type: string
+                    description: Stock Exchange value
+                    example: "Boston Options Exchange"
+            total:
+              type: integer
+              description: Total items
+              example: 5
+      xml:
+        name: ForeignEtfStockExchangeResponse
+    FundClassificationResponse:
+      type: object
+      description: List of Fund Classification
+      properties:
+        fundClassification:
+          type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                properties:
+                  classificationMajorId:
+                    type: integer
+                    description: Classification Major Id
+                    example: 2
+                  classificationMajorValue:
+                    type: string
+                    description: Classification Major Value
+                    example: "Israeli Shares"
+                  classificationMain:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        code:
+                          type: integer
+                          description: Classification Major Id
+                          example: 2
+                        value:
+                          type: string
+                          description: Classification Major Value
+                          example: "Stock Index"
+                        classificationSecondary:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              code:
+                                type: integer
+                                description: Classification Secondary Id
+                                example: 46
+                              value:
+                                type: string
+                                description: Classification Secondary Value
+                                example: "TA-35 Index"
+            total:
+              type: integer
+              description: Total items
+              example: 6
+      xml:
+        name: FundClassificationResponse
+    UnderlyingAssetBasicResponse:
+      type: object
+      description: List of Underlying Asset
+      properties:
+        underlyingAsset:
+          type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                properties:
+                  code:
+                    type: integer
+                    description: Underlying Asset Id
+                    example: 1
+                  value:
+                    type: string
+                    description: Underlying Asset description
+                    example: "Energy Select Sector - PR"
+            total:
+              type: integer
+              description: Total items
+              example: 2
+      xml:
+        name: UnderlyingAssetBasicResponse
+    UnderlyingAssetResponse:
+      type: object
+      description: List of Underlying Asset
+      properties:
+        underlyingAsset:
+          type: array
+          description: "List of code and description"
+          items:
+            type: object
+            properties:
+              code:
+                type: number
+                description: Underlying Asset Id
+                example: 1
+              value:
+                type: string
+                description: Underlying Asset description
+                example: "Energy Select Sector - PR"
+              weight:
+                type: number
+                description: Weight Asset
+                example: 100
+      xml:
+        name: UnderlyingAssetResponse
+    ListingsStatusResponse:
+      type: object
+      description: List of Listings status
+      properties:
+        listingsStatus:
+          type: object
+          description: "List of listing Status Id and description"
+          properties:
+            listingStatusId:
+              type: number
+              description: Listing Status Id
+              example: 1
+            listingStatusDesc:
+              type: string
+              description: Listing Status Description
+              example: "Active"
+      xml:
+        name: ListingsStatusResponse
+  securitySchemes:
+    apiKey:
+      type: apiKey
+      in: header
+      name: apikey
+security:
+  - apiKey: []

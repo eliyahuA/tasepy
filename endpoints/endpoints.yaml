@@ -1,0 +1,33 @@
+base_url: https://datawise.tase.co.il/v1
+funds:
+  group_url: fund
+  funds_list:
+    url: fund-list
+  currencies_exposure_profile:
+    url: currency-exposure-profile
+  distribution_commission:
+    url: distribution-commission
+  fund_types:
+    url: fund-type
+  listing_status:
+    url: listing-status
+  classification:
+    url: mutual-fund-classification
+  payment_policy:
+    url: payment-policy
+  shares_exposure_profile:
+    url: share-exposure-profile
+  stock_exchange:
+    url: stock-exchange
+  tax_status:
+    url: tax-status
+  tracking_fund_classification:
+    url: tracking-fund-classification
+  underlying_assets:
+    url: underlying-asset
+indices:
+  group_url: basic-indices
+  indices_list:
+    url: indices-list
+  index_components_basic:
+    url: index-components-basic
