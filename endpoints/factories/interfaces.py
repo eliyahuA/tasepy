@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from models.endpoints import Endpoints, BaseModelGeneric
+from request_components.urls import Endpoints, BaseModelGeneric
 from typing import Generic
 
 

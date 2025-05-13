@@ -24,18 +24,16 @@ class Client:
 
     def get_funds(self, listing_status_id: Optional[enums] = None):
         url = f"{self.endpoints.base_url}/{self.endpoints.funds.group_url}/{self.endpoints.funds.funds_list.url}"
-        params_kwargs = {"listingStatusId": 1}
+        params = parameters.FundList().model_dump()
         headers = {
             'accept': "application/json",
             'accept-language': "he-IL",
             'apikey': f"{self.settings.api_key}"
         }
 
-
-
         response = requests.get(
             url,
-            params=parameters.FundList(),
+            params=params,
             headers=headers
         )
 
@@ -68,7 +66,7 @@ if __name__ == '__main__':
                 .build())
     from endpoints.factories.yaml_factory import YAMLFactory
     from endpoints.factories.interfaces import IEndpointsFactory
-    from models.endpoints import Endpoints
+    from request_components.urls import Endpoints
 
     client = Client(
         settings,
