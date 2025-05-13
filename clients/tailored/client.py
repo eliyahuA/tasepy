@@ -24,7 +24,7 @@ class Client:
 
     def get_funds(self, listing_status_id: Optional[enums] = None):
         url = f"{self.endpoints.base_url}/{self.endpoints.funds.group_url}/{self.endpoints.funds.funds_list.url}"
-        params = parameters.FundList().model_dump()
+        params = parameters.FundList(listing_status_id=listing_status_id).model_dump()
         headers = {
             'accept': "application/json",
             'accept-language': "he-IL",
