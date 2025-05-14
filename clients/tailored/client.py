@@ -4,7 +4,7 @@ import logging
 from endpoints.factories.interfaces import IEndpointsFactory
 from settings import Settings, SettingsBuilder
 from bs4 import BeautifulSoup
-from request_components import headers as headers
+from request_components import headers as head
 from request_components import parameters as parameters
 from request_components import enums as enums
 
@@ -25,11 +25,7 @@ class Client:
     def get_funds(self, listing_status_id: Optional[enums] = None):
         url = f"{self.endpoints.base_url}/{self.endpoints.funds.group_url}/{self.endpoints.funds.funds_list.url}"
         params = parameters.FundList(listing_status_id=listing_status_id).model_dump()
-        headers = {
-            'accept': "application/json",
-            'accept-language': "he-IL",
-            'apikey': f"{self.settings.api_key}"
-        }
+        headers = head.FundList(accept_language=self.accept_language, apikey=self.settings.api_key).model_dump()
 
         response = requests.get(
             url,
@@ -50,7 +46,6 @@ class Client:
 
 
 if __name__ == '__main__':
-
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s | %(filename)s:%(lineno)d | %(classname)s.%(funcName)s | %(levelname)s | %(message)s',

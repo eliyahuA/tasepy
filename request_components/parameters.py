@@ -1,5 +1,5 @@
 import request_components.enums as enums
-from pydantic import BaseModel, Field, ConfigDict
+from pydantic import BaseModel, Field, ConfigDict, model_validator
 from pydantic.alias_generators import to_camel
 
 
@@ -10,12 +10,15 @@ class BaseParameters(BaseModel):
         serialize_by_alias=True,
     )
 
-    def __init__(self, **kwargs):
+    @model_validator(mode='before')
+    @classmethod
+    def remove_none_values(cls, data):
         """
         Remove Arguments with None values before instantiating
         """
-        kwargs = dict(filter(lambda item: item[1] is not None, kwargs.items()))
-        super().__init__(**kwargs)
+        if isinstance(data, dict):
+            return {k: v for k, v in data.items() if v is not None}
+        return data
 
     def model_dump(self, *args, **kwargs):
         """
