@@ -43,6 +43,7 @@ class FundList(Header):
 
 
 if __name__ == "__main__":
+    # noinspection PyTypeChecker
     h = FundList(apikey="sdfmsidfh823", accept_language=None)
     print(h.model_dump())
     print(h.model_dump(mask=True))
