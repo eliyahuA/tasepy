@@ -1,4 +1,4 @@
-import request_components.enums as enums
+import requests_.enums as enums
 from pydantic import BaseModel, Field, ConfigDict, model_validator
 from pydantic.alias_generators import to_camel
 

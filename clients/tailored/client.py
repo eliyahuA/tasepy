@@ -1,12 +1,13 @@
 import requests
+import responses
 import logging
 
 from endpoints.factories.interfaces import IEndpointsFactory
 from settings import Settings, SettingsBuilder
 from bs4 import BeautifulSoup
-from request_components import headers as head
-from request_components import parameters as parameters
-from request_components import enums as enums
+from requests_ import headers as head
+from requests_ import parameters as parameters
+from requests_ import enums as enums
 
 from typing import Optional
 
@@ -22,7 +23,7 @@ class Client:
         self.endpoints = endpoints_factory.get_endpoints()
         self.accept_language = accept_language
 
-    def get_funds(self, listing_status_id: Optional[enums] = None):
+    def get_funds(self, listing_status_id: Optional[enums] = None) -> responses.funds.FundList:
         url = f"{self.endpoints.base_url}/{self.endpoints.funds.group_url}/{self.endpoints.funds.funds_list.url}"
         params = parameters.FundList(listing_status_id=listing_status_id).model_dump()
         headers = head.FundList(accept_language=self.accept_language, apikey=self.settings.api_key).model_dump()
@@ -35,14 +36,15 @@ class Client:
 
         if response.status_code != 200:
             raise RuntimeError(f"Request {url}, {params}, {headers} failed with status code {response.status_code}")
-        response_string = response.content.decode('utf-8')
+        response_string = response.text
         if 'Request Rejected' in response_string:
             try:
                 pretty_rejection = f"\n{BeautifulSoup(response_string, 'html.parser').prettify()}"
             except Exception as e:
                 pretty_rejection = ''
             raise RuntimeError(f"Request {url}, {params}, {headers} was rejected{pretty_rejection}")
-        return response.json()
+
+        return responses.funds.FundList.model_validate_json(response_string)
 
 
 if __name__ == '__main__':
@@ -61,7 +63,7 @@ if __name__ == '__main__':
                 .build())
     from endpoints.factories.yaml_factory import YAMLFactory
     from endpoints.factories.interfaces import IEndpointsFactory
-    from request_components.urls import Endpoints
+    from requests_.urls import Endpoints
 
     client = Client(
         settings,
@@ -69,3 +71,4 @@ if __name__ == '__main__':
     )
 
     funds = client.get_funds()
+    print(funds)

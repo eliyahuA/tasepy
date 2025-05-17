@@ -8,7 +8,7 @@ import yaml
 import pathlib as p
 
 from collections.abc import Mapping
-from request_components.urls import BaseModelGeneric
+from requests_.urls import BaseModelGeneric
 from endpoints.factories.interfaces import IEndpointsFactory
 from typing import Any, Dict, Type, Union
 

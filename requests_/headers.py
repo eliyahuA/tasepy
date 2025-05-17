@@ -1,4 +1,4 @@
-import request_components.enums as enums
+import requests_.enums as enums
 
 from pydantic import BaseModel, field_serializer, Field, ConfigDict, model_validator, model_serializer
 from typing import Any, Dict
