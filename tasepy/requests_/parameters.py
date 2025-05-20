@@ -1,4 +1,4 @@
-import requests_.enums as enums
+from tasepy import requests_ as enums
 from pydantic import BaseModel, Field, ConfigDict, model_validator
 from pydantic.alias_generators import to_camel
 

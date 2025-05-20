@@ -1,6 +1,6 @@
 import yaml
 
-from settings import SettingsBuilder
+from tasepy.settings import SettingsBuilder
 from openapi3 import OpenAPI
 
 

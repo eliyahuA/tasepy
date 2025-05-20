@@ -1,13 +1,13 @@
 import requests
-import responses
+from tasepy import responses
 import logging
 
-from endpoints.factories.interfaces import IEndpointsFactory
-from settings import Settings, SettingsBuilder
+from tasepy.endpoints.factories.interfaces import IEndpointsFactory
+from tasepy.settings import Settings, SettingsBuilder
 from bs4 import BeautifulSoup
-from requests_ import headers as head
-from requests_ import parameters as parameters
-from requests_ import enums as enums
+from tasepy.requests_ import headers as head
+from tasepy.requests_ import parameters as parameters
+from tasepy.requests_ import enums as enums
 
 from typing import Optional
 
@@ -61,9 +61,9 @@ if __name__ == '__main__':
     settings = (SettingsBuilder()
                 .with_apikey(file_path='./API key.yaml')
                 .build())
-    from endpoints.factories.yaml_factory import YAMLFactory
-    from endpoints.factories.interfaces import IEndpointsFactory
-    from requests_.urls import Endpoints
+    from tasepy.endpoints.factories.yaml_factory import YAMLFactory
+    from tasepy.endpoints.factories.interfaces import IEndpointsFactory
+    from tasepy.requests_.urls import Endpoints
 
     client = Client(
         settings,

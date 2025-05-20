@@ -8,8 +8,8 @@ import yaml
 import pathlib as p
 
 from collections.abc import Mapping
-from requests_.urls import BaseModelGeneric
-from endpoints.factories.interfaces import IEndpointsFactory
+from tasepy.requests_.urls import BaseModelGeneric
+from tasepy.endpoints.factories.interfaces import IEndpointsFactory
 from typing import Any, Dict, Type, Union
 
 

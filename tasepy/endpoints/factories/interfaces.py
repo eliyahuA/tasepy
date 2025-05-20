@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from requests_.urls import Endpoints, BaseModelGeneric
+from tasepy.requests_.urls import Endpoints, BaseModelGeneric
 from typing import Generic
 
 

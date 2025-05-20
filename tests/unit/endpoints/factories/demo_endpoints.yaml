@@ -1,0 +1,5 @@
+base_url: 'base_url'
+funds:
+  group_url: fund
+  funds_list:
+    url: fund-list

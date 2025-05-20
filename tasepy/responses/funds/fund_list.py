@@ -1,5 +1,5 @@
 from typing import Any, List, Optional
-from responses.responses import ResponseComponent
+from tasepy.responses.responses import ResponseComponent
 
 
 class Classification(ResponseComponent):

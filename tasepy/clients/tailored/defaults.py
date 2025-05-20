@@ -1,5 +1,5 @@
-from endpoints.factories.yaml_factory import YAMLFactory
-from endpoints.factories.interfaces import IEndpointsFactory
+from tasepy.endpoints.factories.yaml_factory import YAMLFactory
+from tasepy.endpoints.factories.interfaces import IEndpointsFactory
 from models.endpoints import Endpoints
 
 

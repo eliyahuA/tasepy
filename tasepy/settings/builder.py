@@ -3,7 +3,7 @@ import pathlib
 import yaml
 
 from typing import Optional, Callable
-from settings import Settings, ApiKeyFile
+from tasepy.settings import Settings, ApiKeyFile
 import typeguard
 
 
