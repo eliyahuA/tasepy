@@ -35,10 +35,3 @@ class YAMLFactory(IEndpointsFactory[BaseModelGeneric]):
             raise FileNotFoundError(f"Endpoints configuration yaml was not found at {yaml_path}")
         with open(yaml_path, "r") as stream:
             return yaml.safe_load(stream)
-
-
-if __name__ == '__main__':
-    pass
-    # yaml_factory = YAMLFactory('./endpoints/endpoints.yaml', Endpoints)
-    # endpoints = yaml_factory.get_endpoints()
-    # print(endpoints)
