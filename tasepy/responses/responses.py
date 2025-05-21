@@ -9,6 +9,3 @@ class ResponseComponent(BaseModel):
         serialize_by_alias=True,
         extra='forbid'
     )
-
-
-

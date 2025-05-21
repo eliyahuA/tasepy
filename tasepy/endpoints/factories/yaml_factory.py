@@ -9,8 +9,9 @@ import pathlib as p
 
 from collections.abc import Mapping
 from tasepy.requests_.urls import BaseModelGeneric
-from tasepy.endpoints.factories.interfaces import IEndpointsFactory
 from typing import Any, Dict, Type, Union
+
+from .interfaces import IEndpointsFactory
 
 
 class YAMLFactory(IEndpointsFactory[BaseModelGeneric]):
@@ -37,8 +38,7 @@ class YAMLFactory(IEndpointsFactory[BaseModelGeneric]):
 
 
 if __name__ == '__main__':
-    from models.endpoints import Endpoints
-
-    yaml_factory = YAMLFactory('./endpoints/endpoints.yaml', Endpoints)
-    endpoints = yaml_factory.get_endpoints()
-    print(endpoints)
+    pass
+    # yaml_factory = YAMLFactory('./endpoints/endpoints.yaml', Endpoints)
+    # endpoints = yaml_factory.get_endpoints()
+    # print(endpoints)

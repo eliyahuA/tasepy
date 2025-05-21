@@ -1,6 +1,5 @@
-from tasepy import requests_ as enums
-
 from pydantic import BaseModel, ConfigDict, model_validator
+from . import enums
 
 
 class Header(BaseModel):

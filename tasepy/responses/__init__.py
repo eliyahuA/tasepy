@@ -1,2 +1,2 @@
-from .responses import *
+from . import responses
 from . import funds

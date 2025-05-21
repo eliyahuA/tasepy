@@ -1,3 +1,6 @@
+from tasepy.endpoints.factories import YAMLFactory
+
+
 class TestYAMLFactory:
 
     def test_get_endpoints(self):

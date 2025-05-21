@@ -1,1 +1,1 @@
-from .fund_list import *
+from . import fund_list

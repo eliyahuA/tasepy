@@ -23,7 +23,7 @@ class Client:
         self.endpoints = endpoints_factory.get_endpoints()
         self.accept_language = accept_language
 
-    def get_funds(self, listing_status_id: Optional[enums] = None) -> responses.funds.FundList:
+    def get_funds(self, listing_status_id: Optional[enums] = None) -> responses.funds.fund_list.FundList:
         url = f"{self.endpoints.base_url}/{self.endpoints.funds.group_url}/{self.endpoints.funds.funds_list.url}"
         params = parameters.FundList(listing_status_id=listing_status_id).model_dump()
         headers = head.FundList(accept_language=self.accept_language, apikey=self.settings.api_key).model_dump()
@@ -44,7 +44,7 @@ class Client:
                 pretty_rejection = ''
             raise RuntimeError(f"Request {url}, {params}, {headers} was rejected{pretty_rejection}")
 
-        return responses.funds.FundList.model_validate_json(response_string)
+        return responses.funds.fund_list.FundList.model_validate_json(response_string)
 
 
 if __name__ == '__main__':
