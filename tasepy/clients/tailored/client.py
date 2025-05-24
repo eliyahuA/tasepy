@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 from tasepy.requests_ import headers as head
 from tasepy.requests_ import parameters as parameters
 from tasepy.requests_ import enums as enums
+from tasepy.requests_.urls import Endpoints
 
 from typing import Optional
 
@@ -16,7 +17,7 @@ class Client:
 
     def __init__(self,
                  settings: Settings,
-                 endpoints_factory: IEndpointsFactory,
+                 endpoints_factory: IEndpointsFactory[Endpoints],
                  accept_language: Optional[enums.AcceptLanguage] = None,
                  ):
         self.settings = settings
