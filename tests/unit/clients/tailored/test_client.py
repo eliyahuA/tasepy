@@ -1,9 +1,6 @@
 from tasepy.responses import funds
 
 from tasepy.clients.tailored import Client
-from tasepy.requests_ import urls
-from tasepy.settings import Settings
-from tasepy.endpoints.factories import YAMLFactory
 
 
 def test_get_funds(mocker):
@@ -24,8 +21,9 @@ def test_get_funds(mocker):
     mocker.patch(funds.fund_list.FundList.__module__, mock_response_model)
 
     mock_get = mocker.patch('requests.get', return_value=None)
+    # mocker.patch('tasepy.responses.funds.fund_list.FundList.model_validate_json', return_value=None)
 
-    client = Client(settings=mock_settings, endpoints_factory=mock_factory)
+    client = Client(settings=mock_settings, endpoints_model_factory=mock_factory)
     client.get_funds()
     mock_get.assert_called_once_with(
         'https://api.test.com/funds/list',
