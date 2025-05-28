@@ -35,9 +35,16 @@ class Header(BaseModel):
         return data
 
 
-class FundList(Header):
-
+class LanguageAble(Header):
     accept_language: enums.AcceptLanguage = enums.AcceptLanguage.he
+
+
+class FundList(LanguageAble):
+    pass
+
+
+class CurrenciesExposureProfile(LanguageAble):
+    pass
 
 
 if __name__ == "__main__":

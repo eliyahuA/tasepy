@@ -62,6 +62,14 @@ class Client:
             response_model=responses.funds.fund_list.FundList
         )
 
+    def get_currency_exposure_profile(self):
+        return self._do_request(
+            url=(self.endpoints, self.endpoints.funds, self.endpoints.funds.currencies_exposure_profile),
+            params=parameters.BaseParameters(),
+            headers=head.CurrenciesExposureProfile(accept_language=self.accept_language, apikey=self.settings.api_key),
+            response_model=responses.ForgivingResponse
+        )
+
 
 if __name__ == '__main__':
     pass

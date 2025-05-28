@@ -1,5 +1,5 @@
 from typing import Any, List, Optional
-from tasepy.responses.responses import ResponseComponent
+from ..responses import ResponseComponent
 
 
 class Classification(ResponseComponent):
@@ -28,14 +28,3 @@ class Funds(ResponseComponent):
 
 class FundList(ResponseComponent):
     funds: Funds
-
-
-if __name__ == "__main__":
-
-    import json
-    with open('./responses/fund-list.json', 'r') as f:
-        data = json.load(f)
-    f = FundList.model_validate(data)
-
-    print(f)
-    print(f.funds.result[0].fund_id)

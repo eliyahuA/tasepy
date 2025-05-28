@@ -1,3 +1,3 @@
 from . import responses
 from . import funds
-from .responses import ResponseComponent
+from .responses import ResponseComponent, ForgivingResponse

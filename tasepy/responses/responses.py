@@ -9,3 +9,15 @@ class ResponseComponent(BaseModel):
         serialize_by_alias=True,
         extra='forbid'
     )
+
+
+class ForgivingResponse(ResponseComponent):
+    model_config = ConfigDict(
+        extra='allow',
+        validate_assignment=False,
+        arbitrary_types_allowed=True
+    )
+
+
+if __name__ == '__main__':
+    pass
