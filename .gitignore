@@ -78,4 +78,5 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 /tasepy/API key.yaml
-/tasepy/responses/samples/
+/tasepy.egg-info/
+__pycache__/
