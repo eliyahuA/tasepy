@@ -31,7 +31,7 @@ def test_funds_list(settings, url_model_factory):
         url_model_factory
     )
 
-    funds = client.get_funds()
+    funds = client.funds.get_funds()
     assert funds.funds.total > 0
 
 
@@ -41,5 +41,5 @@ def test_currency_exposure_profile(settings, url_model_factory):
         url_model_factory
     )
 
-    currency_exposure = client.get_currency_exposure_profile()
+    currency_exposure = client.funds.get_currency_exposure_profile()
     assert currency_exposure.total > 0

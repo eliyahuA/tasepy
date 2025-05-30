@@ -24,7 +24,7 @@ def test_get_funds(mocker):
     # mocker.patch('tasepy.responses.funds.fund_list.FundList.model_validate_json', return_value=None)
 
     client = Client(settings=mock_settings, endpoints_model_factory=mock_factory)
-    client.get_funds()
+    client.funds.get_funds()
     mock_get.assert_called_once_with(
         'https://api.test.com/funds/list',
         params={'listingStatusId': '1'},
