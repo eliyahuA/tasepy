@@ -13,5 +13,5 @@ if __name__ == "__main__":
         .build(),
         YAMLFactory('./endpoints/endpoints.yaml', Endpoints)
     )
-    cep = client.get_currency_exposure_profile()
+    cep = client.funds.get_currency_exposure_profile()
     print(cep)

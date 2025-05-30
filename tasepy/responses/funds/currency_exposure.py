@@ -7,6 +7,10 @@ class ExposureItem(ResponseComponent):
     value: str
 
 
-class CurrencyExposure(ResponseComponent):
+class Root(ResponseComponent):
     result: List[ExposureItem]
     total: int
+
+
+class CurrencyExposure(ResponseComponent):
+    currency_exposure_profile: Root
