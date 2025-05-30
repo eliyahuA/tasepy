@@ -80,3 +80,4 @@ fabric.properties
 /tasepy/API key.yaml
 /tasepy.egg-info/
 __pycache__/
+.env
