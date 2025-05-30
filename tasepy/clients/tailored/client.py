@@ -11,21 +11,20 @@ from tasepy.requests_ import enums as enums
 from tasepy.requests_.urls import Endpoints, EndpointGroup, Endpoint
 from typing import Optional, Tuple, Type, TypeVar
 from .funds import Funds
+from .base_client import BaseClient
 
 T = TypeVar('T', bound=ResponseComponent)
 
 
-class Client:
+class Client(BaseClient):
 
     def __init__(self,
                  settings: Settings,
                  endpoints_model_factory: IEndpointsFactory[Endpoints],
                  accept_language: Optional[enums.AcceptLanguage] = None,
                  ):
-        self.settings = settings
-        self.endpoints = endpoints_model_factory.get_endpoints()
-        self.accept_language = accept_language
-        self.funds = Funds(self.settings, self._do_request, self.endpoints, self.accept_language, )
+        super().__init__(settings, endpoints_model_factory, accept_language)
+        self.funds = Funds(self, self._do_request,)
 
     @staticmethod
     def _do_request(
@@ -55,22 +54,6 @@ class Client:
                                f"was rejected{pretty_rejection}")
 
         return response_model.model_validate_json(response_string)
-
-    # def get_funds(self, listing_status_id: Optional[enums] = None) -> responses.funds.fund_list.FundList:
-    #     return self._do_request(
-    #         url=(self.endpoints, self.endpoints.funds, self.endpoints.funds.funds_list),
-    #         params=parameters.FundList(listing_status_id=listing_status_id),
-    #         headers=head.FundList(accept_language=self.accept_language, apikey=self.settings.api_key),
-    #         response_model=responses.funds.fund_list.FundList
-    #     )
-    #
-    # def get_currency_exposure_profile(self):
-    #     return self._do_request(
-    #         url=(self.endpoints, self.endpoints.funds, self.endpoints.funds.currencies_exposure_profile),
-    #         params=parameters.BaseParameters(),
-    #         headers=head.CurrenciesExposureProfile(accept_language=self.accept_language, apikey=self.settings.api_key),
-    #         response_model=responses.funds.CurrencyExposure
-    #     )
 
 
 if __name__ == '__main__':
