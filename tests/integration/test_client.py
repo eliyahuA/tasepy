@@ -7,6 +7,9 @@ from pathlib import Path
 from importlib import resources
 from pytest import fixture
 from tasepy.requests_.urls import Endpoints
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 @fixture()
@@ -18,8 +21,7 @@ def settings():
 
 @fixture()
 def url_model_factory():
-    # noinspection PyTypeChecker
-    return YAMLFactory(Path(resources.files(tasepy)) / 'endpoints' / 'endpoints.yaml', Endpoints)
+    return YAMLFactory(Path(str(resources.files(tasepy))) / 'endpoints' / 'endpoints.yaml', Endpoints)
 
 
 def test_funds_list(settings, url_model_factory):
@@ -30,4 +32,14 @@ def test_funds_list(settings, url_model_factory):
     )
 
     funds = client.get_funds()
-    print(funds.model_dump())
+    assert funds.funds.total > 0
+
+
+def test_currency_exposure_profile(settings, url_model_factory):
+    client = Client(
+        settings,
+        url_model_factory
+    )
+
+    currency_exposure = client.get_currency_exposure_profile()
+    assert currency_exposure.total > 0
