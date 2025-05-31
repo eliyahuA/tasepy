@@ -23,6 +23,6 @@ class ForgivingResponse(ResponseComponent):
         arbitrary_types_allowed=True
     )
 
-    def save_pretty_json(self, target_file: Path) -> None:
-        with open(target_file, 'w', encoding='utf-8') as f:
+    def save_pretty_json(self, target_file_path: Path) -> None:
+        with open(target_file_path, 'w', encoding='utf-8') as f:
             f.write(self.model_dump_json(indent=4))

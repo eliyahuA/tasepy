@@ -54,3 +54,11 @@ class Funds:
             headers=self._default_header_provider(),
             response_model=funds.DistributionCommission
         )
+
+    def get_types(self):
+        return self.request_callable(
+                url=self._default_url_provider(self.client.endpoints.funds.fund_types),
+                params=BaseParameters(),
+                headers=self._default_header_provider(),
+                response_model=funds.FundType
+            )

@@ -30,3 +30,11 @@ def test_distribution_commission():
     model_instance = funds.DistributionCommission.model_validate_json(sample_json)
     assert model_instance is not None
     assert isinstance(model_instance, funds.DistributionCommission)
+
+
+def test_fund_types():
+    with custom_open("fund-types") as f:
+        sample_json = f.read()
+    model_instance = funds.FundType.model_validate_json(sample_json)
+    assert model_instance is not None
+    assert isinstance(model_instance, funds.FundType)

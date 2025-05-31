@@ -42,3 +42,8 @@ def test_currency_exposure_profile(client):
 def test_distribution_commission(client):
     commissions = client.funds.get_commissions()
     assert commissions.distribution_commission.total > 0
+
+
+def test_fund_type(client):
+    types = client.funds.get_types()
+    assert types.fund_type.total > 0

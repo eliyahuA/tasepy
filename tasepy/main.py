@@ -5,6 +5,7 @@ from clients.tailored.client import Client
 from settings import SettingsBuilder
 from endpoints.factories.yaml_factory import YAMLFactory
 from requests_.urls import Endpoints
+from pathlib import Path
 
 if __name__ == "__main__":
     client = Client(
@@ -13,7 +14,5 @@ if __name__ == "__main__":
         .build(),
         YAMLFactory('./endpoints/endpoints.yaml', Endpoints)
     )
-    commissions = client.funds.get_commissions()
-    json_dict = commissions.model_dump(mode='json')
-
-    print(commissions)
+    types = client.funds.get_types()
+    types.save_pretty_json(Path(r"C:\Users\eliya\source\repos\tasepy\tests\unit\responses\funds\samples\fund-types.json"))
