@@ -24,22 +24,21 @@ def url_model_factory():
     return YAMLFactory(Path(str(resources.files(tasepy))) / 'endpoints' / 'endpoints.yaml', Endpoints)
 
 
-def test_funds_list(settings, url_model_factory):
+@fixture()
+def client(settings, url_model_factory):
+    return Client(settings, url_model_factory)
 
-    client = Client(
-        settings,
-        url_model_factory
-    )
 
+def test_funds_list(client):
     funds = client.funds.get_funds()
     assert funds.funds.total > 0
 
 
-def test_currency_exposure_profile(settings, url_model_factory):
-    client = Client(
-        settings,
-        url_model_factory
-    )
+def test_currency_exposure_profile(client):
+    currency_exposure = client.funds.get_currency_exposure_profiles()
+    assert currency_exposure.currency_exposure_profile.total > 0
 
-    currency_exposure = client.funds.get_currency_exposure_profile()
-    assert currency_exposure.total > 0
+
+def test_distribution_commission(client):
+    commissions = client.funds.get_commissions()
+    assert commissions.distribution_commission.total > 0

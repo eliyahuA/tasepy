@@ -39,16 +39,5 @@ class LanguageAble(Header):
     accept_language: enums.AcceptLanguage = enums.AcceptLanguage.he
 
 
-class FundList(LanguageAble):
-    pass
-
-
-class CurrenciesExposureProfile(LanguageAble):
-    pass
-
-
 if __name__ == "__main__":
-    # noinspection PyTypeChecker
-    h = FundList(apikey="sdfmsidfh823", accept_language=None)
-    print(h.model_dump())
-    print(h.model_dump(mask=True))
+    pass

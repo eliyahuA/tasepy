@@ -13,5 +13,7 @@ if __name__ == "__main__":
         .build(),
         YAMLFactory('./endpoints/endpoints.yaml', Endpoints)
     )
-    cep = client.funds.get_currency_exposure_profile()
-    print(cep)
+    commissions = client.funds.get_commissions()
+    json_dict = commissions.model_dump(mode='json')
+
+    print(commissions)

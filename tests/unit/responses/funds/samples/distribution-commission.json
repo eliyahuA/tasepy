@@ -1,0 +1,27 @@
+{
+    "distributionCommission": {
+        "result": [
+            {
+                "code": 1,
+                "value": "0.2%"
+            },
+            {
+                "code": 2,
+                "value": "בוטל"
+            },
+            {
+                "code": 3,
+                "value": "0.35%"
+            },
+            {
+                "code": 4,
+                "value": "0.1%"
+            },
+            {
+                "code": 5,
+                "value": "לא נגבית עמלת הפצה"
+            }
+        ],
+        "total": 5
+    }
+}

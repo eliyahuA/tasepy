@@ -2,11 +2,12 @@ from typing import Optional
 
 
 from tasepy.requests_ import enums as enums
-from tasepy.responses import funds
+from tasepy.responses import funds, ForgivingResponse
 from .request_callable import APIRequestExecutor
 from tasepy.requests_.parameters import BaseParameters, FundList
-from tasepy.requests_.headers import CurrenciesExposureProfile, FundList
+from tasepy.requests_.headers import LanguageAble
 from .base_client import BaseClient
+from tasepy.requests_.urls import Endpoint
 
 
 class Funds:
@@ -17,25 +18,39 @@ class Funds:
                  ):
         self.request_callable = request_callable
         self.client = client
+        # capture by reference to have the object instantiate with the client values at the moment of call
+        self._default_header_provider = \
+            lambda: LanguageAble(
+                accept_language=self.client.accept_language,
+                apikey=self.client.settings.api_key
+            )
+        self._default_url_provider = \
+            lambda endpoint_url: (
+                self.client.endpoints,
+                self.client.endpoints.funds,
+                endpoint_url
+            )
 
     def get_funds(self, listing_status_id: Optional[enums] = None) -> funds.fund_list.FundList:
         return self.request_callable(
-            url=(self.client.endpoints, self.client.endpoints.funds, self.client.endpoints.funds.funds_list),
+            url=self._default_url_provider(self.client.endpoints.funds.funds_list),
             params=FundList(listing_status_id=listing_status_id),
-            headers=FundList(accept_language=self.client.accept_language, apikey=self.client.settings.api_key),
+            headers=self._default_header_provider(),
             response_model=funds.fund_list.FundList
         )
 
-    def get_currency_exposure_profile(self):
+    def get_currency_exposure_profiles(self):
         return self.request_callable(
-            url=(self.client.endpoints,
-                 self.client.endpoints.funds,
-                 self.client.endpoints.funds.currencies_exposure_profile
-                 ),
+            url=self._default_url_provider(self.client.endpoints.funds.currencies_exposure_profile),
             params=BaseParameters(),
-            headers=CurrenciesExposureProfile(
-                accept_language=self.client.accept_language,
-                apikey=self.client.settings.api_key
-            ),
+            headers=self._default_header_provider(),
             response_model=funds.CurrencyExposure
+        )
+
+    def get_commissions(self):
+        return self.request_callable(
+            url=self._default_url_provider(self.client.endpoints.funds.distribution_commission),
+            params=BaseParameters(),
+            headers=self._default_header_provider(),
+            response_model=funds.DistributionCommission
         )
