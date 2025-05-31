@@ -47,3 +47,8 @@ def test_distribution_commission(client):
 def test_fund_type(client):
     types = client.funds.get_types()
     assert types.fund_type.total > 0
+
+
+def test_listing_statuses(client):
+    listing_statuses = client.funds.get_listing_statuses()
+    assert len(listing_statuses.listing_status.result) > 0

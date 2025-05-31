@@ -38,3 +38,11 @@ def test_fund_types():
     model_instance = funds.FundType.model_validate_json(sample_json)
     assert model_instance is not None
     assert isinstance(model_instance, funds.FundType)
+
+
+def test_listing_statuses():
+    with custom_open("listing-statuses") as f:
+        sample_json = f.read()
+    model_instance = funds.ListingStatus.model_validate_json(sample_json)
+    assert model_instance is not None
+    assert isinstance(model_instance, funds.ListingStatus)

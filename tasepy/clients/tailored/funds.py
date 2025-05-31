@@ -62,3 +62,11 @@ class Funds:
                 headers=self._default_header_provider(),
                 response_model=funds.FundType
             )
+
+    def get_listing_statuses(self):
+        return self.request_callable(
+                url=self._default_url_provider(self.client.endpoints.funds.listing_status),
+                params=BaseParameters(),
+                headers=self._default_header_provider(),
+                response_model=funds.ListingStatus
+            )
