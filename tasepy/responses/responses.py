@@ -1,3 +1,4 @@
+from pathlib import Path
 from pydantic import BaseModel, ConfigDict
 from pydantic.alias_generators import to_camel
 
@@ -12,12 +13,16 @@ class ResponseComponent(BaseModel):
 
 
 class ForgivingResponse(ResponseComponent):
+    """
+        Use if no validation is to be performed on TASE API responses.
+        Should be avoided unless for development purposes.
+    """
     model_config = ConfigDict(
         extra='allow',
         validate_assignment=False,
         arbitrary_types_allowed=True
     )
 
-
-if __name__ == '__main__':
-    pass
+    def save_pretty_json(self, target_file: Path) -> None:
+        with open(target_file, 'w', encoding='utf-8') as f:
+            f.write(self.model_dump_json(indent=4))
