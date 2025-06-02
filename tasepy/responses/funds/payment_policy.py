@@ -1,16 +1,5 @@
-from typing import List
-from ..responses import ResponseComponent
-
-
-class PaymentPolicyItem(ResponseComponent):
-    code: int
-    value: str
-
-
-class Root(ResponseComponent):
-    result: List[PaymentPolicyItem]
-    total: int
+from ..responses import ResponseComponent, Root, CodeValuePair
 
 
 class PaymentPolicy(ResponseComponent):
-    payment_policy: Root
+    payment_policy: Root[CodeValuePair]

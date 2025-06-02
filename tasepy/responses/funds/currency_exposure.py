@@ -1,5 +1,4 @@
-from typing import List
-from ..responses import ResponseComponent
+from ..responses import ResponseComponent, Root
 
 
 class ExposureItem(ResponseComponent):
@@ -7,10 +6,5 @@ class ExposureItem(ResponseComponent):
     value: str
 
 
-class Root(ResponseComponent):
-    result: List[ExposureItem]
-    total: int
-
-
 class CurrencyExposure(ResponseComponent):
-    currency_exposure_profile: Root
+    currency_exposure_profile: Root[ExposureItem]

@@ -1,16 +1,6 @@
 from typing import List
-from ..responses import ResponseComponent
-
-
-class Item(ResponseComponent):
-    code: int
-    value: str
-
-
-class Root(ResponseComponent):
-    result: List[Item]
-    total: int
+from ..responses import ResponseComponent, Root, CodeValuePair
 
 
 class FundType(ResponseComponent):
-    fund_type: Root
+    fund_type: Root[CodeValuePair]

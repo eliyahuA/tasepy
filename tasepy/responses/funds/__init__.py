@@ -6,3 +6,4 @@ from .fund_type import FundType
 from .listing_status import ListingStatus
 from .mutual_fund_classification import MutualFundClassification
 from .payment_policy import PaymentPolicy
+from .share_exposure import ShareExposureProfile

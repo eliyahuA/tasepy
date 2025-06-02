@@ -30,7 +30,7 @@ class TestForgivingResponse:
 
     def test_creation(self, dummy_response):
         assert str(dummy_response) == ("root={'children': [{'numeric value': 1, 'string value': 'hello world'}, "
-                                       "{'numeric value': 2, 'string value': 'have a good day'}], 'total': 2}")
+                                       "{'numeric value': 2, 'string value': 'שלום עולם!'}], 'total': 2}")
 
     def test_export(self, dummy_json, dummy_response, tmp_path):
         json_path = tmp_path / 'dummy.json'

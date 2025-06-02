@@ -20,13 +20,16 @@ def test_get_funds(mocker):
     mock_response_model.model_validate_json = lambda: None
     mocker.patch(funds.fund_list.FundList.__module__, mock_response_model)
 
-    mock_get = mocker.patch('requests.get', return_value=None)
-    # mocker.patch('tasepy.responses.funds.fund_list.FundList.model_validate_json', return_value=None)
+    mock_response = mocker.Mock()
+    mock_response.status_code = 200
+    mock_response.text = "{}"
+
+    mock_get = mocker.patch('requests.get', return_value=mock_response)
 
     client = Client(settings=mock_settings, endpoints_model_factory=mock_factory)
     client.funds.get_funds()
     mock_get.assert_called_once_with(
-        'https://api.test.com/funds/list',
+        url='https://api.test.com/funds/list',
         params={'listingStatusId': '1'},
         headers={'accept': 'application/json', 'apikey': 'test_api_key', 'accept-language': 'he-IL'}
     )

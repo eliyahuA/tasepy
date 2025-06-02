@@ -1,16 +1,9 @@
 from typing import List, Optional
-from ..responses import ResponseComponent
+from ..responses import ResponseComponent, CodeValuePair, Root
 
 
-class SecondaryItem(ResponseComponent):
-    code: int
-    value: str
-
-
-class MainItem(ResponseComponent):
-    code: int
-    value: str
-    classification_secondary: Optional[List[SecondaryItem]] = None
+class MainItem(CodeValuePair):
+    classification_secondary: Optional[List[CodeValuePair]] = None
 
 
 class ClassificationItem(ResponseComponent):
@@ -19,10 +12,5 @@ class ClassificationItem(ResponseComponent):
     classification_main: Optional[List[MainItem]] = None
 
 
-class Root(ResponseComponent):
-    result: List[ClassificationItem]
-    total: int
-
-
 class MutualFundClassification(ResponseComponent):
-    fund_classification: Root
+    fund_classification: Root[ClassificationItem]

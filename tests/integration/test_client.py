@@ -63,3 +63,7 @@ def test_payment_policies(client):
     policies = client.funds.get_payment_policies()
     assert policies.payment_policy.total > 0
 
+
+def test_share_exposure_profile(client):
+    share_exposure = client.funds.get_share_exposure_profiles()
+    assert share_exposure.share_exposure_profile.total > 0

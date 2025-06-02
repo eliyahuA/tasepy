@@ -1,10 +1,11 @@
 from tasepy.responses import funds
 from contextlib import contextmanager
+from pathlib import Path
 
 
 @contextmanager
 def custom_open(json_name):
-    with open(f"./samples/{json_name}.json", 'r', encoding='utf-8') as f:
+    with open(Path(__file__).parent / 'samples' / f"{json_name}.json", 'r', encoding='utf-8') as f:
         yield f
 
 
@@ -20,6 +21,7 @@ def test_currency_exposure():
     with custom_open("currency-exposure-profile") as f:
         sample_json = f.read()
     model_instance = funds.CurrencyExposure.model_validate_json(sample_json)
+
     assert model_instance is not None
     assert isinstance(model_instance, funds.CurrencyExposure)
 
@@ -64,3 +66,12 @@ def test_payment_policy():
     assert model_instance is not None
     assert isinstance(model_instance, funds.PaymentPolicy)
     assert model_instance.payment_policy.total > 0
+
+
+def test_share_exposure():
+    with custom_open("share-exposure-profile") as f:
+        sample_json = f.read()
+    model_instance = funds.ShareExposureProfile.model_validate_json(sample_json)
+    assert model_instance is not None
+    assert isinstance(model_instance, funds.ShareExposureProfile)
+    assert model_instance.share_exposure_profile.total > 0

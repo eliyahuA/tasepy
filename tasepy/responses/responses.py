@@ -1,6 +1,7 @@
 from pathlib import Path
 from pydantic import BaseModel, ConfigDict
 from pydantic.alias_generators import to_camel
+from typing import TypeVar, List, Generic
 
 
 class ResponseComponent(BaseModel):
@@ -10,6 +11,19 @@ class ResponseComponent(BaseModel):
         serialize_by_alias=True,
         extra='forbid'
     )
+
+
+class CodeValuePair(ResponseComponent):
+    code: int
+    value: str
+
+
+T = TypeVar('T', bound=ResponseComponent)
+
+
+class Root(ResponseComponent, Generic[T]):
+    result: List[T]
+    total: int
 
 
 class ForgivingResponse(ResponseComponent):

@@ -86,3 +86,11 @@ class Funds:
                 headers=self._default_header_provider(),
                 response_model=funds.PaymentPolicy
             )
+
+    def get_share_exposure_profiles(self):
+        return self.request_callable(
+                url=self._default_url_provider(self.client.endpoints.funds.shares_exposure_profile),
+                params=BaseParameters(),
+                headers=self._default_header_provider(),
+                response_model=funds.ShareExposureProfile
+            )
