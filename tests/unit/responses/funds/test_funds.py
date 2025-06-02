@@ -46,3 +46,12 @@ def test_listing_statuses():
     model_instance = funds.ListingStatus.model_validate_json(sample_json)
     assert model_instance is not None
     assert isinstance(model_instance, funds.ListingStatus)
+
+
+def test_mutual_fund_classifications():
+    with custom_open("mutual-fund-classification") as f:
+        sample_json = f.read()
+    model_instance = funds.MutualFundClassification.model_validate_json(sample_json)
+    assert model_instance is not None
+    assert isinstance(model_instance, funds.MutualFundClassification)
+    assert model_instance.fund_classification.total > 0

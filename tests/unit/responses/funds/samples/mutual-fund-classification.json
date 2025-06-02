@@ -1,0 +1,563 @@
+{
+    "fundClassification": {
+        "result": [
+            {
+                "classificationMajorId": 1,
+                "classificationMajorValue": "גמישות"
+            },
+            {
+                "classificationMajorId": 2,
+                "classificationMajorValue": "מניות בארץ",
+                "classificationMain": [
+                    {
+                        "code": 17,
+                        "value": "מדד מניות",
+                        "classificationSecondary": [
+                            {
+                                "code": 46,
+                                "value": "ת\"א 35"
+                            },
+                            {
+                                "code": 47,
+                                "value": "ת\"א 125"
+                            },
+                            {
+                                "code": 48,
+                                "value": "ת\"א 90"
+                            },
+                            {
+                                "code": 49,
+                                "value": "יתר"
+                            },
+                            {
+                                "code": 84,
+                                "value": "מדד מניות בארץ אחר"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 18,
+                        "value": "מניות לפי ענפים",
+                        "classificationSecondary": [
+                            {
+                                "code": 50,
+                                "value": "נדל\"ן"
+                            },
+                            {
+                                "code": 52,
+                                "value": "ענפים אחרים"
+                            },
+                            {
+                                "code": 103,
+                                "value": "אנרגיה וקומודיטיס"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 19,
+                        "value": "מניות כללי"
+                    },
+                    {
+                        "code": 298,
+                        "value": "מניות לפי שווי שוק",
+                        "classificationSecondary": [
+                            {
+                                "code": 299,
+                                "value": "מניות Large & Mid Cap"
+                            },
+                            {
+                                "code": 300,
+                                "value": "מניות Small Cap"
+                            },
+                            {
+                                "code": 301,
+                                "value": "מניות All Cap"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 3,
+                "classificationMajorValue": "מניות בחו\"ל",
+                "classificationMain": [
+                    {
+                        "code": 21,
+                        "value": "מניות גאוגרפי",
+                        "classificationSecondary": [
+                            {
+                                "code": 60,
+                                "value": "שווקים מתעוררים"
+                            },
+                            {
+                                "code": 61,
+                                "value": "חו\"ל גיאוגרפי אחר"
+                            },
+                            {
+                                "code": 100,
+                                "value": "אסיה"
+                            },
+                            {
+                                "code": 101,
+                                "value": "סין"
+                            },
+                            {
+                                "code": 124,
+                                "value": "ארה\"ב חשופת מט\"ח"
+                            },
+                            {
+                                "code": 125,
+                                "value": "מניות גאוגרפי מוגנת מט\"ח"
+                            },
+                            {
+                                "code": 126,
+                                "value": "ארה\"ב נקובת מט\"ח"
+                            },
+                            {
+                                "code": 127,
+                                "value": "אירופה חשופת מט\"ח"
+                            },
+                            {
+                                "code": 128,
+                                "value": "אירופה מוגנת מט\"ח"
+                            },
+                            {
+                                "code": 302,
+                                "value": "מניות גיאוגרפי אחר חשופת מט\"ח"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 22,
+                        "value": "מניות לפי ענפים בחו\"ל",
+                        "classificationSecondary": [
+                            {
+                                "code": 64,
+                                "value": "אנרגיה וקומודיטיס"
+                            },
+                            {
+                                "code": 90,
+                                "value": "ענפים אחרים בחו\"ל"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 23,
+                        "value": "מניות כללי בחו\"ל",
+                        "classificationSecondary": [
+                            {
+                                "code": 129,
+                                "value": "מניות כללי בחו\"ל חשופת מט\"ח"
+                            },
+                            {
+                                "code": 130,
+                                "value": "מניות כללי בחו\"ל מוגנת מט\"ח"
+                            },
+                            {
+                                "code": 131,
+                                "value": "מניות חו\"ל נקובת מט\"ח"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 6,
+                "classificationMajorValue": "ממונפות ואסטרטגיות",
+                "classificationMain": [
+                    {
+                        "code": 25,
+                        "value": "ממונפות בסיכון גבוה"
+                    },
+                    {
+                        "code": 96,
+                        "value": "ממונפות אחר"
+                    },
+                    {
+                        "code": 98,
+                        "value": "אסטרטגיות (לא ממונפות)"
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 7,
+                "classificationMajorValue": "קרן כספית",
+                "classificationMain": [
+                    {
+                        "code": 26,
+                        "value": "כספית שקלית",
+                        "classificationSecondary": [
+                            {
+                                "code": 150,
+                                "value": "כספית שקלית ללא קונצרני"
+                            },
+                            {
+                                "code": 151,
+                                "value": "כספית שקלית עם קונצרני"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 27,
+                        "value": "כספית מט\"חית עם קונצרני",
+                        "classificationSecondary": [
+                            {
+                                "code": 70,
+                                "value": "חשופת דולר"
+                            },
+                            {
+                                "code": 86,
+                                "value": "חשופת אירו"
+                            },
+                            {
+                                "code": 132,
+                                "value": "נקובת מט\"ח"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 9,
+                "classificationMajorValue": "אג\"ח בארץ - מדינה",
+                "classificationMain": [
+                    {
+                        "code": 31,
+                        "value": "אג\"ח מדינה צמוד מדד",
+                        "classificationSecondary": [
+                            {
+                                "code": 74,
+                                "value": "צמודי מדד לטווח קצר (עד שנתיים)"
+                            },
+                            {
+                                "code": 75,
+                                "value": "צמודי מדד לטווח בינוני (שנתיים עד ארבע שנים)"
+                            },
+                            {
+                                "code": 76,
+                                "value": "צמודי מדד לטווח ארוך (מעל ארבע שנים)"
+                            },
+                            {
+                                "code": 77,
+                                "value": "אחר"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 144,
+                        "value": "אג\"ח מדינה כללי - ללא מניות"
+                    },
+                    {
+                        "code": 145,
+                        "value": "אג\"ח מדינה כללי - עד 10% מניות"
+                    },
+                    {
+                        "code": 146,
+                        "value": "אג\"ח מדינה כללי - חשיפה מרבית מעל 10% מניות"
+                    },
+                    {
+                        "code": 303,
+                        "value": "אג\"ח מדינה שקליות - ללא מניות"
+                    },
+                    {
+                        "code": 304,
+                        "value": "אג\"ח מדינה שקליות - עד 10% מניות"
+                    },
+                    {
+                        "code": 305,
+                        "value": "אג\"ח מדינה צמוד מדד - ללא מניות"
+                    },
+                    {
+                        "code": 306,
+                        "value": "אג\"ח מדינה צמוד מדד - עד 10% מניות"
+                    },
+                    {
+                        "code": 326,
+                        "value": "אג\"ח מדינה כללי - עד 20% מניות"
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 11,
+                "classificationMajorValue": "אג\"ח בחו\"ל",
+                "classificationMain": [
+                    {
+                        "code": 40,
+                        "value": "אג\"ח חשופת דולר"
+                    },
+                    {
+                        "code": 41,
+                        "value": "אג\"ח חשופת אירו"
+                    },
+                    {
+                        "code": 138,
+                        "value": "אג\"ח חשופת מט\"ח"
+                    },
+                    {
+                        "code": 139,
+                        "value": "אג\"ח מוגנת מט\"ח"
+                    },
+                    {
+                        "code": 140,
+                        "value": "אג\"ח נקובת מט\"ח"
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 13,
+                "classificationMajorValue": "לתושבי חוץ בלבד",
+                "classificationMain": [
+                    {
+                        "code": 43,
+                        "value": "תושבי חוץ מניות"
+                    },
+                    {
+                        "code": 44,
+                        "value": "תושבי חוץ אג\"ח"
+                    },
+                    {
+                        "code": 45,
+                        "value": "תושבי חוץ כללי"
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 102,
+                "classificationMajorValue": "חו\"ל כללי"
+            },
+            {
+                "classificationMajorId": 104,
+                "classificationMajorValue": "אג\"ח בארץ - חברות והמרה",
+                "classificationMain": [
+                    {
+                        "code": 105,
+                        "value": "חברות והמרה בסיכון גבוה"
+                    },
+                    {
+                        "code": 106,
+                        "value": "תל בונד צמוד מדד"
+                    },
+                    {
+                        "code": 107,
+                        "value": "תל בונד שקלי"
+                    },
+                    {
+                        "code": 108,
+                        "value": "חברות והמרה אחר"
+                    },
+                    {
+                        "code": 123,
+                        "value": "תל בונד אחר"
+                    },
+                    {
+                        "code": 307,
+                        "value": "חברות והמרה שקלי ללא מניות"
+                    },
+                    {
+                        "code": 308,
+                        "value": "חברות והמרה שקלי עם מניות"
+                    },
+                    {
+                        "code": 309,
+                        "value": "חברות והמרה ללא מניות",
+                        "classificationSecondary": [
+                            {
+                                "code": 311,
+                                "value": "חברות והמרה ללא מניות וללא סימן קריאה"
+                            },
+                            {
+                                "code": 312,
+                                "value": "חברות והמרה ללא מניות עם סימן קריאה"
+                            },
+                            {
+                                "code": 313,
+                                "value": "חברות והמרה ללא מניות וללא סימן קריאה, עם מגבלת מח\"מ עד 5 שנים"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 310,
+                        "value": "חברות והמרה עם מניות",
+                        "classificationSecondary": [
+                            {
+                                "code": 314,
+                                "value": "חברות והמרה עם מניות ללא סימן קריאה"
+                            },
+                            {
+                                "code": 315,
+                                "value": "חברות והמרה עם מניות ועם סימן קריאה"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 109,
+                "classificationMajorValue": "אג\"ח בארץ - כללי",
+                "classificationMain": [
+                    {
+                        "code": 133,
+                        "value": "אג\"ח כללי בארץ - ללא מניות",
+                        "classificationSecondary": [
+                            {
+                                "code": 316,
+                                "value": "אג\"ח כללי בארץ ללא מניות וללא סימן קריאה"
+                            },
+                            {
+                                "code": 317,
+                                "value": "אג\"ח כללי בארץ ללא מניות עם סימן קריאה"
+                            },
+                            {
+                                "code": 318,
+                                "value": "אג\"ח כללי בארץ ללא מניות וללא סימן קריאה, עם מגבלת מח\"מ עד 5 שנים"
+                            },
+                            {
+                                "code": 319,
+                                "value": "אג\"ח כללי בארץ בדירוג גבוה בלבד (AA ומעלה ו/ או מדינה)"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 134,
+                        "value": "אג\"ח כללי בארץ - עד 10% מניות",
+                        "classificationSecondary": [
+                            {
+                                "code": 321,
+                                "value": "אג\"ח כללי בארץ- עד 10% מניות ללא סימן קריאה"
+                            },
+                            {
+                                "code": 322,
+                                "value": "אג\"ח כללי בארץ- עד 10% מניות ועם סימן קריאה"
+                            },
+                            {
+                                "code": 323,
+                                "value": "אג\"ח כללי בארץ בדירוג גבוה (AA ומעלה ו/ או מדינה)- עד 10% מניות"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 135,
+                        "value": "אג\"ח כללי בארץ - עד 20% מניות"
+                    },
+                    {
+                        "code": 136,
+                        "value": "אג\"ח כללי בארץ - עד 30% מניות"
+                    },
+                    {
+                        "code": 137,
+                        "value": "אג\"ח כללי בארץ - חשיפה מרבית מעל 30% מניות"
+                    },
+                    {
+                        "code": 320,
+                        "value": "אג\"ח כללי בארץ - עד 5% מניות"
+                    },
+                    {
+                        "code": 324,
+                        "value": "אג\"ח כללי בארץ - עד 15% מניות"
+                    },
+                    {
+                        "code": 325,
+                        "value": "אג\"ח כללי בארץ - עד 25% מניות"
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 121,
+                "classificationMajorValue": "אגד קרנות",
+                "classificationMain": [
+                    {
+                        "code": 110,
+                        "value": "אגד ישראלי",
+                        "classificationSecondary": [
+                            {
+                                "code": 111,
+                                "value": "אגד ישראלי מניות"
+                            },
+                            {
+                                "code": 112,
+                                "value": "אגד ישראלי אג\"ח"
+                            },
+                            {
+                                "code": 113,
+                                "value": "אגד ישראלי כללי"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 114,
+                        "value": "אגד חוץ",
+                        "classificationSecondary": [
+                            {
+                                "code": 115,
+                                "value": "אגד חוץ מניות"
+                            },
+                            {
+                                "code": 116,
+                                "value": "אגד חוץ אג\"ח"
+                            },
+                            {
+                                "code": 117,
+                                "value": "אגד חוץ כללי"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 147,
+                "classificationMajorValue": "קרן סגורה",
+                "classificationMain": [
+                    {
+                        "code": 148,
+                        "value": "קרן טכנולוגיה עילית"
+                    },
+                    {
+                        "code": 149,
+                        "value": "קרן ייחודית"
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 327,
+                "classificationMajorValue": "קרן גידור בנאמנות"
+            },
+            {
+                "classificationMajorId": 472,
+                "classificationMajorValue": "נכסים דיגיטליים",
+                "classificationMain": [
+                    {
+                        "code": 473,
+                        "value": "Bitcoin"
+                    },
+                    {
+                        "code": 474,
+                        "value": "Ethereum"
+                    },
+                    {
+                        "code": 475,
+                        "value": "אחר"
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 478,
+                "classificationMajorValue": "נכסים דיגיטליים",
+                "classificationMain": [
+                    {
+                        "code": 479,
+                        "value": "Bitcoin"
+                    },
+                    {
+                        "code": 480,
+                        "value": "Ethereum"
+                    },
+                    {
+                        "code": 481,
+                        "value": "אחר"
+                    }
+                ]
+            }
+        ],
+        "total": 16
+    }
+}

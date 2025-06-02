@@ -52,3 +52,8 @@ def test_fund_type(client):
 def test_listing_statuses(client):
     listing_statuses = client.funds.get_listing_statuses()
     assert len(listing_statuses.listing_status.result) > 0
+
+
+def test_mutual_fund_classifications(client):
+    classifications = client.funds.get_mutual_fund_classifications()
+    assert len(classifications.fund_classification.total) > 0
