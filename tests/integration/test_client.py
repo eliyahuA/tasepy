@@ -56,4 +56,10 @@ def test_listing_statuses(client):
 
 def test_mutual_fund_classifications(client):
     classifications = client.funds.get_mutual_fund_classifications()
-    assert len(classifications.fund_classification.total) > 0
+    assert classifications.fund_classification.total > 0
+
+
+def test_payment_policies(client):
+    policies = client.funds.get_payment_policies()
+    assert policies.payment_policy.total > 0
+

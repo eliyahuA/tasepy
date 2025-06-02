@@ -78,3 +78,11 @@ class Funds:
                 headers=self._default_header_provider(),
                 response_model=funds.MutualFundClassification
             )
+
+    def get_payment_policies(self):
+        return self.request_callable(
+                url=self._default_url_provider(self.client.endpoints.funds.payment_policy),
+                params=BaseParameters(),
+                headers=self._default_header_provider(),
+                response_model=funds.PaymentPolicy
+            )

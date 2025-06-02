@@ -55,3 +55,12 @@ def test_mutual_fund_classifications():
     assert model_instance is not None
     assert isinstance(model_instance, funds.MutualFundClassification)
     assert model_instance.fund_classification.total > 0
+
+
+def test_payment_policy():
+    with custom_open("payment-policy") as f:
+        sample_json = f.read()
+    model_instance = funds.PaymentPolicy.model_validate_json(sample_json)
+    assert model_instance is not None
+    assert isinstance(model_instance, funds.PaymentPolicy)
+    assert model_instance.payment_policy.total > 0

@@ -14,7 +14,7 @@ if __name__ == "__main__":
         .build(),
         YAMLFactory('./endpoints/endpoints.yaml', Endpoints)
     )
-    types = client.funds.get_mutual_fund_classifications()
+    types = client.funds.get_payment_policies()
     types.save_pretty_json(
-        Path(r"C:\Users\eliya\source\repos\tasepy\tests\unit\responses\funds\samples\mutual-fund-classification.json")
+        Path(r"C:\Users\eliya\source\repos\tasepy\tests\unit\responses\funds\samples\payment-policy.json")
     )
