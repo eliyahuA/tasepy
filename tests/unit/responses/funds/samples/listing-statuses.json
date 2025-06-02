@@ -1,0 +1,22 @@
+{
+    "listingStatus": {
+        "result": [
+            {
+                "listingStatusId": 1,
+                "listingStatusDesc": "פעילה"
+            },
+            {
+                "listingStatusId": 2,
+                "listingStatusDesc": "מוזגה"
+            },
+            {
+                "listingStatusId": 3,
+                "listingStatusDesc": "פורקה"
+            },
+            {
+                "listingStatusId": 4,
+                "listingStatusDesc": "מחוקה"
+            }
+        ]
+    }
+}
