@@ -1,0 +1,947 @@
+{
+    "fundClassification": {
+        "result": [
+            {
+                "classificationMajorId": 147,
+                "classificationMajorValue": "קרן סגורה",
+                "classificationMain": [
+                    {
+                        "code": 148,
+                        "value": "קרן טכנולוגיה עילית"
+                    },
+                    {
+                        "code": 149,
+                        "value": "קרן ייחודית"
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 152,
+                "classificationMajorValue": "מניות בארץ",
+                "classificationMain": [
+                    {
+                        "code": 160,
+                        "value": "מניות לפי שווי שוק",
+                        "classificationSecondary": [
+                            {
+                                "code": 196,
+                                "value": "Large Cap"
+                            },
+                            {
+                                "code": 197,
+                                "value": "Mid Cap & Large"
+                            },
+                            {
+                                "code": 198,
+                                "value": "Mid Cap"
+                            },
+                            {
+                                "code": 199,
+                                "value": "Small Cap & Mid"
+                            },
+                            {
+                                "code": 200,
+                                "value": "Small Cap"
+                            },
+                            {
+                                "code": 202,
+                                "value": "אחר"
+                            },
+                            {
+                                "code": 328,
+                                "value": "All Cap"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 161,
+                        "value": "מניות לפי ענפים",
+                        "classificationSecondary": [
+                            {
+                                "code": 203,
+                                "value": "פיננסים"
+                            },
+                            {
+                                "code": 204,
+                                "value": "בנקאות ואשראי חוץ בנקאי"
+                            },
+                            {
+                                "code": 205,
+                                "value": "נדל\"ן ובנייה"
+                            },
+                            {
+                                "code": 206,
+                                "value": "נפט, גז ואנרגיה"
+                            },
+                            {
+                                "code": 208,
+                                "value": "ענפים אחרים"
+                            },
+                            {
+                                "code": 329,
+                                "value": "ביטוח"
+                            },
+                            {
+                                "code": 330,
+                                "value": "טכנולוגיה"
+                            },
+                            {
+                                "code": 331,
+                                "value": "קלינטק"
+                            },
+                            {
+                                "code": 332,
+                                "value": "ביומד"
+                            },
+                            {
+                                "code": 333,
+                                "value": "צריכה בסיסית"
+                            },
+                            {
+                                "code": 334,
+                                "value": "צריכה מחזורית"
+                            },
+                            {
+                                "code": 335,
+                                "value": "תשתיות"
+                            },
+                            {
+                                "code": 336,
+                                "value": "תעשיה"
+                            },
+                            {
+                                "code": 337,
+                                "value": "שילוב ענפים"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 162,
+                        "value": "מניות בארץ קרן משולבת"
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 153,
+                "classificationMajorValue": "מניות בחו\"ל",
+                "classificationMain": [
+                    {
+                        "code": 163,
+                        "value": "מניות גיאוגרפי - חשופת מט\"ח",
+                        "classificationSecondary": [
+                            {
+                                "code": 226,
+                                "value": "חו\"ל גאוגרפי אחר"
+                            },
+                            {
+                                "code": 338,
+                                "value": "אמריקה- שווקים מפותחים"
+                            },
+                            {
+                                "code": 339,
+                                "value": "אמריקה- שווקים מתעוררים"
+                            },
+                            {
+                                "code": 340,
+                                "value": "אמריקה- כללי"
+                            },
+                            {
+                                "code": 341,
+                                "value": "אירופה- שווקים מפותחים"
+                            },
+                            {
+                                "code": 342,
+                                "value": "אירופה- שווקים מתעוררים"
+                            },
+                            {
+                                "code": 343,
+                                "value": "אירופה- כללי"
+                            },
+                            {
+                                "code": 344,
+                                "value": "אסיה ופסיפיק- שווקים מפותחים"
+                            },
+                            {
+                                "code": 345,
+                                "value": "אסיה ופסיפיק- שווקים מתעוררים"
+                            },
+                            {
+                                "code": 346,
+                                "value": "אסיה ופסיפיק- כללי"
+                            },
+                            {
+                                "code": 347,
+                                "value": "גלובלי- שווקים מפותחים"
+                            },
+                            {
+                                "code": 348,
+                                "value": "גלובלי- שווקים מתעוררים"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 164,
+                        "value": "מניות גיאוגרפי - מנוטרלת מט\"ח",
+                        "classificationSecondary": [
+                            {
+                                "code": 240,
+                                "value": "חו\"ל גיאוגרפי אחר"
+                            },
+                            {
+                                "code": 350,
+                                "value": "אמריקה- שווקים מפותחים"
+                            },
+                            {
+                                "code": 351,
+                                "value": "אמריקה- שווקים מתעוררים"
+                            },
+                            {
+                                "code": 352,
+                                "value": "אמריקה- כללי"
+                            },
+                            {
+                                "code": 353,
+                                "value": "אירופה- שווקים מפותחים"
+                            },
+                            {
+                                "code": 354,
+                                "value": "אירופה- שווקים מתעוררים"
+                            },
+                            {
+                                "code": 355,
+                                "value": "אירופה- כללי"
+                            },
+                            {
+                                "code": 356,
+                                "value": "אסיה ופסיפיק- שווקים מפותחים"
+                            },
+                            {
+                                "code": 357,
+                                "value": "אסיה ופסיפיק- שווקים מתעוררים"
+                            },
+                            {
+                                "code": 358,
+                                "value": "אסיה ופסיפיק- כללי"
+                            },
+                            {
+                                "code": 359,
+                                "value": "גלובלי- שווקים מפותחים"
+                            },
+                            {
+                                "code": 360,
+                                "value": "גלובלי- שווקים מתעוררים"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 165,
+                        "value": "מניות לפי ענפים בחו\"ל - חשופת מט\"ח",
+                        "classificationSecondary": [
+                            {
+                                "code": 245,
+                                "value": "ענפים אחרים"
+                            },
+                            {
+                                "code": 362,
+                                "value": "Aerospace & Defense"
+                            },
+                            {
+                                "code": 363,
+                                "value": "Agriculture"
+                            },
+                            {
+                                "code": 364,
+                                "value": "Alternative / Renewable Energy"
+                            },
+                            {
+                                "code": 365,
+                                "value": "Banking"
+                            },
+                            {
+                                "code": 366,
+                                "value": "Biotechnology"
+                            },
+                            {
+                                "code": 367,
+                                "value": "Blockchain"
+                            },
+                            {
+                                "code": 368,
+                                "value": "Cannabis"
+                            },
+                            {
+                                "code": 369,
+                                "value": "Cleantech"
+                            },
+                            {
+                                "code": 370,
+                                "value": "Cloud Computing"
+                            },
+                            {
+                                "code": 371,
+                                "value": "Communication"
+                            },
+                            {
+                                "code": 372,
+                                "value": "Consumer Discretionary"
+                            },
+                            {
+                                "code": 373,
+                                "value": "Consumer Staples"
+                            },
+                            {
+                                "code": 374,
+                                "value": "Cyber Security"
+                            },
+                            {
+                                "code": 375,
+                                "value": "e-Commerce"
+                            },
+                            {
+                                "code": 376,
+                                "value": "e-Gaming"
+                            },
+                            {
+                                "code": 377,
+                                "value": "Energy"
+                            },
+                            {
+                                "code": 378,
+                                "value": "Financial"
+                            },
+                            {
+                                "code": 379,
+                                "value": "Fintech"
+                            },
+                            {
+                                "code": 380,
+                                "value": "Health Care"
+                            },
+                            {
+                                "code": 381,
+                                "value": "Impact investments"
+                            },
+                            {
+                                "code": 382,
+                                "value": "Industrials"
+                            },
+                            {
+                                "code": 383,
+                                "value": "Information technology"
+                            },
+                            {
+                                "code": 384,
+                                "value": "Internet"
+                            },
+                            {
+                                "code": 385,
+                                "value": "Materials"
+                            },
+                            {
+                                "code": 386,
+                                "value": "REIT &  Real Estate"
+                            },
+                            {
+                                "code": 387,
+                                "value": "Robotics"
+                            },
+                            {
+                                "code": 388,
+                                "value": "Semiconductor"
+                            },
+                            {
+                                "code": 389,
+                                "value": "Technology"
+                            },
+                            {
+                                "code": 390,
+                                "value": "Transportation"
+                            },
+                            {
+                                "code": 391,
+                                "value": "Travel"
+                            },
+                            {
+                                "code": 392,
+                                "value": "Utilities"
+                            },
+                            {
+                                "code": 393,
+                                "value": "שילוב ענפים"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 166,
+                        "value": "מניות לפי ענפים בחו\"ל - מנוטרלת מט\"ח",
+                        "classificationSecondary": [
+                            {
+                                "code": 249,
+                                "value": "ענפים אחרים"
+                            },
+                            {
+                                "code": 394,
+                                "value": "Aerospace & Defense"
+                            },
+                            {
+                                "code": 395,
+                                "value": "Agriculture"
+                            },
+                            {
+                                "code": 396,
+                                "value": "Alternative / Renewable Energy"
+                            },
+                            {
+                                "code": 397,
+                                "value": "Banking"
+                            },
+                            {
+                                "code": 398,
+                                "value": "Biotechnology"
+                            },
+                            {
+                                "code": 399,
+                                "value": "Blockchain"
+                            },
+                            {
+                                "code": 400,
+                                "value": "Cannabis"
+                            },
+                            {
+                                "code": 401,
+                                "value": "Cleantech"
+                            },
+                            {
+                                "code": 402,
+                                "value": "Cloud Computing"
+                            },
+                            {
+                                "code": 403,
+                                "value": "Communication"
+                            },
+                            {
+                                "code": 404,
+                                "value": "Consumer Discretionary"
+                            },
+                            {
+                                "code": 405,
+                                "value": "Consumer Staples"
+                            },
+                            {
+                                "code": 406,
+                                "value": "Cyber Security"
+                            },
+                            {
+                                "code": 407,
+                                "value": "e-Commerce"
+                            },
+                            {
+                                "code": 408,
+                                "value": "e-Gaming"
+                            },
+                            {
+                                "code": 409,
+                                "value": "Energy"
+                            },
+                            {
+                                "code": 410,
+                                "value": "Financial"
+                            },
+                            {
+                                "code": 411,
+                                "value": "Fintech"
+                            },
+                            {
+                                "code": 412,
+                                "value": "Health Care"
+                            },
+                            {
+                                "code": 413,
+                                "value": "Impact investments"
+                            },
+                            {
+                                "code": 414,
+                                "value": "Industrials"
+                            },
+                            {
+                                "code": 415,
+                                "value": "Information technology"
+                            },
+                            {
+                                "code": 416,
+                                "value": "Internet"
+                            },
+                            {
+                                "code": 417,
+                                "value": "Materials"
+                            },
+                            {
+                                "code": 418,
+                                "value": "REIT &  Real Estate"
+                            },
+                            {
+                                "code": 419,
+                                "value": "Robotics"
+                            },
+                            {
+                                "code": 420,
+                                "value": "Semiconductor"
+                            },
+                            {
+                                "code": 421,
+                                "value": "Technology"
+                            },
+                            {
+                                "code": 422,
+                                "value": "Transportation"
+                            },
+                            {
+                                "code": 423,
+                                "value": "Travel"
+                            },
+                            {
+                                "code": 424,
+                                "value": "Utilities"
+                            },
+                            {
+                                "code": 425,
+                                "value": "שילוב ענפים"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 167,
+                        "value": "מניות גלובליות - חשופת מט\"ח"
+                    },
+                    {
+                        "code": 168,
+                        "value": "מניות גלובליות - מנוטרלת מט\"ח"
+                    },
+                    {
+                        "code": 169,
+                        "value": "מניות בחו\"ל קרן משולבת"
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 154,
+                "classificationMajorValue": "ממונפות",
+                "classificationMain": [
+                    {
+                        "code": 170,
+                        "value": "ממונפות בסיכון גבוה",
+                        "classificationSecondary": [
+                            {
+                                "code": 253,
+                                "value": "מניות בארץ"
+                            },
+                            {
+                                "code": 254,
+                                "value": "מניות בחו\"ל"
+                            },
+                            {
+                                "code": 255,
+                                "value": "אג\"ח בארץ"
+                            },
+                            {
+                                "code": 256,
+                                "value": "אג\"ח בחו\"ל"
+                            },
+                            {
+                                "code": 426,
+                                "value": "סחורה"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 171,
+                        "value": "ממונפות בחסר בסיכון גבוה",
+                        "classificationSecondary": [
+                            {
+                                "code": 257,
+                                "value": "מניות בארץ"
+                            },
+                            {
+                                "code": 258,
+                                "value": "מניות בחו\"ל"
+                            },
+                            {
+                                "code": 259,
+                                "value": "אג\"ח בארץ"
+                            },
+                            {
+                                "code": 260,
+                                "value": "אג\"ח בחו\"ל"
+                            },
+                            {
+                                "code": 471,
+                                "value": "סחורה"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 155,
+                "classificationMajorValue": "אג\"ח בארץ - מדינה",
+                "classificationMain": [
+                    {
+                        "code": 173,
+                        "value": "אג\"ח מדינה שקליות",
+                        "classificationSecondary": [
+                            {
+                                "code": 265,
+                                "value": "מק\"מ"
+                            },
+                            {
+                                "code": 266,
+                                "value": "ריבית קבועה  - קצר"
+                            },
+                            {
+                                "code": 267,
+                                "value": "ריבית קבועה  - בינוני"
+                            },
+                            {
+                                "code": 268,
+                                "value": "ריבית קבועה - ארוך"
+                            },
+                            {
+                                "code": 269,
+                                "value": "ריבית קבועה"
+                            },
+                            {
+                                "code": 270,
+                                "value": "ריבית משתנה ממשלתיות"
+                            },
+                            {
+                                "code": 272,
+                                "value": "שקליות ממשלתיות -  אחר"
+                            },
+                            {
+                                "code": 273,
+                                "value": "משולבת- ללא מניות"
+                            },
+                            {
+                                "code": 274,
+                                "value": "משולבת- עד 10% מניות"
+                            },
+                            {
+                                "code": 275,
+                                "value": "משולבת- חשיפה מרבית מעל 10% מניות"
+                            },
+                            {
+                                "code": 427,
+                                "value": "ריבית משתנה  - קצר"
+                            },
+                            {
+                                "code": 428,
+                                "value": "ריבית משתנה  - בינוני"
+                            },
+                            {
+                                "code": 429,
+                                "value": "ריבית משתנה  - ארוך"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 174,
+                        "value": "אג\"ח מדינה צמוד מדד",
+                        "classificationSecondary": [
+                            {
+                                "code": 276,
+                                "value": "צמודות מדד ממשלתיות - קצר"
+                            },
+                            {
+                                "code": 277,
+                                "value": "צמודות מדד ממשלתיות - בינוני"
+                            },
+                            {
+                                "code": 278,
+                                "value": "צמודות מדד ממשלתיות - ארוך"
+                            },
+                            {
+                                "code": 280,
+                                "value": "צמודות מדד ממשלתיות - אחר"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 175,
+                        "value": "אג\"ח מדינה שיקלי וצמוד"
+                    },
+                    {
+                        "code": 176,
+                        "value": "אג\"ח מדינה משולבת- ללא מניות"
+                    },
+                    {
+                        "code": 177,
+                        "value": "אג\"ח מדינה משולבת- עד 10% מניות"
+                    },
+                    {
+                        "code": 178,
+                        "value": "אג\"ח מדינה משולבת- חשיפה מרבית מעל 10% מניות"
+                    },
+                    {
+                        "code": 430,
+                        "value": "אג\"ח מדינה - אחר"
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 156,
+                "classificationMajorValue": "אג\"ח בארץ - חברות והמרה",
+                "classificationMain": [
+                    {
+                        "code": 179,
+                        "value": "חברות והמרה בסיכון גבוה"
+                    },
+                    {
+                        "code": 431,
+                        "value": "אג\"ח חברות צמודות מדד",
+                        "classificationSecondary": [
+                            {
+                                "code": 432,
+                                "value": "בריבית קבועה - קצר"
+                            },
+                            {
+                                "code": 433,
+                                "value": "בריבית קבועה - בינוני"
+                            },
+                            {
+                                "code": 434,
+                                "value": "בריבית קבועה - ארוך"
+                            },
+                            {
+                                "code": 435,
+                                "value": "בריבית קבועה"
+                            },
+                            {
+                                "code": 436,
+                                "value": "שאינן בדירוג השקעה (High Yield)"
+                            },
+                            {
+                                "code": 437,
+                                "value": "אחר"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 438,
+                        "value": "אג\"ח חברות שקלי",
+                        "classificationSecondary": [
+                            {
+                                "code": 439,
+                                "value": "בריבית קבועה - קצר"
+                            },
+                            {
+                                "code": 440,
+                                "value": "בריבית קבועה - בינוני"
+                            },
+                            {
+                                "code": 441,
+                                "value": "בריבית קבועה - ארוך"
+                            },
+                            {
+                                "code": 442,
+                                "value": "בריבית קבועה"
+                            },
+                            {
+                                "code": 443,
+                                "value": "בריבית משתנה - קצר"
+                            },
+                            {
+                                "code": 444,
+                                "value": "בריבית משתנה - בינוני"
+                            },
+                            {
+                                "code": 445,
+                                "value": "בריבית משתנה - ארוך"
+                            },
+                            {
+                                "code": 446,
+                                "value": "בריבית  משתנה"
+                            },
+                            {
+                                "code": 447,
+                                "value": "שאינן בדירוג השקעה (High Yield)"
+                            },
+                            {
+                                "code": 448,
+                                "value": "אחר"
+                            }
+                        ]
+                    },
+                    {
+                        "code": 449,
+                        "value": "אג\"ח חברות",
+                        "classificationSecondary": [
+                            {
+                                "code": 450,
+                                "value": "משולבת"
+                            },
+                            {
+                                "code": 451,
+                                "value": "אחר"
+                            },
+                            {
+                                "code": 476,
+                                "value": "אג\"ח חברות שקלי וצמוד"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 157,
+                "classificationMajorValue": "אג\"ח בארץ משולבת",
+                "classificationMain": [
+                    {
+                        "code": 184,
+                        "value": "ללא מניות"
+                    },
+                    {
+                        "code": 185,
+                        "value": "עד 10% מניות"
+                    },
+                    {
+                        "code": 186,
+                        "value": "עד 20% מניות"
+                    },
+                    {
+                        "code": 187,
+                        "value": "עד 30% מניות"
+                    },
+                    {
+                        "code": 188,
+                        "value": "משולבת אג\"ח ומניות"
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 158,
+                "classificationMajorValue": "אג\"ח בחו\"ל",
+                "classificationMain": [
+                    {
+                        "code": 452,
+                        "value": "חברות והמרה חשופת מט\"ח - קצר"
+                    },
+                    {
+                        "code": 453,
+                        "value": "חברות והמרה חשופת מט\"ח - בינוני"
+                    },
+                    {
+                        "code": 454,
+                        "value": "חברות והמרה חשופת מט\"ח - ארוך"
+                    },
+                    {
+                        "code": 455,
+                        "value": "חברות והמרה חשופת מט\"ח"
+                    },
+                    {
+                        "code": 456,
+                        "value": "ממשלתיות חשופת מט\"ח - קצר"
+                    },
+                    {
+                        "code": 457,
+                        "value": "ממשלתיות חשופת מט\"ח - בינוני"
+                    },
+                    {
+                        "code": 458,
+                        "value": "ממשלתיות חשופת מט\"ח - ארוך"
+                    },
+                    {
+                        "code": 459,
+                        "value": "ממשלתיות חשופת מט\"ח"
+                    },
+                    {
+                        "code": 460,
+                        "value": "חברות והמרה  מנוטרלת מט\"ח - קצר"
+                    },
+                    {
+                        "code": 461,
+                        "value": "חברות והמרה  מנוטרלת מט\"ח - בינוני"
+                    },
+                    {
+                        "code": 462,
+                        "value": "חברות והמרה  מנוטרלת מט\"ח - ארוך"
+                    },
+                    {
+                        "code": 463,
+                        "value": "חברות והמרה  מנוטרלת מט\"ח"
+                    },
+                    {
+                        "code": 464,
+                        "value": "ממשלתיות מנוטרלת מט\"ח - קצר"
+                    },
+                    {
+                        "code": 465,
+                        "value": "ממשלתיות מנוטרלת מט\"ח - בינוני"
+                    },
+                    {
+                        "code": 466,
+                        "value": "ממשלתיות מנוטרלת מט\"ח - ארוך"
+                    },
+                    {
+                        "code": 467,
+                        "value": "ממשלתיות מנוטרלת מט\"ח"
+                    },
+                    {
+                        "code": 468,
+                        "value": "בחו\"ל שאינן בדירוג השקעה (High Yield)"
+                    },
+                    {
+                        "code": 469,
+                        "value": "משולבת אג\"ח ומניות"
+                    },
+                    {
+                        "code": 470,
+                        "value": "אג\"ח בחו\"ל - אחר"
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 159,
+                "classificationMajorValue": "סחורות",
+                "classificationMain": [
+                    {
+                        "code": 194,
+                        "value": "מדד סחורות"
+                    },
+                    {
+                        "code": 195,
+                        "value": "סחורה"
+                    }
+                ]
+            },
+            {
+                "classificationMajorId": 297,
+                "classificationMajorValue": "אחר",
+                "classificationMain": null
+            },
+            {
+                "classificationMajorId": 477,
+                "classificationMajorValue": "אג\"ח בארץ - כללי",
+                "classificationMain": null
+            },
+            {
+                "classificationMajorId": 478,
+                "classificationMajorValue": "נכסים דיגיטליים",
+                "classificationMain": [
+                    {
+                        "code": 479,
+                        "value": "Bitcoin"
+                    },
+                    {
+                        "code": 480,
+                        "value": "Ethereum"
+                    },
+                    {
+                        "code": 481,
+                        "value": "אחר"
+                    }
+                ]
+            }
+        ],
+        "total": 12
+    }
+}

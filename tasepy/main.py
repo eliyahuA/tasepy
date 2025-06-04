@@ -14,7 +14,7 @@ if __name__ == "__main__":
         .build(),
         YAMLFactory('./endpoints/endpoints.yaml', Endpoints)
     )
-    types = client.funds.get_stock_exchange()
+    types = client.funds.get_tracking_funds_classifications()
     types.save_pretty_json(
-        Path(r"C:\Users\eliya\source\repos\tasepy\tests\unit\responses\funds\samples\stock-exchange.json")
+        Path(r"/tests/unit/responses/funds/samples/tracking-fund-classification.json")
     )

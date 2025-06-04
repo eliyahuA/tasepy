@@ -102,3 +102,19 @@ class Funds:
                 headers=self._default_header_provider(),
                 response_model=funds.StockExchange
             )
+
+    def get_tax_statuses(self):
+        return self.request_callable(
+                url=self._default_url_provider(self.client.endpoints.funds.tax_status),
+                params=BaseParameters(),
+                headers=self._default_header_provider(),
+                response_model=funds.TaxStatus
+            )
+
+    def get_tracking_funds_classifications(self):
+        return self.request_callable(
+            url=self._default_url_provider(self.client.endpoints.funds.tracking_fund_classification),
+            params=BaseParameters(),
+            headers=self._default_header_provider(),
+            response_model=funds.TrackingFundClassification
+        )

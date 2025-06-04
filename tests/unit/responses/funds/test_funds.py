@@ -50,7 +50,7 @@ def test_listing_statuses():
     assert isinstance(model_instance, funds.ListingStatus)
 
 
-def test_mutual_fund_classifications():
+def test_mutual_fund_classification():
     with custom_open("mutual-fund-classification") as f:
         sample_json = f.read()
     model_instance = funds.MutualFundClassification.model_validate_json(sample_json)
@@ -84,3 +84,21 @@ def test_stock_exchange():
     assert model_instance is not None
     assert isinstance(model_instance, funds.StockExchange)
     assert model_instance.foreign_etf_stock_exchange.total > 0
+
+
+def test_tax_status():
+    with custom_open("tax-status") as f:
+        sample_json = f.read()
+    model_instance = funds.TaxStatus.model_validate_json(sample_json)
+    assert model_instance is not None
+    assert isinstance(model_instance, funds.TaxStatus)
+    assert model_instance.tax_status.total > 0
+
+
+def test_tracking_fund_classification():
+    with custom_open("tracking-fund-classification") as f:
+        sample_json = f.read()
+    model_instance = funds.TrackingFundClassification.model_validate_json(sample_json)
+    assert model_instance is not None
+    assert isinstance(model_instance, funds.TrackingFundClassification)
+    assert model_instance.fund_classification.total > 0
