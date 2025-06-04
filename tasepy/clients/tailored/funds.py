@@ -94,3 +94,11 @@ class Funds:
                 headers=self._default_header_provider(),
                 response_model=funds.ShareExposureProfile
             )
+
+    def get_stock_exchanges(self):
+        return self.request_callable(
+                url=self._default_url_provider(self.client.endpoints.funds.stock_exchange),
+                params=BaseParameters(),
+                headers=self._default_header_provider(),
+                response_model=funds.StockExchange
+            )

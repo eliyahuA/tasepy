@@ -75,3 +75,12 @@ def test_share_exposure():
     assert model_instance is not None
     assert isinstance(model_instance, funds.ShareExposureProfile)
     assert model_instance.share_exposure_profile.total > 0
+
+
+def test_stock_exchange():
+    with custom_open("stock-exchange") as f:
+        sample_json = f.read()
+    model_instance = funds.StockExchange.model_validate_json(sample_json)
+    assert model_instance is not None
+    assert isinstance(model_instance, funds.StockExchange)
+    assert model_instance.foreign_etf_stock_exchange.total > 0

@@ -67,3 +67,8 @@ def test_payment_policies(client):
 def test_share_exposure_profile(client):
     share_exposure = client.funds.get_share_exposure_profiles()
     assert share_exposure.share_exposure_profile.total > 0
+
+
+def test_stock_exchange(client):
+    share_exposure = client.funds.get_stock_exchanges()
+    assert share_exposure.foreign_etf_stock_exchange.total > 0
