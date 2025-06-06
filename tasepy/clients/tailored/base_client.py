@@ -16,3 +16,7 @@ class BaseClient:
         self.settings = settings
         self.endpoints = endpoints_model_factory.get_endpoints()
         self.accept_language = accept_language
+
+
+class SpecializedClient(BaseClient):
+    pass

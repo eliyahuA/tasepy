@@ -1,16 +1,12 @@
 from tasepy.responses import funds
-from contextlib import contextmanager
-from pathlib import Path
+from ..common import custom_open
+from functools import partial
 
-
-@contextmanager
-def custom_open(json_name):
-    with open(Path(__file__).parent / 'samples' / f"{json_name}.json", 'r', encoding='utf-8') as f:
-        yield f
+custom_open = partial(custom_open, caller_path_string=__file__)
 
 
 def test_fund_list():
-    with custom_open("fund-list") as f:
+    with custom_open(json_name="fund-list") as f:
         sample_json = f.read()
     model_instance = funds.FundList.model_validate_json(sample_json)
     assert model_instance is not None
@@ -18,7 +14,7 @@ def test_fund_list():
 
 
 def test_currency_exposure():
-    with custom_open("currency-exposure-profile") as f:
+    with custom_open(json_name="currency-exposure-profile") as f:
         sample_json = f.read()
     model_instance = funds.CurrencyExposure.model_validate_json(sample_json)
 
@@ -27,7 +23,7 @@ def test_currency_exposure():
 
 
 def test_distribution_commission():
-    with custom_open("distribution-commission") as f:
+    with custom_open(json_name="distribution-commission") as f:
         sample_json = f.read()
     model_instance = funds.DistributionCommission.model_validate_json(sample_json)
     assert model_instance is not None
@@ -35,7 +31,7 @@ def test_distribution_commission():
 
 
 def test_fund_types():
-    with custom_open("fund-types") as f:
+    with custom_open(json_name="fund-types") as f:
         sample_json = f.read()
     model_instance = funds.FundType.model_validate_json(sample_json)
     assert model_instance is not None
@@ -43,7 +39,7 @@ def test_fund_types():
 
 
 def test_listing_statuses():
-    with custom_open("listing-statuses") as f:
+    with custom_open(json_name="listing-statuses") as f:
         sample_json = f.read()
     model_instance = funds.ListingStatus.model_validate_json(sample_json)
     assert model_instance is not None
@@ -51,7 +47,7 @@ def test_listing_statuses():
 
 
 def test_mutual_fund_classification():
-    with custom_open("mutual-fund-classification") as f:
+    with custom_open(json_name="mutual-fund-classification") as f:
         sample_json = f.read()
     model_instance = funds.MutualFundClassification.model_validate_json(sample_json)
     assert model_instance is not None
@@ -60,7 +56,7 @@ def test_mutual_fund_classification():
 
 
 def test_payment_policy():
-    with custom_open("payment-policy") as f:
+    with custom_open(json_name="payment-policy") as f:
         sample_json = f.read()
     model_instance = funds.PaymentPolicy.model_validate_json(sample_json)
     assert model_instance is not None
@@ -69,7 +65,7 @@ def test_payment_policy():
 
 
 def test_share_exposure():
-    with custom_open("share-exposure-profile") as f:
+    with custom_open(json_name="share-exposure-profile") as f:
         sample_json = f.read()
     model_instance = funds.ShareExposureProfile.model_validate_json(sample_json)
     assert model_instance is not None
@@ -78,7 +74,7 @@ def test_share_exposure():
 
 
 def test_stock_exchange():
-    with custom_open("stock-exchange") as f:
+    with custom_open(json_name="stock-exchange") as f:
         sample_json = f.read()
     model_instance = funds.StockExchange.model_validate_json(sample_json)
     assert model_instance is not None
@@ -87,7 +83,7 @@ def test_stock_exchange():
 
 
 def test_tax_status():
-    with custom_open("tax-status") as f:
+    with custom_open(json_name="tax-status") as f:
         sample_json = f.read()
     model_instance = funds.TaxStatus.model_validate_json(sample_json)
     assert model_instance is not None
@@ -96,7 +92,7 @@ def test_tax_status():
 
 
 def test_tracking_fund_classification():
-    with custom_open("tracking-fund-classification") as f:
+    with custom_open(json_name="tracking-fund-classification") as f:
         sample_json = f.read()
     model_instance = funds.TrackingFundClassification.model_validate_json(sample_json)
     assert model_instance is not None
@@ -105,7 +101,7 @@ def test_tracking_fund_classification():
 
 
 def test_underlying_asset():
-    with custom_open("underlying-asset") as f:
+    with custom_open(json_name="underlying-asset") as f:
         sample_json = f.read()
     model_instance = funds.UnderlyingAsset.model_validate_json(sample_json)
     assert model_instance is not None

@@ -4,13 +4,13 @@ from bs4 import BeautifulSoup
 from tasepy.endpoints.factories.interfaces import IEndpointsFactory
 from tasepy.responses import ResponseComponent
 from tasepy.settings import Settings
-from tasepy import responses
 from tasepy.requests_ import headers as head
 from tasepy.requests_ import parameters as parameters
 from tasepy.requests_ import enums as enums
 from tasepy.requests_.urls import Endpoints, EndpointGroup, Endpoint
 from typing import Optional, Tuple, Type, TypeVar
 from .funds import Funds
+from .indices_basic import IndicesBasic
 from .base_client import BaseClient
 
 T = TypeVar('T', bound=ResponseComponent)
@@ -24,7 +24,8 @@ class Client(BaseClient):
                  accept_language: Optional[enums.AcceptLanguage] = None,
                  ):
         super().__init__(settings, endpoints_model_factory, accept_language)
-        self.funds = Funds(self, self._do_request,)
+        self.funds = Funds(self, self._do_request)
+        self.indices_basic = IndicesBasic(self, self._do_request)
 
     @staticmethod
     def _do_request(

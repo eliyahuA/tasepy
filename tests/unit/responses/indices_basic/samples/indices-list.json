@@ -1,0 +1,646 @@
+{
+    "indicesList": {
+        "result": [
+            {
+                "indexId": 1,
+                "indexName": "מניות והמירים כללי",
+                "isin": "IL00BIDX0016"
+            },
+            {
+                "indexId": 2,
+                "indexName": "מניות כללי",
+                "isin": "IL00BIDX0024"
+            },
+            {
+                "indexId": 3,
+                "indexName": "אופציות כללי",
+                "isin": "IL00BIDX0032"
+            },
+            {
+                "indexId": 4,
+                "indexName": "אג\"ח להמרה כללי",
+                "isin": "IL00BIDX0040"
+            },
+            {
+                "indexId": 13,
+                "indexName": "בנקים מניות והמירים",
+                "isin": "IL00BIDX0131"
+            },
+            {
+                "indexId": 33,
+                "indexName": "ת\"א-ביטוח",
+                "isin": "IL00BIDX0339"
+            },
+            {
+                "indexId": 41,
+                "indexName": "מסחר ושירותים מניות והמירים",
+                "isin": "IL00BIDX0412"
+            },
+            {
+                "indexId": 61,
+                "indexName": "נדל\"ן ובינוי מניות והמירים",
+                "isin": "IL00BIDX0610"
+            },
+            {
+                "indexId": 73,
+                "indexName": "תעשייה מניות והמירים",
+                "isin": "IL00BIDX0735"
+            },
+            {
+                "indexId": 97,
+                "indexName": "כימיה, גומי ופלסטיקה מניות והמירים",
+                "isin": "IL00BIDX0974"
+            },
+            {
+                "indexId": 117,
+                "indexName": "השקעה ואחזקות מניות והמירים",
+                "isin": "IL00BIDX1170"
+            },
+            {
+                "indexId": 127,
+                "indexName": "חיפושי גז ונפט מניות והמירים",
+                "isin": "IL00BIDX1279"
+            },
+            {
+                "indexId": 137,
+                "indexName": "ת\"א-125",
+                "isin": "IL00BIDX1378"
+            },
+            {
+                "indexId": 142,
+                "indexName": "ת\"א-35",
+                "isin": "IL00BIDX1428"
+            },
+            {
+                "indexId": 143,
+                "indexName": "ת\"א-90",
+                "isin": "IL00BIDX1436"
+            },
+            {
+                "indexId": 145,
+                "indexName": "ת\"א גלובל-בלוטק",
+                "isin": "IL00BIDX1451"
+            },
+            {
+                "indexId": 147,
+                "indexName": "ת\"א-SME60",
+                "isin": "IL00BIDX1477"
+            },
+            {
+                "indexId": 148,
+                "indexName": "ת\"א-פיננסים",
+                "isin": "IL00BIDX1485"
+            },
+            {
+                "indexId": 149,
+                "indexName": "ת\"א-נדל\"ן",
+                "isin": "IL00BIDX1493"
+            },
+            {
+                "indexId": 150,
+                "indexName": "ת\"א-מעלה",
+                "isin": "IL00BIDX1501"
+            },
+            {
+                "indexId": 161,
+                "indexName": "יתר מניות והמירים",
+                "isin": "IL00BIDX1618"
+            },
+            {
+                "indexId": 162,
+                "indexName": "יתר מניות",
+                "isin": "IL00BIDX1626"
+            },
+            {
+                "indexId": 163,
+                "indexName": "ת\"א-צמיחה",
+                "isin": "IL00BIDX1634"
+            },
+            {
+                "indexId": 164,
+                "indexName": "ת\"א בנקים-5",
+                "isin": "IL00BIDX1642"
+            },
+            {
+                "indexId": 166,
+                "indexName": "תל-דיב",
+                "isin": "IL00BIDX1667"
+            },
+            {
+                "indexId": 167,
+                "indexName": "ת\"א-ביומד",
+                "isin": "IL00BIDX1675"
+            },
+            {
+                "indexId": 168,
+                "indexName": "ת\"א All-Share",
+                "isin": "IL00BIDX1683"
+            },
+            {
+                "indexId": 169,
+                "indexName": "ת\"א-טכנולוגיה",
+                "isin": "IL00BIDX1691"
+            },
+            {
+                "indexId": 170,
+                "indexName": "ת\"א-נפט וגז",
+                "isin": "IL00BIDX1709"
+            },
+            {
+                "indexId": 171,
+                "indexName": "ת\"א-ביטוח ושירותים פיננסיים",
+                "isin": "IL00BIDX1717"
+            },
+            {
+                "indexId": 172,
+                "indexName": "ת\"א תקשורת וטכנולוגיות מידע",
+                "isin": "IL00BIDX1725"
+            },
+            {
+                "indexId": 173,
+                "indexName": "ת\"א טק - עילית",
+                "isin": "IL00BIDX1733"
+            },
+            {
+                "indexId": 174,
+                "indexName": "ת\"א-35 דולר",
+                "isin": "IL00BIDX1741"
+            },
+            {
+                "indexId": 175,
+                "indexName": "ת\"א-רימון",
+                "isin": "IL00BIDX1758"
+            },
+            {
+                "indexId": 176,
+                "indexName": "ת\"א-90 ו-CAP 0.8% SME60",
+                "isin": "IL00BIDX1766"
+            },
+            {
+                "indexId": 177,
+                "indexName": "ת\"א סקטור-באלאנס",
+                "isin": "IL00BIDX1774"
+            },
+            {
+                "indexId": 178,
+                "indexName": "ת\"א-תעשייה",
+                "isin": "IL00BIDX1782"
+            },
+            {
+                "indexId": 179,
+                "indexName": "ת\"א-פמילי",
+                "isin": "IL00BIDX1790"
+            },
+            {
+                "indexId": 180,
+                "indexName": "ת\"א-תשתיות אנרגיה",
+                "isin": "IL00BIDX1808"
+            },
+            {
+                "indexId": 181,
+                "indexName": "ת\"א-בנייה",
+                "isin": "IL00BIDX1816"
+            },
+            {
+                "indexId": 182,
+                "indexName": "ת\"א-מניב ישראל",
+                "isin": "IL00BIDX1824"
+            },
+            {
+                "indexId": 183,
+                "indexName": "ת\"א-מניב חו\"ל",
+                "isin": "IL00BIDX1832"
+            },
+            {
+                "indexId": 184,
+                "indexName": "ת\"א-קלינטק",
+                "isin": "IL00BIDX1840"
+            },
+            {
+                "indexId": 185,
+                "indexName": "ת\"א-125 אקלים נקי",
+                "isin": "IL00BIDX1857"
+            },
+            {
+                "indexId": 187,
+                "indexName": "ת\"א-דואליות",
+                "isin": "IL00BIDX1873"
+            },
+            {
+                "indexId": 188,
+                "indexName": "ת\"א-רשתות שיווק",
+                "isin": "IL00BIDX1881"
+            },
+            {
+                "indexId": 189,
+                "indexName": "ת\"א-EW125",
+                "isin": "IL00BIDX1899"
+            },
+            {
+                "indexId": 194,
+                "indexName": "ת\"א בנקים",
+                "isin": "IL00BIDX1949"
+            },
+            {
+                "indexId": 195,
+                "indexName": "ת\"א-125 ערך"
+            },
+            {
+                "indexId": 196,
+                "indexName": "ת\"א 90 ובנקים"
+            },
+            {
+                "indexId": 197,
+                "indexName": "ת\"א-20",
+                "isin": "IL00BIDX1972"
+            },
+            {
+                "indexId": 198,
+                "indexName": "ת\"א-50 ריאלי",
+                "isin": "IL00BIDX1980"
+            },
+            {
+                "indexId": 199,
+                "indexName": "ת\"א-200",
+                "isin": "IL00BIDX1998"
+            },
+            {
+                "indexId": 200,
+                "indexName": "תל דיב אריסטוקרט",
+                "isin": "IL00BIDX2004"
+            },
+            {
+                "indexId": 202,
+                "indexName": "ת\"א-90 מודל רווחיות משקל שווה",
+                "isin": "IL00BIDX2020"
+            },
+            {
+                "indexId": 203,
+                "indexName": "ת\"א SME60 מודל רווחיות משקל שווה",
+                "isin": "IL00BIDX2038"
+            },
+            {
+                "indexId": 598,
+                "indexName": "VTA35",
+                "isin": "IL00BIDX5981"
+            },
+            {
+                "indexId": 601,
+                "indexName": "All-Bond כללי",
+                "isin": "IL00BIDX6013"
+            },
+            {
+                "indexId": 602,
+                "indexName": "תל גוב-כללי",
+                "isin": "IL00BIDX6021"
+            },
+            {
+                "indexId": 603,
+                "indexName": "אג\"ח כללי - קונצרני",
+                "isin": "IL00BIDX6039"
+            },
+            {
+                "indexId": 604,
+                "indexName": "All-Bond צמודות",
+                "isin": "IL00BIDX6047"
+            },
+            {
+                "indexId": 605,
+                "indexName": "תל גוב-צמודות",
+                "isin": "IL00BIDX6054"
+            },
+            {
+                "indexId": 606,
+                "indexName": "אג\"ח צמודות מדד - קונצרני",
+                "isin": "IL00BIDX6062"
+            },
+            {
+                "indexId": 637,
+                "indexName": "תל גוב- צמודות 0-2",
+                "isin": "IL00BIDX6377"
+            },
+            {
+                "indexId": 646,
+                "indexName": "תל גוב-צמודות 2-5",
+                "isin": "IL00BIDX6468"
+            },
+            {
+                "indexId": 658,
+                "indexName": "תל גוב-צמודות 5-10",
+                "isin": "IL00BIDX6583"
+            },
+            {
+                "indexId": 690,
+                "indexName": "תל גוב-לא צמודות",
+                "isin": "IL00BIDX6906"
+            },
+            {
+                "indexId": 694,
+                "indexName": "תל גוב-צמודות 15+",
+                "isin": "IL00BIDX6948"
+            },
+            {
+                "indexId": 700,
+                "indexName": "תל גוב-שקלי",
+                "isin": "IL00BIDX7003"
+            },
+            {
+                "indexId": 701,
+                "indexName": "תל גוב משתנה שקלי",
+                "isin": "IL00BIDX7011"
+            },
+            {
+                "indexId": 702,
+                "indexName": "תל גוב-שקלי 0-2",
+                "isin": "IL00BIDX7029"
+            },
+            {
+                "indexId": 703,
+                "indexName": "תל גוב-שקלי 2-5",
+                "isin": "IL00BIDX7037"
+            },
+            {
+                "indexId": 704,
+                "indexName": "תל גוב-שקלי 5+",
+                "isin": "IL00BIDX7045"
+            },
+            {
+                "indexId": 707,
+                "indexName": "תל בונד 20 צמודות",
+                "isin": "IL00BIDX7078"
+            },
+            {
+                "indexId": 708,
+                "indexName": "תל בונד 40 צמודות",
+                "isin": "IL00BIDX7086"
+            },
+            {
+                "indexId": 709,
+                "indexName": "תל בונד 60 צמודות",
+                "isin": "IL00BIDX7094"
+            },
+            {
+                "indexId": 710,
+                "indexName": "תל בונד-שקלי",
+                "isin": "IL00BIDX7102"
+            },
+            {
+                "indexId": 711,
+                "indexName": "תל בונד צמודות",
+                "isin": "IL00BIDX7110"
+            },
+            {
+                "indexId": 712,
+                "indexName": "תל בונד צמודות-יתר",
+                "isin": "IL00BIDX7128"
+            },
+            {
+                "indexId": 713,
+                "indexName": "תל בונד צמודות בנקים ללא קוקו",
+                "isin": "IL00BIDX7136"
+            },
+            {
+                "indexId": 714,
+                "indexName": "תל בונד תשואות צמודות",
+                "isin": "IL00BIDX7144"
+            },
+            {
+                "indexId": 715,
+                "indexName": "תל בונד-מאגר",
+                "isin": "IL00BIDX7151"
+            },
+            {
+                "indexId": 716,
+                "indexName": "All-Bond ריבית משתנה שקלי",
+                "isin": "IL00BIDX7169"
+            },
+            {
+                "indexId": 717,
+                "indexName": "תל בונד-לא צמודות",
+                "isin": "IL00BIDX7177"
+            },
+            {
+                "indexId": 718,
+                "indexName": "תלבונד-תשואות שקלי",
+                "isin": "IL00BIDX7185"
+            },
+            {
+                "indexId": 719,
+                "indexName": "תל בונד גלובל שקלי",
+                "isin": "IL00BIDX7193"
+            },
+            {
+                "indexId": 720,
+                "indexName": "תל בונד שקלי-50",
+                "isin": "IL00BIDX7201"
+            },
+            {
+                "indexId": 721,
+                "indexName": "תל בונד-צמודות 1-3",
+                "isin": "IL00BIDX7219"
+            },
+            {
+                "indexId": 722,
+                "indexName": "תל בונד-צמודות 3-5",
+                "isin": "IL00BIDX7227"
+            },
+            {
+                "indexId": 723,
+                "indexName": "תל בונד-צמודות 5-15",
+                "isin": "IL00BIDX7235"
+            },
+            {
+                "indexId": 724,
+                "indexName": "תל בונד-שקלי 1-3",
+                "isin": "IL00BIDX7243"
+            },
+            {
+                "indexId": 725,
+                "indexName": "תל בונד-שקלי 3-5",
+                "isin": "IL00BIDX7250"
+            },
+            {
+                "indexId": 726,
+                "indexName": "תל בונד-שקלי 5-15",
+                "isin": "IL00BIDX7268"
+            },
+            {
+                "indexId": 727,
+                "indexName": "תל גוב-צמודות 5+",
+                "isin": "IL00BIDX7276"
+            },
+            {
+                "indexId": 728,
+                "indexName": "תל גוב-צמודות 10+",
+                "isin": "IL00BIDX7284"
+            },
+            {
+                "indexId": 729,
+                "indexName": "תל גוב-שקלי 5-10",
+                "isin": "IL00BIDX7292"
+            },
+            {
+                "indexId": 730,
+                "indexName": "תל גוב-שקלי 10+",
+                "isin": "IL00BIDX7300"
+            },
+            {
+                "indexId": 731,
+                "indexName": "תל בונד-צמודות מעלה",
+                "isin": "IL00BIDX7318"
+            },
+            {
+                "indexId": 732,
+                "indexName": "תל בונד-שקלי מעלה",
+                "isin": "IL00BIDX7326"
+            },
+            {
+                "indexId": 733,
+                "indexName": "תל בונד שקלי-בנקים וביטוח",
+                "isin": "IL00BIDX7334"
+            },
+            {
+                "indexId": 734,
+                "indexName": "תל בונד צמודות-נדל\"ן",
+                "isin": "IL00BIDX7342"
+            },
+            {
+                "indexId": 735,
+                "indexName": "תל בונד-צמודות A",
+                "isin": "IL00BIDX7359"
+            },
+            {
+                "indexId": 736,
+                "indexName": "תל בונד-צמודות AA-AAA",
+                "isin": "IL00BIDX7367"
+            },
+            {
+                "indexId": 737,
+                "indexName": "תל בונד-שקלי A",
+                "isin": "IL00BIDX7375"
+            },
+            {
+                "indexId": 738,
+                "indexName": "תל בונד-שקלי AA-AAA",
+                "isin": "IL00BIDX7383"
+            },
+            {
+                "indexId": 739,
+                "indexName": "All-bond דולר",
+                "isin": "IL00BIDX7391"
+            },
+            {
+                "indexId": 740,
+                "indexName": "All-Bond שקלי",
+                "isin": "IL00BIDX7409"
+            },
+            {
+                "indexId": 742,
+                "indexName": "תל בונד שקלי 100",
+                "isin": "IL00BIDX7425"
+            },
+            {
+                "indexId": 743,
+                "indexName": "תל בונד 100 צמודות",
+                "isin": "IL00BIDX7433"
+            },
+            {
+                "indexId": 744,
+                "indexName": "תל בונד-קוקו A+",
+                "isin": "IL00BIDX7441"
+            },
+            {
+                "indexId": 745,
+                "indexName": "תל בונד תשואות צמודות פיזור רחב",
+                "isin": "IL00BIDX7458"
+            },
+            {
+                "indexId": 746,
+                "indexName": "תל בונד תשואות שקלי-פיזור רחב",
+                "isin": "IL00BIDX7466"
+            },
+            {
+                "indexId": 747,
+                "indexName": "תל בונד צמודות בנקים"
+            },
+            {
+                "indexId": 748,
+                "indexName": "תל בונד שקלי 5-10",
+                "isin": "IL00BIDX7482"
+            },
+            {
+                "indexId": 749,
+                "indexName": "תל בונד צמודות 5-10",
+                "isin": "IL00BIDX7490"
+            },
+            {
+                "indexId": 750,
+                "indexName": "תל בונד צמודות בנקים וחברות ממשלתיות",
+                "isin": "IL00BIDX7508"
+            },
+            {
+                "indexId": 751,
+                "indexName": "בונד קצר עד שנה"
+            },
+            {
+                "indexId": 752,
+                "indexName": "תל בונד 125 ערך שקלי"
+            },
+            {
+                "indexId": 753,
+                "indexName": "תל בונד 125 ערך צמודות"
+            },
+            {
+                "indexId": 756,
+                "indexName": "תל בונד צמודות AAA",
+                "isin": "IL00BIDX7568"
+            },
+            {
+                "indexId": 757,
+                "indexName": "תל בונד לא צמודות AAA",
+                "isin": "IL00BIDX7573"
+            },
+            {
+                "indexId": 758,
+                "indexName": "תל בונד צמודות דירוג כפול",
+                "isin": "IL00BIDX7581"
+            },
+            {
+                "indexId": 759,
+                "indexName": "חיסכון לא צמודות דירוג כפול",
+                "isin": "IL00BIDX7599"
+            },
+            {
+                "indexId": 760,
+                "indexName": "תל-בונד בולט 2029 שקלי",
+                "isin": "IL00BIDX7607"
+            },
+            {
+                "indexId": 761,
+                "indexName": "תל-בונד בולט 10/2028 צמוד",
+                "isin": "IL00BIDX7615"
+            },
+            {
+                "indexId": 762,
+                "indexName": "תל-בונד בולט 2029 ישראל",
+                "isin": "IL00BIDX7623"
+            },
+            {
+                "indexId": 763,
+                "indexName": "תל בונד נע\"מ",
+                "isin": "IL00BIDX7631"
+            },
+            {
+                "indexId": 764,
+                "indexName": "אג\"ח מגובה פקדונות",
+                "isin": "IL00BIDX7631"
+            },
+            {
+                "indexId": 800,
+                "indexName": "תל גוב-מק\"מ",
+                "isin": "IL00BIDX8001"
+            }
+        ],
+        "total": 129
+    }
+}

@@ -14,7 +14,7 @@ if __name__ == "__main__":
         .build(),
         YAMLFactory('./endpoints/endpoints.yaml', Endpoints)
     )
-    types = client.funds.get_underlying_assets()
+    types = client.indices_basic.get_indices_list()
     types.save_pretty_json(
-        Path(__file__).parent.parent / "tests/unit/responses/funds/samples/underlying-asset.json"
+        Path(__file__).parent.parent / "tests/unit/responses/indices_basic/samples/indices-list.json"
     )

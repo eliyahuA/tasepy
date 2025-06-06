@@ -7,7 +7,6 @@ from .request_callable import APIRequestExecutor
 from tasepy.requests_.parameters import BaseParameters, FundList
 from tasepy.requests_.headers import LanguageAble
 from .base_client import BaseClient
-from tasepy.requests_.urls import Endpoint
 
 
 class Funds:
