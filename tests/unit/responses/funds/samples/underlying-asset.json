@@ -1,0 +1,4147 @@
+{
+    "underlyingAsset": {
+        "result": [
+            {
+                "code": 1,
+                "value": "Energy Select Sector - PR"
+            },
+            {
+                "code": 2,
+                "value": "Berkshire Hathaway Inc"
+            },
+            {
+                "code": 3,
+                "value": "CAC 40 - PR"
+            },
+            {
+                "code": 4,
+                "value": "CECE - PR"
+            },
+            {
+                "code": 5,
+                "value": "CLEANTECH - PR"
+            },
+            {
+                "code": 6,
+                "value": "DAX 30 - GTR"
+            },
+            {
+                "code": 8,
+                "value": "DAX GLOBAL BRIC - GTR"
+            },
+            {
+                "code": 9,
+                "value": "DIVDAX INDEX - GTR"
+            },
+            {
+                "code": 10,
+                "value": "DJ ASIA SELECT DIVIDEND 30 TOTAL RETURN INDEX - NTR"
+            },
+            {
+                "code": 11,
+                "value": "DJ AUSTRALIA SELECT DIVIDEND 30 TOTAL RETURN INDEX - GTR"
+            },
+            {
+                "code": 12,
+                "value": "DJ BANKS TITANS 30 INDEX - PR"
+            },
+            {
+                "code": 13,
+                "value": "DJ CANADA SELECT DIVIDEND TOTAL RETURN INDEX - GTR"
+            },
+            {
+                "code": 14,
+                "value": "DJ Equal Weight U.S. Issued Corporate Bond - GTR"
+            },
+            {
+                "code": 15,
+                "value": "EURO STOXX SELECT DIVIDEND 30 - PR"
+            },
+            {
+                "code": 16,
+                "value": "DJ GERMANY SELECT DIVIDEND 20 TOTAL RETURN INDEX - NTR"
+            },
+            {
+                "code": 17,
+                "value": "DJ GLOBAL TITANS 50 INDEX - PR"
+            },
+            {
+                "code": 18,
+                "value": "DJ HEALTH CARE TITANS 30 INDEX - PR"
+            },
+            {
+                "code": 19,
+                "value": "DJ ISRAEL SELECT CONSUMER TOTAL RETURN INDEX - GTR"
+            },
+            {
+                "code": 20,
+                "value": "DJ ISRAEL SELECT OIL & GAS TOTAL RETURN INDEX - GTR"
+            },
+            {
+                "code": 21,
+                "value": "DJ JAPAN SELECT DIVIDEND 30 TOTAL RETURN INDEX - GTR"
+            },
+            {
+                "code": 22,
+                "value": "DJ OIL & GAS TITANS 30 INDEX - PR"
+            },
+            {
+                "code": 23,
+                "value": "STOXX Europe 600 - PR"
+            },
+            {
+                "code": 25,
+                "value": "STOXX GLOBAL SELECT DIVIDEND 100 USD - NTR"
+            },
+            {
+                "code": 26,
+                "value": "STOXX NORDIC SELECT DIVIDEND 20 EUR - NTR"
+            },
+            {
+                "code": 27,
+                "value": "DJ TIGER TITANS 50 INDEX - PR"
+            },
+            {
+                "code": 29,
+                "value": "DJ U.S. SELECT DIVIDEND INDEX - NTR"
+            },
+            {
+                "code": 30,
+                "value": "DJ INDUSTRIAL AVERAGE - PR"
+            },
+            {
+                "code": 31,
+                "value": "EPRA EUROPE INDEX - PR"
+            },
+            {
+                "code": 32,
+                "value": "EURO STOXX 50 - PR"
+            },
+            {
+                "code": 33,
+                "value": "FTSE 100 - PR"
+            },
+            {
+                "code": 35,
+                "value": "HANG SENG CHINA ENTREPRISE - PR"
+            },
+            {
+                "code": 36,
+                "value": "IBOVESPA - GTR"
+            },
+            {
+                "code": 37,
+                "value": "IBOXX USD LIQUID HIGH YIELD - GTR"
+            },
+            {
+                "code": 38,
+                "value": "KOSPI 200 - PR"
+            },
+            {
+                "code": 39,
+                "value": "MSCI AC FAR EAST EX JAPAN - PR"
+            },
+            {
+                "code": 40,
+                "value": "MSCI BRAZIL - PR"
+            },
+            {
+                "code": 41,
+                "value": "MSCI CHINA - PR"
+            },
+            {
+                "code": 42,
+                "value": "MSCI EAFE - PR"
+            },
+            {
+                "code": 43,
+                "value": "MSCI EM EASTERN EUROPE - PR"
+            },
+            {
+                "code": 44,
+                "value": "MSCI EMERGING MARKETS - PR"
+            },
+            {
+                "code": 45,
+                "value": "MSCI EUROPE - PR"
+            },
+            {
+                "code": 46,
+                "value": "MSCI INDIA - PR"
+            },
+            {
+                "code": 47,
+                "value": "MSCI JAPAN - PR"
+            },
+            {
+                "code": 48,
+                "value": "MSCI NORDIC COUNTRIES - PR"
+            },
+            {
+                "code": 49,
+                "value": "MSCI SINGAPORE FREE - PR"
+            },
+            {
+                "code": 50,
+                "value": "MSCI SOUTH AFRICA - PR"
+            },
+            {
+                "code": 51,
+                "value": "MSCI SPAIN - PR"
+            },
+            {
+                "code": 52,
+                "value": "MSCI TAIWAN - PR"
+            },
+            {
+                "code": 53,
+                "value": "MSCI TURKEY - PR"
+            },
+            {
+                "code": 54,
+                "value": "MSCI WORLD INDEX - GTR"
+            },
+            {
+                "code": 55,
+                "value": "MSCI AC WORLD INDEX - GTR"
+            },
+            {
+                "code": 56,
+                "value": "NASDAQ 100 - PR"
+            },
+            {
+                "code": 57,
+                "value": "NASDAQ Biotechnology INDEX - PR"
+            },
+            {
+                "code": 58,
+                "value": "NIKKEI 225 - PR"
+            },
+            {
+                "code": 59,
+                "value": "OMX 30 - PR"
+            },
+            {
+                "code": 61,
+                "value": "RUSSIAN DEPOSITARY - PR"
+            },
+            {
+                "code": 62,
+                "value": "RUSSELL 2000 - PR"
+            },
+            {
+                "code": 63,
+                "value": "S&P 500 - GTR"
+            },
+            {
+                "code": 64,
+                "value": "CNX NIFTY - PR"
+            },
+            {
+                "code": 65,
+                "value": "S&P ISRAEL BMI GROWTH"
+            },
+            {
+                "code": 66,
+                "value": "S&P ISRAEL BMI VALUE"
+            },
+            {
+                "code": 67,
+                "value": "S&P LATIN AMERICA 40 - PR"
+            },
+            {
+                "code": 68,
+                "value": "S&P ישראל אנרגיה - GTR"
+            },
+            {
+                "code": 69,
+                "value": "S&P ישראל תקשורת"
+            },
+            {
+                "code": 70,
+                "value": "S&P/ASX 200 - PR"
+            },
+            {
+                "code": 71,
+                "value": "S&P/TSX60 - PR"
+            },
+            {
+                "code": 72,
+                "value": "STOXX EUROPE MID 200 - PR"
+            },
+            {
+                "code": 73,
+                "value": "WILDERHILL CLEAN ENERGY INDEX - PR"
+            },
+            {
+                "code": 74,
+                "value": "תל גוב-כללי"
+            },
+            {
+                "code": 75,
+                "value": "ת\"א-ביומד"
+            },
+            {
+                "code": 77,
+                "value": "תל גוב-צמודות 0-2"
+            },
+            {
+                "code": 78,
+                "value": "תל גוב-צמודות 2-5"
+            },
+            {
+                "code": 79,
+                "value": "תל גוב-צמודות 5-10"
+            },
+            {
+                "code": 80,
+                "value": "תל גוב-צמודות"
+            },
+            {
+                "code": 81,
+                "value": "ת\"א-SME60"
+            },
+            {
+                "code": 82,
+                "value": "ת\"א-צמיחה"
+            },
+            {
+                "code": 83,
+                "value": "תל גוב-מק\"מ"
+            },
+            {
+                "code": 84,
+                "value": "תל גוב-שקלי 0-2"
+            },
+            {
+                "code": 85,
+                "value": "תל גוב-שקלי 2-5"
+            },
+            {
+                "code": 86,
+                "value": "תל גוב-שקלי 5+"
+            },
+            {
+                "code": 87,
+                "value": "תל גוב-שקלי"
+            },
+            {
+                "code": 88,
+                "value": "ת\"א 125"
+            },
+            {
+                "code": 89,
+                "value": "ת\"א 90"
+            },
+            {
+                "code": 92,
+                "value": "ת\"א בנקים-5"
+            },
+            {
+                "code": 94,
+                "value": "ת\"א All-Share "
+            },
+            {
+                "code": 95,
+                "value": "מעלה"
+            },
+            {
+                "code": 96,
+                "value": "ת\"א נדל\"ן"
+            },
+            {
+                "code": 97,
+                "value": "ת\"א-נפט וגז"
+            },
+            {
+                "code": 98,
+                "value": "ת\"א פיננסים"
+            },
+            {
+                "code": 100,
+                "value": "ת\"א-35"
+            },
+            {
+                "code": 101,
+                "value": "תל בונד 20"
+            },
+            {
+                "code": 102,
+                "value": "תל בונד 40"
+            },
+            {
+                "code": 103,
+                "value": "תל בונד 60 צמודות"
+            },
+            {
+                "code": 104,
+                "value": "תל בונד שקלי"
+            },
+            {
+                "code": 105,
+                "value": "תל דיב"
+            },
+            {
+                "code": 106,
+                "value": "ת\"א-ביטוח"
+            },
+            {
+                "code": 107,
+                "value": "DJ UBS AGRICULTURE SUBINDEX"
+            },
+            {
+                "code": 108,
+                "value": "LBMA Gold Price AM USD"
+            },
+            {
+                "code": 109,
+                "value": "BRENT CRUDE OIL"
+            },
+            {
+                "code": 110,
+                "value": "S&P GSCI TOTAL RETURN - GTR"
+            },
+            {
+                "code": 111,
+                "value": "SILVER 5000 OZ"
+            },
+            {
+                "code": 113,
+                "value": "NATURAL GAS - HENRY HUB"
+            },
+            {
+                "code": 114,
+                "value": "דולר אוסטרלי"
+            },
+            {
+                "code": 115,
+                "value": "כתר נורבגי"
+            },
+            {
+                "code": 116,
+                "value": "דולר ארה\"ב"
+            },
+            {
+                "code": 117,
+                "value": "לירה שטרלינג"
+            },
+            {
+                "code": 118,
+                "value": "אירו"
+            },
+            {
+                "code": 119,
+                "value": "ש\"ח"
+            },
+            {
+                "code": 120,
+                "value": "CITIGROUP S&P GLOBAL STARS CUSTOM INDEX - NTR"
+            },
+            {
+                "code": 121,
+                "value": "תל גוב – לא צמודות"
+            },
+            {
+                "code": 122,
+                "value": "HANG SENG - PR"
+            },
+            {
+                "code": 123,
+                "value": "יין יפני"
+            },
+            {
+                "code": 124,
+                "value": "DEUTSCHE BANK LIQUID COMMODITIES INDICES"
+            },
+            {
+                "code": 125,
+                "value": "DJ BRAZIL TITANS 20 ADR INDEX - PR"
+            },
+            {
+                "code": 128,
+                "value": "DJ EMERGING MARKETS CONSUMER TITANS 30 TOTAL RETURN INDEX - NTR"
+            },
+            {
+                "code": 129,
+                "value": "IBOXX EUR LIQUID CORPORATES - GTR"
+            },
+            {
+                "code": 132,
+                "value": "IBOXX USD LIQUID INVESTMENT GRADE - GTR"
+            },
+            {
+                "code": 135,
+                "value": "Taiwan Taiex Index - PR"
+            },
+            {
+                "code": 136,
+                "value": "IBOXX USD LIQUID INVESTMENT GRADE TOP 30 INDEX - GTR"
+            },
+            {
+                "code": 137,
+                "value": "Dow Jones-UBS ExEnergy Subindex"
+            },
+            {
+                "code": 141,
+                "value": "LBMA Gold Price PM"
+            },
+            {
+                "code": 142,
+                "value": "ISE Clean Edge Water Index - PR "
+            },
+            {
+                "code": 143,
+                "value": "תל בונד צמודות"
+            },
+            {
+                "code": 144,
+                "value": "תל בונד צמודות-יתר"
+            },
+            {
+                "code": 145,
+                "value": "LBMA Silver Price"
+            },
+            {
+                "code": 146,
+                "value": "DAX GLOBAL BRIC - PR"
+            },
+            {
+                "code": 147,
+                "value": "S&P DJ Select Sector Industrials - PR"
+            },
+            {
+                "code": 148,
+                "value": "תל בונד תשואות צמודות"
+            },
+            {
+                "code": 149,
+                "value": "S&P Homebuilders Select Industry - PR"
+            },
+            {
+                "code": 152,
+                "value": "S&P ישראל אנרגיה - PR"
+            },
+            {
+                "code": 153,
+                "value": "DJ U.S. SELECT DIVIDEND INDEX - PR"
+            },
+            {
+                "code": 154,
+                "value": "MSCI AC WORLD INDEX - RT - NTR "
+            },
+            {
+                "code": 155,
+                "value": "MSCI AC WORLD INDEX - PR"
+            },
+            {
+                "code": 156,
+                "value": "MSCI WORLD INDEX - NTR"
+            },
+            {
+                "code": 157,
+                "value": "MSCI WORLD INDEX - PR"
+            },
+            {
+                "code": 158,
+                "value": "NASDAQ 100 - GTR"
+            },
+            {
+                "code": 159,
+                "value": "S&P 500 - NTR"
+            },
+            {
+                "code": 160,
+                "value": "S&P 500 - PR"
+            },
+            {
+                "code": 161,
+                "value": "STOXX GLOBAL SELECT DIVIDEND 100 USD - PR"
+            },
+            {
+                "code": 162,
+                "value": "דולר הונג קונג"
+            },
+            {
+                "code": 163,
+                "value": "דולר סינגפור"
+            },
+            {
+                "code": 164,
+                "value": "דולר קנדי"
+            },
+            {
+                "code": 165,
+                "value": "וואן דרום קוריאני"
+            },
+            {
+                "code": 166,
+                "value": "לירה טורקית"
+            },
+            {
+                "code": 167,
+                "value": "קרונה שבדית"
+            },
+            {
+                "code": 168,
+                "value": "רופי הודי"
+            },
+            {
+                "code": 169,
+                "value": "All-Bond כללי"
+            },
+            {
+                "code": 173,
+                "value": "יתר והמירים"
+            },
+            {
+                "code": 174,
+                "value": "יתר מניות"
+            },
+            {
+                "code": 176,
+                "value": "אג\"ח כללי - קונצרני"
+            },
+            {
+                "code": 177,
+                "value": "להמרה כללי"
+            },
+            {
+                "code": 179,
+                "value": "מדד המחירים לצרכן"
+            },
+            {
+                "code": 180,
+                "value": "All-Bond צמודות"
+            },
+            {
+                "code": 181,
+                "value": "אג\"ח צמודות מדד - קונצרני"
+            },
+            {
+                "code": 183,
+                "value": "תל -גוב צמודות 15 +"
+            },
+            {
+                "code": 184,
+                "value": "מניות כללי"
+            },
+            {
+                "code": 186,
+                "value": "נדל\"ן ובינוי"
+            },
+            {
+                "code": 194,
+                "value": "תל גוב-משתנה שקלי"
+            },
+            {
+                "code": 197,
+                "value": "תל בונד צמודות - בנקים ללא COCO"
+            },
+            {
+                "code": 199,
+                "value": "ICE BofAML 1-3 Year US Corporate & Government Index"
+            },
+            {
+                "code": 200,
+                "value": "WILDERHILL NEW ENERGY GLOBAL INNOVATION - PR"
+            },
+            {
+                "code": 201,
+                "value": "AGG- ISHARES CORE TOTAL US BOND MARKET ETF"
+            },
+            {
+                "code": 202,
+                "value": "BAIF OEF CORP HI YLD US - GTR"
+            },
+            {
+                "code": 203,
+                "value": "BAIF OS OEF GLOBAL DEBT - GTR"
+            },
+            {
+                "code": 204,
+                "value": "Bloomberg Barclays US High Yield Very Liquid Index - GTR"
+            },
+            {
+                "code": 205,
+                "value": "BARCLAYS INTERMEDIATE GOVERNMENT\\ CREDIT BOND - GTR"
+            },
+            {
+                "code": 206,
+                "value": "BLOOMBERG US AGGREGATE TOTAL RETURN VALUE UNHEDGED USD - GTR"
+            },
+            {
+                "code": 207,
+                "value": "BULLETSHARES USD CORPORATE BOND 2015 INDEX - GTR"
+            },
+            {
+                "code": 208,
+                "value": "CITIGROUP BIG BOND INDEX - GTR"
+            },
+            {
+                "code": 209,
+                "value": "FTSE WORLD BROAD INVESTMENT GRADE BOND - GTR"
+            },
+            {
+                "code": 210,
+                "value": "CITY RAFI SOVEREIGN DEVELOPED BOND INDEX MASTER USD"
+            },
+            {
+                "code": 211,
+                "value": "COMMODITY RESEARCH BUREAU BLS/US- SPOT ALL COMMODITIES"
+            },
+            {
+                "code": 212,
+                "value": "DEUTSCHE BANK LIQUID COMMODITY-OPTIMUM YIELD AGRICULTURE EXCESS RETURN INDEX"
+            },
+            {
+                "code": 213,
+                "value": "DJ GLOBAL SELECT REAL ESTATE SECURITIES TOTAL RETURN NET INDEX - NTR"
+            },
+            {
+                "code": 214,
+                "value": "DJ U.S. REAL ESTATE TOTAL RETURN INDEX - GTR"
+            },
+            {
+                "code": 215,
+                "value": "S&P Financial Select Sector - PR"
+            },
+            {
+                "code": 216,
+                "value": "FINRA- BLP ACTIVE INVESTMENT GRADE US CORPORATE BOND TOTAL RETURN INDEX - GTR"
+            },
+            {
+                "code": 217,
+                "value": "FTSE HIGH DIVIDEND YIELD - GTR"
+            },
+            {
+                "code": 218,
+                "value": "GOLD SPOT $/OZ INDEX"
+            },
+            {
+                "code": 219,
+                "value": "IGLO- ISHARES  GLOBAL GOV BOND"
+            },
+            {
+                "code": 220,
+                "value": "ISHARES BARCLAYS 1-3 YEAR CREDIT BOND FUND"
+            },
+            {
+                "code": 221,
+                "value": "Bloomberg Barclays US Credit 1-3 Year - GTR"
+            },
+            {
+                "code": 222,
+                "value": "ISHARES BARCLAYS 1-3 YEAR TREASURY BOND FUND"
+            },
+            {
+                "code": 223,
+                "value": "ISHARES BARCLAYS TIPS BOND FUND"
+            },
+            {
+                "code": 224,
+                "value": "ISHARES IBOXX INVESTMENTGRADE CORPORATE BOND FUND"
+            },
+            {
+                "code": 225,
+                "value": "ISHARES JPMORGAN USD EMERGING MARKETS BOND FUND"
+            },
+            {
+                "code": 226,
+                "value": "ISTANBUL STOCK EXCHANGE NATIONAL 100 INDEX - PR"
+            },
+            {
+                "code": 227,
+                "value": "JP MORGAN EI CORE - PR"
+            },
+            {
+                "code": 228,
+                "value": "MARKIT IBOXX USD LIQUID EMERGING MARKETS SOVEREIGNS INDEX - GTR"
+            },
+            {
+                "code": 229,
+                "value": "ICE BofAML Global Corporate Index - GTR"
+            },
+            {
+                "code": 230,
+                "value": "MEXICO IPC INDEX - GTR"
+            },
+            {
+                "code": 231,
+                "value": "MSCI AC ASIA EX JAPAN - GTR"
+            },
+            {
+                "code": 232,
+                "value": "MSCI AC ASIA EX JAPAN - PR"
+            },
+            {
+                "code": 233,
+                "value": "MSCI AC WORLD INDEX SMALL CAP - PR"
+            },
+            {
+                "code": 234,
+                "value": "MSCI ALL COUNTRIES FAR EAST INDEX - NTR"
+            },
+            {
+                "code": 235,
+                "value": "MSCI BRIC - GTR"
+            },
+            {
+                "code": 236,
+                "value": "MSCI BRIC - NTR"
+            },
+            {
+                "code": 237,
+                "value": "MSCI BRIC - PR"
+            },
+            {
+                "code": 238,
+                "value": "MSCI EMERGING MARKETS - GTR"
+            },
+            {
+                "code": 239,
+                "value": "MSCI EMERGING MARKETS - RT - NTR"
+            },
+            {
+                "code": 240,
+                "value": "MSCI RUSSIA - PR"
+            },
+            {
+                "code": 241,
+                "value": "NASDAQ COMPOSITE INDEX - GTR"
+            },
+            {
+                "code": 243,
+                "value": "NASDAQ COMPOSITE INDEX - PR"
+            },
+            {
+                "code": 244,
+                "value": "NYSE ARCA GOLD MINERS INDEX - NTR"
+            },
+            {
+                "code": 245,
+                "value": "NYSE ARCA STEEL INDEX - NTR"
+            },
+            {
+                "code": 247,
+                "value": "NYSE COMPOSITE - PR"
+            },
+            {
+                "code": 248,
+                "value": "PICTET GLOBAL EMERGING DEBT"
+            },
+            {
+                "code": 249,
+                "value": "PICTET LATIN AMERICAN LOCAL CURRENCY DEBT"
+            },
+            {
+                "code": 250,
+                "value": "PIMCO TOTAL RETURN ETF"
+            },
+            {
+                "code": 251,
+                "value": "RUSSEL 3000 - GTR"
+            },
+            {
+                "code": 252,
+                "value": "RUSSIAN TRADING SYSTEM INDEX - PR"
+            },
+            {
+                "code": 253,
+                "value": "S&P 100 INDEX - PR"
+            },
+            {
+                "code": 254,
+                "value": "S&P ASIA - PR"
+            },
+            {
+                "code": 255,
+                "value": "S&P GLOBAL 1200 HEALTH CARE INDEX - GTR"
+            },
+            {
+                "code": 256,
+                "value": "SPDR BARCLAYS HIGH YIELD BOND ETF"
+            },
+            {
+                "code": 258,
+                "value": "SSGA WORLD BROAD INVESTMENT-GRADE BOND INDEX - PR"
+            },
+            {
+                "code": 260,
+                "value": "ICE BofA US Corporate Index - GTR"
+            },
+            {
+                "code": 261,
+                "value": "THOMSON REUTERS/JEFFERIES CRB COMMODITY INDEX"
+            },
+            {
+                "code": 262,
+                "value": "TOPIX SMALL CAP - PR"
+            },
+            {
+                "code": 263,
+                "value": "TREASURY BILL 0 07/25/13 - PR"
+            },
+            {
+                "code": 265,
+                "value": "US GENERIC GOVT 10 YEAR YIELD INDEX - GTR"
+            },
+            {
+                "code": 266,
+                "value": "US GENERIC GOVT 2 YEAR YIELD INDEX - PR"
+            },
+            {
+                "code": 267,
+                "value": "US GENERIC GOVT 3 MONTH YIELD - PR"
+            },
+            {
+                "code": 268,
+                "value": "NASDAQ Golden Dragon China index - PR"
+            },
+            {
+                "code": 269,
+                "value": "WGBI - WORLD GOVERNMENT BOND INDEX - GTR"
+            },
+            {
+                "code": 270,
+                "value": "WISDOMTREE EMERGING MARKETS LOCAL DEBT FUND"
+            },
+            {
+                "code": 271,
+                "value": "דולר ניו זילנדי"
+            },
+            {
+                "code": 272,
+                "value": "פזו מקסיקני"
+            },
+            {
+                "code": 273,
+                "value": "ריאל ברזילאי"
+            },
+            {
+                "code": 274,
+                "value": "ריבית EURIBOR ל-12 חודשים"
+            },
+            {
+                "code": 275,
+                "value": "ריבית EURIBOR ל-3 חודשים"
+            },
+            {
+                "code": 276,
+                "value": "ריבית ליבור דולר ל-12 חודשים"
+            },
+            {
+                "code": 277,
+                "value": "ריבית ליבור דולר ל-3 חודשים"
+            },
+            {
+                "code": 278,
+                "value": "ריבית ליבור דולר לחודש"
+            },
+            {
+                "code": 279,
+                "value": "ריבית ליבור דולר לשבוע"
+            },
+            {
+                "code": 280,
+                "value": "רנד דרום אפריקאי"
+            },
+            {
+                "code": 281,
+                "value": "S&P SmallCap 600 - PR"
+            },
+            {
+                "code": 283,
+                "value": "S&P SmallCap 600 - NTR"
+            },
+            {
+                "code": 289,
+                "value": "S&P North American Technology Sector Index - PR"
+            },
+            {
+                "code": 291,
+                "value": "Dow Jones U.S. Oil & Gas Index - PR"
+            },
+            {
+                "code": 292,
+                "value": "Dow Jones U.S. Oil & Gas Index - GTR"
+            },
+            {
+                "code": 293,
+                "value": "S&P Regional Banks Select Industry Index - PR"
+            },
+            {
+                "code": 294,
+                "value": "MDAX - PR"
+            },
+            {
+                "code": 296,
+                "value": "STOXX EUROPE MID 200 - NTR"
+            },
+            {
+                "code": 297,
+                "value": "STOXX Europe 600 - NTR"
+            },
+            {
+                "code": 298,
+                "value": "Morningstar Wide Moat Focus - GTR"
+            },
+            {
+                "code": 299,
+                "value": "MSCI AC WORLD INDEX SMALL CUP - NTR"
+            },
+            {
+                "code": 300,
+                "value": "MSCI AC WORLD INDEX SMALL CUP - GTR"
+            },
+            {
+                "code": 301,
+                "value": "NASDAQ US BuyBack Achievers Index - PR"
+            },
+            {
+                "code": 302,
+                "value": "אלפאביטא מומנטום Large Cap"
+            },
+            {
+                "code": 304,
+                "value": "MSCI EMERGING MARKETS - NTR"
+            },
+            {
+                "code": 305,
+                "value": "STOXX GLOBAL SELECT DIVIDEND 100 EUR - PR"
+            },
+            {
+                "code": 306,
+                "value": "MSCI AC WORLD INDEX - NTR"
+            },
+            {
+                "code": 307,
+                "value": "S&P Health Care Select Sector Index - PR"
+            },
+            {
+                "code": 308,
+                "value": "S&P Retail Select Industry Index  - PR"
+            },
+            {
+                "code": 309,
+                "value": "S&P Technology Select Sector Index - PR"
+            },
+            {
+                "code": 310,
+                "value": "S&P BMI Emerging Market Low Volatility Index - PR"
+            },
+            {
+                "code": 311,
+                "value": "S&P 500 Low Volatility Index - PR"
+            },
+            {
+                "code": 312,
+                "value": "Swiss Market Index - PR"
+            },
+            {
+                "code": 313,
+                "value": "Select Sector Consumer Discretionary - PR"
+            },
+            {
+                "code": 314,
+                "value": "STOXX Europe 600 Automobiles & Parts - PR"
+            },
+            {
+                "code": 315,
+                "value": "STOXX Europe 600 Health Care - PR"
+            },
+            {
+                "code": 316,
+                "value": "STOXX EUROPE 600 Technology - PR"
+            },
+            {
+                "code": 317,
+                "value": "STOXX EUROPE 600 Banks - NTR"
+            },
+            {
+                "code": 318,
+                "value": "MDAX - GTR"
+            },
+            {
+                "code": 319,
+                "value": "NASDAQ Biotechnology INDEX - GTR"
+            },
+            {
+                "code": 320,
+                "value": "NASDAQ 100 - NTR"
+            },
+            {
+                "code": 321,
+                "value": "Consumer Staples Select Sector - PR"
+            },
+            {
+                "code": 322,
+                "value": "Consumer Staples Select Sector - GTR"
+            },
+            {
+                "code": 323,
+                "value": "S&P 500 Equal Weight - NTR"
+            },
+            {
+                "code": 324,
+                "value": "S&P MidCap 400 - NTR"
+            },
+            {
+                "code": 325,
+                "value": "FTSE 250 Index - NTR"
+            },
+            {
+                "code": 326,
+                "value": "Dow Jones Internet Composite Index - NTR"
+            },
+            {
+                "code": 327,
+                "value": "S&P Financial Select Sector- NTR"
+            },
+            {
+                "code": 328,
+                "value": "Taiwan Taiex Index - GTR"
+            },
+            {
+                "code": 330,
+                "value": "NASDAQ Golden Dragon China index - GTR"
+            },
+            {
+                "code": 331,
+                "value": "STOXX Europe 600 Equal Weight Index - NTR"
+            },
+            {
+                "code": 332,
+                "value": "IPOX 100 US  Index - PR"
+            },
+            {
+                "code": 333,
+                "value": "פרנק שוויצרי"
+            },
+            {
+                "code": 336,
+                "value": "STOXX EUROPE 600 Banks - PR"
+            },
+            {
+                "code": 337,
+                "value": "Dow Jones Internet Composite Index - PR"
+            },
+            {
+                "code": 338,
+                "value": "Bloomberg US Credit Total Return Value Unhedged USD – GTR"
+            },
+            {
+                "code": 339,
+                "value": "FTSE 250 - PR"
+            },
+            {
+                "code": 341,
+                "value": "STOXX Europe 600 Utilities - EUR - NTR"
+            },
+            {
+                "code": 342,
+                "value": "STOXX Europe 600 Utilities Index - EUR - PR"
+            },
+            {
+                "code": 343,
+                "value": "STOXX Europe 600 Industrial Goods & Services - EUR - NTR"
+            },
+            {
+                "code": 344,
+                "value": "STOXX Europe 600 Industrial Goods & Services - EUR - PR"
+            },
+            {
+                "code": 345,
+                "value": "S&P MidCap 400 - PR"
+            },
+            {
+                "code": 346,
+                "value": "FTSE 100 - GTR"
+            },
+            {
+                "code": 347,
+                "value": "RUSSELL 2000 - NTR"
+            },
+            {
+                "code": 348,
+                "value": "IPOX 100 US Index - GTR"
+            },
+            {
+                "code": 349,
+                "value": "S&P Energy Select Sector - NTR"
+            },
+            {
+                "code": 350,
+                "value": "תל בונד מאגר"
+            },
+            {
+                "code": 351,
+                "value": "Dow Jones Internet Composite Index - GTR"
+            },
+            {
+                "code": 352,
+                "value": "MSCI Europe Financials Index - NTR"
+            },
+            {
+                "code": 353,
+                "value": "FTSE 100 - NTR "
+            },
+            {
+                "code": 355,
+                "value": "S&P Technology Select Sector Index - GTR"
+            },
+            {
+                "code": 356,
+                "value": "NASDAQ International BuyBack Achievers Index - NTR"
+            },
+            {
+                "code": 357,
+                "value": "NASDAQ International BuyBack Achievers Index - PR"
+            },
+            {
+                "code": 358,
+                "value": "S&P 1500 Positive Momentum Tilt - GTR"
+            },
+            {
+                "code": 359,
+                "value": "S&P 1500 Positive Momentum Tilt - PR"
+            },
+            {
+                "code": 360,
+                "value": "Solactive – B-BRE Israel Commercial Real Estate - GTR"
+            },
+            {
+                "code": 361,
+                "value": "S&P 500 Low Volatility High Dividend Index - NTR"
+            },
+            {
+                "code": 362,
+                "value": "S&P 500 Low Volatility High Dividend Index - PR"
+            },
+            {
+                "code": 363,
+                "value": "ת\"א 125 AlphaBeta SmartBeta Low Volatility"
+            },
+            {
+                "code": 364,
+                "value": "מולטי פקטור ת\"א 125 AlphaBeta SmartBeta"
+            },
+            {
+                "code": 365,
+                "value": "מומנטום קונצרני (A-) ומעלה AlphaBeta SmartBeta"
+            },
+            {
+                "code": 366,
+                "value": "ממשלתי AlphaBeta SmartBeta"
+            },
+            {
+                "code": 367,
+                "value": "EURO STOXX Select Dividend 30 - NTR"
+            },
+            {
+                "code": 368,
+                "value": "NASDAQ US BuyBack Achievers Index - GTR"
+            },
+            {
+                "code": 369,
+                "value": "ת\"א גלובל-בלוטק"
+            },
+            {
+                "code": 370,
+                "value": "S&P Health Care Select Sector Index- NTR"
+            },
+            {
+                "code": 371,
+                "value": "DJ U.S. Small-Cap Total Stock Market INDEX- GTR"
+            },
+            {
+                "code": 372,
+                "value": "DJ U.S. Small-Cap Total Stock Market INDEX- PR"
+            },
+            {
+                "code": 373,
+                "value": "S&P Euro High Yield Dividend Aristocrats - NTR"
+            },
+            {
+                "code": 374,
+                "value": "S&P UK High Yield Dividend Aristocrats - NTR"
+            },
+            {
+                "code": 375,
+                "value": "Bank of America Merrill Lynch Global Broad Market"
+            },
+            {
+                "code": 376,
+                "value": "Bloomberg Agriculture Index"
+            },
+            {
+                "code": 377,
+                "value": "J.P. Morgan Government Bond Index Emerging Markets Global Core"
+            },
+            {
+                "code": 378,
+                "value": "S&P 500 Dividend Aristocrats - NTR"
+            },
+            {
+                "code": 379,
+                "value": "EURO STOXX Banks - NTR"
+            },
+            {
+                "code": 380,
+                "value": "EURO STOXX Banks - PR"
+            },
+            {
+                "code": 382,
+                "value": "SPDR Barclays International Corporate Bond ETF"
+            },
+            {
+                "code": 383,
+                "value": "S&P Regional Banks Select Industry Index -NTR"
+            },
+            {
+                "code": 384,
+                "value": "ICE BofAML US Broad Market Index- GTR"
+            },
+            {
+                "code": 385,
+                "value": "FTSE China 50 - NTR"
+            },
+            {
+                "code": 386,
+                "value": "iShares 0-5 Year Investment Grade Corporate Bond ETF"
+            },
+            {
+                "code": 388,
+                "value": "FTSE China 50 - PR"
+            },
+            {
+                "code": 390,
+                "value": "All-Bond - ריבית משתנה"
+            },
+            {
+                "code": 392,
+                "value": "S&P Consumer Staples Select Sector - NTR"
+            },
+            {
+                "code": 393,
+                "value": "S&P Technology Select Sector Index - NTR"
+            },
+            {
+                "code": 394,
+                "value": "CAC 40 - NTR"
+            },
+            {
+                "code": 395,
+                "value": "MSCI Spain - NTR"
+            },
+            {
+                "code": 396,
+                "value": "FTSE MIB - NTR"
+            },
+            {
+                "code": 397,
+                "value": "Dow Jones Industrial Average - NTR"
+            },
+            {
+                "code": 398,
+                "value": "S&P 500 Pure Growth - GTR "
+            },
+            {
+                "code": 399,
+                "value": "S&P 500 Pure Value - GTR "
+            },
+            {
+                "code": 400,
+                "value": "S&P 500 Pure Value - PR "
+            },
+            {
+                "code": 401,
+                "value": "S&P 500 Pure Growth - PR "
+            },
+            {
+                "code": 408,
+                "value": "RUSSIAN DEPOSITARY - NTR"
+            },
+            {
+                "code": 409,
+                "value": "STOXX GLOBAL SELECT DIVIDEND 100 EUR - NTR"
+            },
+            {
+                "code": 410,
+                "value": "EURO STOXX 50 - NTR"
+            },
+            {
+                "code": 411,
+                "value": "HANG SENG CHINA ENTREPRISE - NTR"
+            },
+            {
+                "code": 412,
+                "value": "S&P/TSX60 - NTR"
+            },
+            {
+                "code": 413,
+                "value": "NIKKEI 225 - NTR"
+            },
+            {
+                "code": 414,
+                "value": "Dow Jones U.S. Oil & Gas Index - NTR"
+            },
+            {
+                "code": 415,
+                "value": "NASDAQ US BuyBack Achievers Index - NTR"
+            },
+            {
+                "code": 417,
+                "value": "S&P Industrial Select Sector - NTR"
+            },
+            {
+                "code": 418,
+                "value": "S&P Consumer Discretionary Select Sector - NTR"
+            },
+            {
+                "code": 419,
+                "value": "BlueStar Israel Global Index - PR"
+            },
+            {
+                "code": 420,
+                "value": "BlueStar Israel Global Index - NTR"
+            },
+            {
+                "code": 421,
+                "value": "BlueStar Israel Global Index - GTR"
+            },
+            {
+                "code": 422,
+                "value": "‏STOXX Europe 600 Health Care - NTR"
+            },
+            {
+                "code": 423,
+                "value": "STOXX EUROPE 600 Technology - NTR"
+            },
+            {
+                "code": 424,
+                "value": "CNX NIFTY- GTR"
+            },
+            {
+                "code": 426,
+                "value": "S&P North American Technology Sector - NTR"
+            },
+            {
+                "code": 427,
+                "value": "DJ U.S.Select REIT - NTR "
+            },
+            {
+                "code": 428,
+                "value": "S&P Transportation Select Industry - PR"
+            },
+            {
+                "code": 429,
+                "value": "S&P Utilities Select Sector - NTR"
+            },
+            {
+                "code": 430,
+                "value": "S&P Materials Select Sector - NTR"
+            },
+            {
+                "code": 431,
+                "value": "S&P Transportation Select Industry - GTR"
+            },
+            {
+                "code": 432,
+                "value": "HANG SENG - GTR"
+            },
+            {
+                "code": 434,
+                "value": "DJ BRAZIL TITANS 20 ADR INDEX - GTR "
+            },
+            {
+                "code": 436,
+                "value": "S&P/ASX 200 - NTR "
+            },
+            {
+                "code": 437,
+                "value": "S&P 500 Low Volatility Index - NTR"
+            },
+            {
+                "code": 438,
+                "value": "ת\"א טק-עילית"
+            },
+            {
+                "code": 439,
+                "value": "DJ OIL & GAS TITANS 30 INDEX - NTR"
+            },
+            {
+                "code": 440,
+                "value": "‏HANG SENG - NTR"
+            },
+            {
+                "code": 441,
+                "value": "MSCI EAFE - NTR"
+            },
+            {
+                "code": 442,
+                "value": "FTSE EPRA/NAREIT Developed Europe Index - NTR"
+            },
+            {
+                "code": 443,
+                "value": "S&P BMI Emerging Market Low Volatility Index - NTR"
+            },
+            {
+                "code": 444,
+                "value": "S&P Retail Select Industry Index - GTR"
+            },
+            {
+                "code": 445,
+                "value": "MSCI NORDIC COUNTRIES - NTR"
+            },
+            {
+                "code": 446,
+                "value": "MSCI TURKEY - NTR"
+            },
+            {
+                "code": 447,
+                "value": "MSCI SOUTH AFRICA - NTR"
+            },
+            {
+                "code": 448,
+                "value": "MSCI INDIA - NTR"
+            },
+            {
+                "code": 449,
+                "value": "MSCI BRAZIL - NTR"
+            },
+            {
+                "code": 450,
+                "value": "MSCI EM EASTERN EUROPE - NTR"
+            },
+            {
+                "code": 451,
+                "value": "MSCI TAIWAN - NTR"
+            },
+            {
+                "code": 453,
+                "value": "MSCI SINGAPORE FREE - NTR"
+            },
+            {
+                "code": 454,
+                "value": "S&P LATIN AMERICA 40 - NTR"
+            },
+            {
+                "code": 455,
+                "value": "CECE - NTR"
+            },
+            {
+                "code": 456,
+                "value": "Swiss Market Index - GTR"
+            },
+            {
+                "code": 457,
+                "value": "STOXX Europe 600 Automobiles & Parts - NTR "
+            },
+            {
+                "code": 458,
+                "value": "S&P Homebuilders Select Industry - GTR"
+            },
+            {
+                "code": 459,
+                "value": "MSCI EUROPE - NTR"
+            },
+            {
+                "code": 460,
+                "value": "MSCI JAPAN - NTR"
+            },
+            {
+                "code": 461,
+                "value": "DJ BANKS TITANS 30 INDEX - NTR"
+            },
+            {
+                "code": 462,
+                "value": "DJ HEALTH CARE TITANS 30 INDEX - NTR"
+            },
+            {
+                "code": 463,
+                "value": "BBG BRENT CRUDE"
+            },
+            {
+                "code": 464,
+                "value": "BBG Natural Gas"
+            },
+            {
+                "code": 465,
+                "value": "MSCI AC FAR EAST EX JAPAN - NTR"
+            },
+            {
+                "code": 466,
+                "value": "MSCI CHINA - NTR"
+            },
+            {
+                "code": 467,
+                "value": "ISE Clean Edge Water Index - GTR "
+            },
+            {
+                "code": 468,
+                "value": "OMX 30 - GTR"
+            },
+            {
+                "code": 470,
+                "value": "BBG Silver"
+            },
+            {
+                "code": 472,
+                "value": "תל בונד-תשואות שקל"
+            },
+            {
+                "code": 473,
+                "value": "תל בונד-לא צמודות"
+            },
+            {
+                "code": 474,
+                "value": "Solactive -B-BRE US REIT INDEX - NTR"
+            },
+            {
+                "code": 475,
+                "value": "ISE Cyber Security - NTR"
+            },
+            {
+                "code": 476,
+                "value": "NASDAQ Q-50 - GTR"
+            },
+            {
+                "code": 478,
+                "value": "STOXX Europe 600 Real Estate - NTR"
+            },
+            {
+                "code": 479,
+                "value": "iBoxx $ Corporates Liquid 1-3 - GTR"
+            },
+            {
+                "code": 480,
+                "value": "iBoxx $ Corporates Liquid 3-7 - GTR"
+            },
+            {
+                "code": 481,
+                "value": "iBoxx $ Corporates Liquid 7-10 - GTR"
+            },
+            {
+                "code": 482,
+                "value": "Markit iBoxx USD Liquid Investment Grade 0-5 - GTR "
+            },
+            {
+                "code": 483,
+                "value": "WisdomTree Europe Equity Index EUR - NTR "
+            },
+            {
+                "code": 484,
+                "value": "WisdomTree Europe Hedged Equity Index - NTR "
+            },
+            {
+                "code": 485,
+                "value": "WisdomTree Germany Equity Index EUR - NTR "
+            },
+            {
+                "code": 486,
+                "value": "WisdomTree Germany Hedged Equity Index - NTR "
+            },
+            {
+                "code": 487,
+                "value": "WisdomTree Japan Hedged Equity Index - NTR "
+            },
+            {
+                "code": 488,
+                "value": "WisdomTree Japan Dividend Index YEN - NTR "
+            },
+            {
+                "code": 489,
+                "value": "NASDAQ Q-50 - PR "
+            },
+            {
+                "code": 490,
+                "value": "בלוסטאר ישראל גלובל טכנולוגיות - NTR"
+            },
+            {
+                "code": 491,
+                "value": "Bloomberg Barclays US Credit Corp 5-10 Year - GTR"
+            },
+            {
+                "code": 492,
+                "value": "Bloomberg US Corporate 1-5 Year - GTR"
+            },
+            {
+                "code": 493,
+                "value": "Bloomberg US Intermediate Credit - GTR"
+            },
+            {
+                "code": 494,
+                "value": "IPOX 100 US Index - NTR"
+            },
+            {
+                "code": 495,
+                "value": "FTSE China 50 - GTR"
+            },
+            {
+                "code": 496,
+                "value": "CAC 40 - GTR"
+            },
+            {
+                "code": 500,
+                "value": "S&P Pharmaceuticals Select Industry Index- NTR"
+            },
+            {
+                "code": 502,
+                "value": "FTSE China 50 USD - GTR"
+            },
+            {
+                "code": 503,
+                "value": "Bloomberg Global Investment Corporate Bond Index 1 to 5 Year"
+            },
+            {
+                "code": 504,
+                "value": "אינדקס A שקלי"
+            },
+            {
+                "code": 505,
+                "value": "אינדקס AA ומעלה צמוד"
+            },
+            {
+                "code": 506,
+                "value": "אינדקס HY-BBB כללי"
+            },
+            {
+                "code": 507,
+                "value": "אינדקס AA ומעלה שקלי"
+            },
+            {
+                "code": 508,
+                "value": "אינדקס A צמוד"
+            },
+            {
+                "code": 509,
+                "value": "BofA Merrill Lynch US Corp & Govt 1-5yr"
+            },
+            {
+                "code": 510,
+                "value": "S&P Real Estate Select Sector Index - NTR"
+            },
+            {
+                "code": 512,
+                "value": "Bloomberg US Corporate Bond Index 1-5 Year"
+            },
+            {
+                "code": 513,
+                "value": "Bloomberg US Corporate Bond Index 1 to 10 Year"
+            },
+            {
+                "code": 514,
+                "value": "Bloomberg US Treasury Bond Index 1 to 3 Year"
+            },
+            {
+                "code": 516,
+                "value": "אינדקס אג\"ח עם רכיב בטוחה"
+            },
+            {
+                "code": 517,
+                "value": "AlphaBeta Germany - Low Volatility"
+            },
+            {
+                "code": 519,
+                "value": "AlphaBeta SmartBeta Large Cap Top 5"
+            },
+            {
+                "code": 521,
+                "value": "מומנטום ממשלתי AlphaBeta SmartBeta"
+            },
+            {
+                "code": 522,
+                "value": "אינדקס A מאוזן"
+            },
+            {
+                "code": 523,
+                "value": "אינדקס AA ומעלה מאוזן"
+            },
+            {
+                "code": 524,
+                "value": "אינדקס קונצרני מאוזן מח\"מ 2-4"
+            },
+            {
+                "code": 525,
+                "value": "Bloomberg US FRN < 5 yrs Total Return Index Value Unhedged USD"
+            },
+            {
+                "code": 526,
+                "value": "Russell Mid Cap Index - GTR"
+            },
+            {
+                "code": 527,
+                "value": "Russell 3000 - GTR"
+            },
+            {
+                "code": 528,
+                "value": "אינדקס מדורג 5+ מאוזן"
+            },
+            {
+                "code": 529,
+                "value": "אינדקס מדורג 2-5 מאוזן"
+            },
+            {
+                "code": 530,
+                "value": "אינדקס אג\"ח ישראל ר. קבועה"
+            },
+            {
+                "code": 531,
+                "value": "S&P Aerospace & Defense Select Industry Index - NTR"
+            },
+            {
+                "code": 532,
+                "value": "Bloomberg US Treasury Index 1 to 5 year"
+            },
+            {
+                "code": 533,
+                "value": "RUSSELL 1000 Growth - NTR"
+            },
+            {
+                "code": 534,
+                "value": "RUSSELL 1000 Value - NTR"
+            },
+            {
+                "code": 537,
+                "value": "AlphaBeta SmartBeta Large Cap Bottom 5"
+            },
+            {
+                "code": 538,
+                "value": "AlphaBeta USA Gscore"
+            },
+            {
+                "code": 539,
+                "value": "S&P 500 BUYBACK INDEX - NTR"
+            },
+            {
+                "code": 540,
+                "value": "אירופה AlphaBeta SmartBeta"
+            },
+            {
+                "code": 542,
+                "value": "S&P Transportation Select Industry - NTR"
+            },
+            {
+                "code": 543,
+                "value": "Solactive – B-BRE Tel Aviv 125 low volatility high dividends - GTR"
+            },
+            {
+                "code": 544,
+                "value": "ת\"א-MidCap150"
+            },
+            {
+                "code": 545,
+                "value": "אינדקס אג\"ח נדל\"ן שקלי גלובלי"
+            },
+            {
+                "code": 548,
+                "value": "יואן סיני"
+            },
+            {
+                "code": 549,
+                "value": "RUSSELL 1000RU10N30U"
+            },
+            {
+                "code": 550,
+                "value": "ICE BofAML 3-5 Year US Corporate Index- GTR"
+            },
+            {
+                "code": 551,
+                "value": "WisdomTree Fundamental U.S. Short-term Corporate Bond"
+            },
+            {
+                "code": 552,
+                "value": "Bloomberg USD Investment Grade Emerging Market Corporate Bond"
+            },
+            {
+                "code": 553,
+                "value": "Bloomberg US Corporate Bond Index 1 to 3 Year"
+            },
+            {
+                "code": 555,
+                "value": "אינדקס השקעה לרשויות מקומיות"
+            },
+            {
+                "code": 556,
+                "value": "Barclays U.S. 1-3 Year Corporate Bond Index - GTR"
+            },
+            {
+                "code": 557,
+                "value": "Barclays U.S. 1-3 Year Treasury Bond Index - GTR"
+            },
+            {
+                "code": 558,
+                "value": "AlphaBeta SmartBeta Low Volatility ארה\"ב"
+            },
+            {
+                "code": 559,
+                "value": "MSCI World Consumer Discretionary Net Total Return USD Index"
+            },
+            {
+                "code": 560,
+                "value": "Indxx USA Regional Banking Index - NTR"
+            },
+            {
+                "code": 561,
+                "value": "תל בונד שקלי-50"
+            },
+            {
+                "code": 562,
+                "value": "MDAX - NTR"
+            },
+            {
+                "code": 563,
+                "value": "אינדקס ישראל 100 משקל שווה"
+            },
+            {
+                "code": 564,
+                "value": "תל בונד-שקלי 1-3"
+            },
+            {
+                "code": 565,
+                "value": "תל בונד-שקלי 3-5"
+            },
+            {
+                "code": 566,
+                "value": "תל בונד-שקלי 5-15"
+            },
+            {
+                "code": 567,
+                "value": "תל בונד-צמודות 3-5"
+            },
+            {
+                "code": 568,
+                "value": "תל בונד-צמודות 5-15"
+            },
+            {
+                "code": 570,
+                "value": "Indxx USA E-Commerce Index - NTR"
+            },
+            {
+                "code": 571,
+                "value": "אינדקס לפדיון 2028 (מתגלגל כל 6 שנים)"
+            },
+            {
+                "code": 572,
+                "value": "Bloomberg Intermediate Corporate Total Return Index Value Unhedged USD - GTR"
+            },
+            {
+                "code": 574,
+                "value": "אינדקס מניות Large Cap"
+            },
+            {
+                "code": 575,
+                "value": "אינדקס ת\"א Mid Cap"
+            },
+            {
+                "code": 576,
+                "value": "אינדקס מניות EW - Mid Cap"
+            },
+            {
+                "code": 577,
+                "value": "אינדקס מניות EW - Large Cap"
+            },
+            {
+                "code": 578,
+                "value": "תל בונד-צמודות 1-3"
+            },
+            {
+                "code": 579,
+                "value": "Indxx Global Fintech Thematic"
+            },
+            {
+                "code": 580,
+                "value": "תל בונד - גלובל"
+            },
+            {
+                "code": 581,
+                "value": "Indxx Global Aerospace & Defense Index - NTR"
+            },
+            {
+                "code": 582,
+                "value": "Bluestar Fintech Index - NTR"
+            },
+            {
+                "code": 583,
+                "value": "SOLACTIVE US INTERNET INDEX - NTR"
+            },
+            {
+                "code": 584,
+                "value": "אינדקס מניות Small-Mid Cap"
+            },
+            {
+                "code": 585,
+                "value": "AlphaBeta Germany Var - GTR"
+            },
+            {
+                "code": 586,
+                "value": "AlphaBeta UK Var - GTR"
+            },
+            {
+                "code": 587,
+                "value": "AlphaBeta France Var - GTR"
+            },
+            {
+                "code": 588,
+                "value": "AlphaBeta Min Volatility USA - GTR"
+            },
+            {
+                "code": 589,
+                "value": "חיפושי גז ונפט מניות והמירים"
+            },
+            {
+                "code": 590,
+                "value": "Bluestar Robotics Index - NTR"
+            },
+            {
+                "code": 591,
+                "value": "DAX - NTR"
+            },
+            {
+                "code": 592,
+                "value": "S&P EMERGING BMI INDEX - NTR"
+            },
+            {
+                "code": 593,
+                "value": "Bluestar Artificial Intelligence - NTR"
+            },
+            {
+                "code": 594,
+                "value": "S&P 500 value - GTR"
+            },
+            {
+                "code": 595,
+                "value": "North American Cannabis Index - NTR"
+            },
+            {
+                "code": 596,
+                "value": "Robo Global Robotics and Automation TR Index - NTR"
+            },
+            {
+                "code": 597,
+                "value": "PHLX Semiconductor Sector Index - NTR"
+            },
+            {
+                "code": 598,
+                "value": "ת\"א סקטור-באלאנס"
+            },
+            {
+                "code": 599,
+                "value": "WILDERHILL CLEAN ENERGY INDEX – GTR"
+            },
+            {
+                "code": 600,
+                "value": "S&P Retail Select Industry Index - NTR"
+            },
+            {
+                "code": 601,
+                "value": "ISE CTA Cloud Computing - NTR"
+            },
+            {
+                "code": 602,
+                "value": "Bluestar Autonomous Driving Index"
+            },
+            {
+                "code": 603,
+                "value": "תל בונד-צמודות A"
+            },
+            {
+                "code": 604,
+                "value": "תל בונד-צמודות AA-AAA"
+            },
+            {
+                "code": 605,
+                "value": "תל בונד-שקלי A"
+            },
+            {
+                "code": 606,
+                "value": "תל בונד-שקלי AA-AAA"
+            },
+            {
+                "code": 607,
+                "value": "Markit iBoxx USD Liquid FRN Investment Grade Corporates 100"
+            },
+            {
+                "code": 608,
+                "value": "TecDAX Index - NTR"
+            },
+            {
+                "code": 609,
+                "value": "תל בונד שקלי- בנקים וביטוח"
+            },
+            {
+                "code": 610,
+                "value": "MSCI AC Asia EX Japan - NTR"
+            },
+            {
+                "code": 611,
+                "value": "KBW Nasdaq Financial Technology - NTR"
+            },
+            {
+                "code": 612,
+                "value": "S&P Global 1200 Energy Sector - GTR"
+            },
+            {
+                "code": 613,
+                "value": "ALL-BOND דולר"
+            },
+            {
+                "code": 614,
+                "value": "ICE U.S TREASURY 1-3 YEARS TR INDEX"
+            },
+            {
+                "code": 615,
+                "value": "BLUESTAR IOT Index - NTR"
+            },
+            {
+                "code": 616,
+                "value": "Indxx USD Disruptive Technologies Index - NTR"
+            },
+            {
+                "code": 617,
+                "value": "Solactive FinTech Index - NTR"
+            },
+            {
+                "code": 618,
+                "value": "Bloomberg U.S. AGG 1-3 Year Total Return Value Unhedged"
+            },
+            {
+                "code": 619,
+                "value": "Indxx USA Cloud Computing Index - NTR"
+            },
+            {
+                "code": 620,
+                "value": "Bluestar Blockchain Technology Index - NTR"
+            },
+            {
+                "code": 621,
+                "value": "Indxx Global Medical Devices"
+            },
+            {
+                "code": 622,
+                "value": "ICE BofAML 3-5 Year BBB US Corporate Index"
+            },
+            {
+                "code": 623,
+                "value": "Russell 3000 Growth In - GTR"
+            },
+            {
+                "code": 624,
+                "value": "אינדקס מניות כלכלת ישראל"
+            },
+            {
+                "code": 625,
+                "value": "S&P 500 Bond Mega 30 Investment Grade '1-3 Year"
+            },
+            {
+                "code": 626,
+                "value": "WilderHill New Energy Global Innovation Index USD Net TR - NTR"
+            },
+            {
+                "code": 627,
+                "value": "Kospi 200 - GTR"
+            },
+            {
+                "code": 628,
+                "value": "CLEANTECH - GTR"
+            },
+            {
+                "code": 629,
+                "value": "Nasdaq Biotechnology - NTR"
+            },
+            {
+                "code": 630,
+                "value": "S&P Homebuilders Select Industry - NTR"
+            },
+            {
+                "code": 631,
+                "value": "Ice BofAML 0-2 Year U.S. Treasuries Index"
+            },
+            {
+                "code": 632,
+                "value": "S&P 500 Bond Mega 30 Investment Grade 3-5 Year - GTR"
+            },
+            {
+                "code": 633,
+                "value": "Nasdaq Global Smart Airlines Index"
+            },
+            {
+                "code": 636,
+                "value": "AlphaBeta USA Technology"
+            },
+            {
+                "code": 638,
+                "value": "Bluestar Asia Technology INDEX"
+            },
+            {
+                "code": 639,
+                "value": "Bluestar China Internet Software INDEX "
+            },
+            {
+                "code": 641,
+                "value": "Bloomberg Brent Crude"
+            },
+            {
+                "code": 644,
+                "value": "KOSPI 200 - NTR"
+            },
+            {
+                "code": 645,
+                "value": "MSCI EAFE - NTR"
+            },
+            {
+                "code": 646,
+                "value": "MSCI INDIA - NTR"
+            },
+            {
+                "code": 647,
+                "value": "DAX GLOBAL BRIC - NTR"
+            },
+            {
+                "code": 648,
+                "value": "MSCI Singapore"
+            },
+            {
+                "code": 649,
+                "value": "MSCI AC Far East EX Japan"
+            },
+            {
+                "code": 650,
+                "value": "MSCI Taiwan"
+            },
+            {
+                "code": 651,
+                "value": "HANG SENG CHINA ENTREPRISES "
+            },
+            {
+                "code": 652,
+                "value": "NASDAQ Golden Dragon China "
+            },
+            {
+                "code": 653,
+                "value": "ISE Mobile Payments Select Net Total Return Index"
+            },
+            {
+                "code": 655,
+                "value": "BLUESTAR E-GAMES INDEX"
+            },
+            {
+                "code": 656,
+                "value": "AlphaBeta USA Healthcare"
+            },
+            {
+                "code": 657,
+                "value": "Bloomberg Barclays US Gov/Credit Float Adjusted 1-5Y TR Index Unhedged - NTR"
+            },
+            {
+                "code": 658,
+                "value": "Indxx US eGaming & Virtual Reality "
+            },
+            {
+                "code": 659,
+                "value": "Indxx US Junior Cybersecurity"
+            },
+            {
+                "code": 660,
+                "value": "אינדקס אג\"ח חב' ריאליות שקלי"
+            },
+            {
+                "code": 661,
+                "value": "אינדקס שקלי מדורג תקרת סדרה 500 מ'"
+            },
+            {
+                "code": 664,
+                "value": "Solactive Electronic Payment USD NTR Index"
+            },
+            {
+                "code": 667,
+                "value": "AlphaBeta USA Large Cap Top 100"
+            },
+            {
+                "code": 669,
+                "value": "BlueStar Israel Government USD Bond Index"
+            },
+            {
+                "code": 670,
+                "value": "אינדקס A-AA ישראל 1-3 "
+            },
+            {
+                "code": 672,
+                "value": "Indxx US Sharing Economy"
+            },
+            {
+                "code": 674,
+                "value": "אינדקס אג\"ח $ גלובלי לפדיון 2023 (מתגלגל כל 6 שנים)"
+            },
+            {
+                "code": 675,
+                "value": "אינדקס לפדיון 2024 (מתגלגל כל 6 שנים)"
+            },
+            {
+                "code": 676,
+                "value": "תל גוב-שקלי 5-10"
+            },
+            {
+                "code": 679,
+                "value": "S&P U.S. Treasury Bond 1-3 Year Index"
+            },
+            {
+                "code": 680,
+                "value": "S&P U.S. Treasury Bond 3-5 Year Index"
+            },
+            {
+                "code": 681,
+                "value": "S&P U.S. Treasury Bond 7-10 Year Index"
+            },
+            {
+                "code": 682,
+                "value": "S&P U.S. Treasury Inflation Protected Security 1-3 Year"
+            },
+            {
+                "code": 683,
+                "value": "S&P U.S. Treasury Inflation Protected Security 3-5 Year"
+            },
+            {
+                "code": 684,
+                "value": "Indxx Global E-Commerce Index"
+            },
+            {
+                "code": 685,
+                "value": "ת\"א-פמילי"
+            },
+            {
+                "code": 686,
+                "value": "AlphaBeta Europe Multi Factor Top 20"
+            },
+            {
+                "code": 689,
+                "value": "AlphaBeta Israel Multi Factor Top 20"
+            },
+            {
+                "code": 690,
+                "value": "AlphaBeta USA Multi Factor Top 20 "
+            },
+            {
+                "code": 691,
+                "value": "אינדקס Bullet צמוד 2023"
+            },
+            {
+                "code": 692,
+                "value": "אינדקס Bullet צמוד 2025"
+            },
+            {
+                "code": 693,
+                "value": "אינדקס Bullet שקלי 2023"
+            },
+            {
+                "code": 694,
+                "value": "אינדקס Bullet שקלי 2025"
+            },
+            {
+                "code": 697,
+                "value": "INDXX US INDUSTRIAL REAL ESTATE & LOGISTICS"
+            },
+            {
+                "code": 698,
+                "value": "All-Bond צמוד"
+            },
+            {
+                "code": 699,
+                "value": "אינדקס אג\"ח במינוף פיננסי נמוך"
+            },
+            {
+                "code": 700,
+                "value": "אינדקס A ישראל 2-4"
+            },
+            {
+                "code": 702,
+                "value": "אינדקס AA דולר גלובלי 0-3"
+            },
+            {
+                "code": 707,
+                "value": "ICE U.S Treasury Core Bond TR Index - GTR"
+            },
+            {
+                "code": 708,
+                "value": "MSCI World Index Daily Net TR Local"
+            },
+            {
+                "code": 709,
+                "value": "אינדקס אג\"ח תזרימיות A ומעלה"
+            },
+            {
+                "code": 711,
+                "value": "Indxx US Food Technology Index"
+            },
+            {
+                "code": 713,
+                "value": "Dow Jones U.S. Select Medical Equipment "
+            },
+            {
+                "code": 714,
+                "value": "אינדקס אג\"ח מדורג מנגנון לפדיון"
+            },
+            {
+                "code": 715,
+                "value": "אינדקס Bullet דולר 2023   "
+            },
+            {
+                "code": 716,
+                "value": "אינדקס Bullet דולר 2025"
+            },
+            {
+                "code": 718,
+                "value": "AlphaBeta Fintech"
+            },
+            {
+                "code": 719,
+                "value": "AlphaBeta Robotics & Automation"
+            },
+            {
+                "code": 720,
+                "value": "Bluestar Global 5G Connectivity index"
+            },
+            {
+                "code": 721,
+                "value": "MSCI Emerging Markets Investable Market Index"
+            },
+            {
+                "code": 722,
+                "value": "Markit iBoxx USD Liquid High Yield Capped Index"
+            },
+            {
+                "code": 723,
+                "value": "MSCI Europe Index"
+            },
+            {
+                "code": 724,
+                "value": "The Bloomberg Global Aggregate Bond Index"
+            },
+            {
+                "code": 725,
+                "value": "S&P 500 Capped 35/20 Information Technology Index"
+            },
+            {
+                "code": 726,
+                "value": "S&P 500 Capped 35/20 Health Care Index"
+            },
+            {
+                "code": 727,
+                "value": "S&P 500 Capped 35/20 Financials Index"
+            },
+            {
+                "code": 728,
+                "value": "S&P 500 Capped 35/20 Consumer Discretionary Index"
+            },
+            {
+                "code": 729,
+                "value": "אינדקס אג\"ח CoCo בנקים"
+            },
+            {
+                "code": 731,
+                "value": "אינדקס AA-A לפירעון 2023"
+            },
+            {
+                "code": 732,
+                "value": "J.P. Morgan EMBI Global Core Index"
+            },
+            {
+                "code": 733,
+                "value": "Bloomberg Barclays US Government Inflation-Linked Bond Index"
+            },
+            {
+                "code": 734,
+                "value": "MSCI China A - NTR Index"
+            },
+            {
+                "code": 735,
+                "value": "iSTOXX® FactSet Breakthrough Healthcare Index"
+            },
+            {
+                "code": 736,
+                "value": "iSTOXX® FactSet Digitalisation Index"
+            },
+            {
+                "code": 737,
+                "value": "iSTOXX® FactSet Automation & Robotics Index"
+            },
+            {
+                "code": 738,
+                "value": "ICE U.S. Treasury 7-10 Year Bond Index"
+            },
+            {
+                "code": 739,
+                "value": "ICE U.S. Treasury 3-7 Year Bond Index"
+            },
+            {
+                "code": 741,
+                "value": "אינדקס אג\"ח בנקים וביטוח"
+            },
+            {
+                "code": 742,
+                "value": "Prime cyber defense index - GTR"
+            },
+            {
+                "code": 743,
+                "value": "BlueStar Data Center and Logistics Real Estate"
+            },
+            {
+                "code": 744,
+                "value": "אינדקס צמודות בנקים וביטוח"
+            },
+            {
+                "code": 745,
+                "value": "Indxx Old Age REITs "
+            },
+            {
+                "code": 747,
+                "value": "BlueStar Total Security Index"
+            },
+            {
+                "code": 748,
+                "value": "INDXX PURE CYBER INDEX"
+            },
+            {
+                "code": 749,
+                "value": "Shiller Barclays CAPE® US Core Mid-Month Sector Net TR Index"
+            },
+            {
+                "code": 751,
+                "value": "אינדקס אג\"ח בנקים וביטוח - רובד 2"
+            },
+            {
+                "code": 754,
+                "value": "אינדקס AA-A מנגנון מרווח"
+            },
+            {
+                "code": 755,
+                "value": "ת\"א-טכנולוגיה"
+            },
+            {
+                "code": 756,
+                "value": "אינדקס בנקים ישראל 20/80"
+            },
+            {
+                "code": 757,
+                "value": "אינדקס נדל\"ן מניב 20/80"
+            },
+            {
+                "code": 758,
+                "value": "S&P 500 Scored & Screened Index - NTR"
+            },
+            {
+                "code": 759,
+                "value": "ת\"א ביטוח ושירותים פיננסים"
+            },
+            {
+                "code": 761,
+                "value": "AlphaBeta Australia Multi Factor Top 30"
+            },
+            {
+                "code": 762,
+                "value": "אינדקס תשתיות לאומיות ישראל"
+            },
+            {
+                "code": 763,
+                "value": "CrowdBureau Peer to Peer Lending and Equity Crowd Funding"
+            },
+            {
+                "code": 765,
+                "value": "אינדקס ת\"א-125 Quality "
+            },
+            {
+                "code": 766,
+                "value": "Indxx Renewable Energy Index"
+            },
+            {
+                "code": 769,
+                "value": "JP MORGAN EMBI GLOBAL DIVERSIFIED (USD"
+            },
+            {
+                "code": 772,
+                "value": "אינדקס אג\"ח שקלי ביטוח ושירותים פיננסיים "
+            },
+            {
+                "code": 773,
+                "value": "CSI300"
+            },
+            {
+                "code": 774,
+                "value": "Indxx China Internet "
+            },
+            {
+                "code": 775,
+                "value": "ת\"א-בנייה"
+            },
+            {
+                "code": 776,
+                "value": "Indxx Climate Change Solutions "
+            },
+            {
+                "code": 777,
+                "value": "ת\"א-מניב ישראל"
+            },
+            {
+                "code": 782,
+                "value": "אינדקס AA-AAA ריאליות שקלי"
+            },
+            {
+                "code": 783,
+                "value": "אינדקס AA-AAA ריאליות צמוד"
+            },
+            {
+                "code": 784,
+                "value": "ICE BofAML US High Yield Index"
+            },
+            {
+                "code": 790,
+                "value": "BlueStar Solar Energy Industry Index"
+            },
+            {
+                "code": 791,
+                "value": "NASDAQ Clean Edge Green Energy Equal Weighted Index"
+            },
+            {
+                "code": 792,
+                "value": "אינדקס אג\"ח חברות ממשלתיות"
+            },
+            {
+                "code": 793,
+                "value": "S&P Global Clean Energy Net Total Return Index"
+            },
+            {
+                "code": 794,
+                "value": "ICE BofA 5-10 Year US Corporate Index"
+            },
+            {
+                "code": 796,
+                "value": "BLUESTAR TOP 10 US BANKS"
+            },
+            {
+                "code": 797,
+                "value": "BlueStarTravel and Vacation Index"
+            },
+            {
+                "code": 798,
+                "value": "אינדקס צריכה ישראלית"
+            },
+            {
+                "code": 799,
+                "value": "STOXX Europe 600 Low Carbon"
+            },
+            {
+                "code": 800,
+                "value": "אינדקס מזון ישראלי"
+            },
+            {
+                "code": 801,
+                "value": "אינדקס Work From Home"
+            },
+            {
+                "code": 802,
+                "value": "אינדקס צריכה בסיסית ישראל"
+            },
+            {
+                "code": 803,
+                "value": "ICE BofA 1-5 Year US Corporate Index"
+            },
+            {
+                "code": 804,
+                "value": "אינדקס Bullet שקלי 2026"
+            },
+            {
+                "code": 805,
+                "value": "אינדקס A תקרת מנפיק"
+            },
+            {
+                "code": 806,
+                "value": "BlueStar Genomic Health Care Index"
+            },
+            {
+                "code": 807,
+                "value": "INDXX TECHNOLOGY REITs"
+            },
+            {
+                "code": 808,
+                "value": "INDXX DEVELOPED TOURISM AND LEISURE"
+            },
+            {
+                "code": 809,
+                "value": "אינדקס מדד משולב אופטימום אג\"ח ומניות עד 10%"
+            },
+            {
+                "code": 810,
+                "value": "S&P Kensho Human Evolution NTR Index"
+            },
+            {
+                "code": 811,
+                "value": "Indxx Advanced Life Sciences & Smart Healthcare Thematic"
+            },
+            {
+                "code": 812,
+                "value": "BlueStar Global GreenTech Index"
+            },
+            {
+                "code": 814,
+                "value": "INDXX FLEXIBLE WORKPLACE"
+            },
+            {
+                "code": 815,
+                "value": "MSCI World Value Index"
+            },
+            {
+                "code": 816,
+                "value": "אינדקס בנקים משקל שווה"
+            },
+            {
+                "code": 817,
+                "value": "אינדקס סייבר למחשוב ענן"
+            },
+            {
+                "code": 818,
+                "value": "אינדקס תשלומים דיגיטליים"
+            },
+            {
+                "code": 819,
+                "value": "אינדקס תשתיות ובינוי ארה\"ב"
+            },
+            {
+                "code": 820,
+                "value": "אינדקס טכנולוגיה ישראל EW"
+            },
+            {
+                "code": 821,
+                "value": "ת\"א תקשורת וטכנולוגיות מידע"
+            },
+            {
+                "code": 822,
+                "value": "אינדקס A-AA צמוד"
+            },
+            {
+                "code": 823,
+                "value": "אינדקס AA-A שקלי. "
+            },
+            {
+                "code": 824,
+                "value": "אינדקס בנקים ואשראי חוץ בנקאי"
+            },
+            {
+                "code": 825,
+                "value": "אינדקס אנרגיה מתחדשת ישראל"
+            },
+            {
+                "code": 826,
+                "value": "אינדקס A שקלי מנפיקים ישראלים"
+            },
+            {
+                "code": 828,
+                "value": "אינדקס תוכנה ישראלית"
+            },
+            {
+                "code": 829,
+                "value": "אינדקס eGaming"
+            },
+            {
+                "code": 830,
+                "value": "NASDAQ OMX Green Economy Index"
+            },
+            {
+                "code": 831,
+                "value": "אינדקס ביג טק 30 ארה\"ב"
+            },
+            {
+                "code": 833,
+                "value": "BlueStar E-Commerce US Leaders"
+            },
+            {
+                "code": 834,
+                "value": "אינדקס Cloud Computing"
+            },
+            {
+                "code": 835,
+                "value": "NASDAQ Q-50"
+            },
+            {
+                "code": 836,
+                "value": "אינדקס קמעונאות ומסחר ישראל"
+            },
+            {
+                "code": 837,
+                "value": "S&P Communication Services Select Sector"
+            },
+            {
+                "code": 838,
+                "value": "אינדקס צריכה מחזורית ישראל"
+            },
+            {
+                "code": 839,
+                "value": "אינדקס A-AAA ת\"א שקלי"
+            },
+            {
+                "code": 841,
+                "value": "NASDAQ OMX China Technology Index"
+            },
+            {
+                "code": 842,
+                "value": "S&P Kensho CleanTech"
+            },
+            {
+                "code": 844,
+                "value": "אינדקס ישראל A ומעלה פקטור מרווח"
+            },
+            {
+                "code": 845,
+                "value": "אינדקס אג\"ח במרווח גבוה"
+            },
+            {
+                "code": 847,
+                "value": "ת\"א-קלינטק"
+            },
+            {
+                "code": 849,
+                "value": "אינדקס BIO FDA FACTOR"
+            },
+            {
+                "code": 850,
+                "value": "אינדקס Travel"
+            },
+            {
+                "code": 851,
+                "value": "אינדקס מפעילי בורסות עולמיות "
+            },
+            {
+                "code": 852,
+                "value": "אינדקס Bullet ישראל 2024"
+            },
+            {
+                "code": 854,
+                "value": "אינדקס China Online"
+            },
+            {
+                "code": 855,
+                "value": "אינדקס שילוח אווירי ויבשתי גלובלי"
+            },
+            {
+                "code": 856,
+                "value": "Index Shopping Centers REIT"
+            },
+            {
+                "code": 858,
+                "value": "אינדקס בריאות דיגיטלית גלובלי"
+            },
+            {
+                "code": 859,
+                "value": "BlueStar Electric Vehicles Industry Index"
+            },
+            {
+                "code": 861,
+                "value": "אינדקס ביג טק 30 סין "
+            },
+            {
+                "code": 862,
+                "value": "quabify מולטי פקטור ת\"א 125"
+            },
+            {
+                "code": 863,
+                "value": "Nasdaq CTA US Artificial Intelligence and Robotics"
+            },
+            {
+                "code": 864,
+                "value": "אינדקס Gaming & Streaming"
+            },
+            {
+                "code": 866,
+                "value": "S&P Kensho Autonomous Vehicles - NTR "
+            },
+            {
+                "code": 867,
+                "value": "אינדקס רכב חשמלי "
+            },
+            {
+                "code": 868,
+                "value": "אינדקס Global Online Retail"
+            },
+            {
+                "code": 869,
+                "value": "אינדקס חברות צריכה סיניות"
+            },
+            {
+                "code": 870,
+                "value": "אינדקס Food Delivery"
+            },
+            {
+                "code": 871,
+                "value": "אינדקס אשראי חוץ בנקאי ושירותים פיננסיים אחרים בישראל"
+            },
+            {
+                "code": 872,
+                "value": "אינדקס A-AA צמוד 0-2"
+            },
+            {
+                "code": 873,
+                "value": "S&P Kensho Electric Vehicles"
+            },
+            {
+                "code": 875,
+                "value": "אינדקס Pets Care"
+            },
+            {
+                "code": 876,
+                "value": "S&P New China Sectors"
+            },
+            {
+                "code": 877,
+                "value": "אינדקס תחבורה עתידית"
+            },
+            {
+                "code": 878,
+                "value": "אינדקס הייטק ישראלי בחו\"ל"
+            },
+            {
+                "code": 880,
+                "value": "CSI300 "
+            },
+            {
+                "code": 883,
+                "value": "BlueStar E-Healthcare Index"
+            },
+            {
+                "code": 884,
+                "value": "אינדקס אג\"ח סקטור באלאנס"
+            },
+            {
+                "code": 885,
+                "value": "אינדקס אג\"ח חברות בנייה בישראל"
+            },
+            {
+                "code": 888,
+                "value": "אינדקס A-AAA ריאליות פקטור מרווח"
+            },
+            {
+                "code": 889,
+                "value": "אינדקס אג\"ח מנפיקים ישראלים במשקל שווה"
+            },
+            {
+                "code": 890,
+                "value": "Wells Fargo Business Development Company"
+            },
+            {
+                "code": 892,
+                "value": "אינדקס TravelTech"
+            },
+            {
+                "code": 893,
+                "value": "MVIS US Listed Semiconductor 25"
+            },
+            {
+                "code": 894,
+                "value": "אינדקס אג\"ח A משקל שווה"
+            },
+            {
+                "code": 895,
+                "value": "אינדקס אג\"ח AA משקל שווה"
+            },
+            {
+                "code": 897,
+                "value": "אינדקס Online Betting & Social Gaming"
+            },
+            {
+                "code": 898,
+                "value": "אינדקס חדשנות רפואית גלובלי"
+            },
+            {
+                "code": 899,
+                "value": "AlphaBeta SmartBeta USA Pure Value"
+            },
+            {
+                "code": 900,
+                "value": "אינדקס Asia Semiconductors"
+            },
+            {
+                "code": 901,
+                "value": "אינדקס בנקים וביטוח ישראל"
+            },
+            {
+                "code": 902,
+                "value": "S&P China 500 Index"
+            },
+            {
+                "code": 903,
+                "value": "אינדקס InsurTech"
+            },
+            {
+                "code": 906,
+                "value": "Nasdaq Composite Index - NTR"
+            },
+            {
+                "code": 909,
+                "value": "ת\"א 125 אקלים נקי מדלקים פוסיליים"
+            },
+            {
+                "code": 910,
+                "value": "S&P Semiconductor Select Industry"
+            },
+            {
+                "code": 911,
+                "value": "אינדקס ישראליות בוול-סטריט "
+            },
+            {
+                "code": 912,
+                "value": "אינדקס סין אנרגיה ירוקה"
+            },
+            {
+                "code": 916,
+                "value": "אינדקס סין קמעונאות"
+            },
+            {
+                "code": 919,
+                "value": "אינדקס Online Streaming"
+            },
+            {
+                "code": 920,
+                "value": "Nasdaq Blockchain Economy"
+            },
+            {
+                "code": 921,
+                "value": "Rise Of The Robots Net Total Return Inde"
+            },
+            {
+                "code": 922,
+                "value": "אינדקס ישראל צמוד A ומעלה פקטור מרווח"
+            },
+            {
+                "code": 923,
+                "value": "אינדקס חברות צריכה אסייתיות"
+            },
+            {
+                "code": 926,
+                "value": "BlueStar E-Brokers and Digital Capital Markets"
+            },
+            {
+                "code": 934,
+                "value": "אינדקס יצרני ציוד לשבבים גלובלי"
+            },
+            {
+                "code": 936,
+                "value": "Indxx Global Digital Healthcare"
+            },
+            {
+                "code": 937,
+                "value": "אינדקס בנקים ישראל"
+            },
+            {
+                "code": 938,
+                "value": "Bluestar Agribusiness 50"
+            },
+            {
+                "code": 939,
+                "value": "אינדקס פיננסים ישראל איזון ענפי"
+            },
+            {
+                "code": 940,
+                "value": "אינדקס מוליכים למחצה גלובלי EW"
+            },
+            {
+                "code": 942,
+                "value": "אינדקס ישראל שקלי A ומעלה פקטור מרווח"
+            },
+            {
+                "code": 943,
+                "value": "S&P 900 Pure Value"
+            },
+            {
+                "code": 946,
+                "value": "Bluestar Europe Travel and Vacation Index "
+            },
+            {
+                "code": 947,
+                "value": "Indxx US Infrastructure"
+            },
+            {
+                "code": 948,
+                "value": "Indxx US Clean Energy Tech "
+            },
+            {
+                "code": 950,
+                "value": "אינדקס אגרו-טק גלובלי"
+            },
+            {
+                "code": 951,
+                "value": "אינדקס Global Manufacturers "
+            },
+            {
+                "code": 952,
+                "value": "אינדקס A-AAי שקלי 0-2 "
+            },
+            {
+                "code": 953,
+                "value": "אינדקס AA-AAA ת\"א 0-2"
+            },
+            {
+                "code": 955,
+                "value": "אינדקס מניות ערך ארה\"ב פיזור סקטוריאלי"
+            },
+            {
+                "code": 956,
+                "value": "BlueStar E-Commerce, Payment and Logistics Index"
+            },
+            {
+                "code": 957,
+                "value": "אינדקס אג\"ח חברות EW - TOP 100"
+            },
+            {
+                "code": 960,
+                "value": "אינדקס אגירת אנרגיה גלובלי"
+            },
+            {
+                "code": 961,
+                "value": "Dow Jones U.S. Real Estate Index"
+            },
+            {
+                "code": 962,
+                "value": "AlphaBeta תשתיות ארה\"ב "
+            },
+            {
+                "code": 963,
+                "value": "אינדקס צמוד מדורג Top60 ללא בנקים"
+            },
+            {
+                "code": 964,
+                "value": "S&P 500 Bond Mega 30 High Yield 3-5 Year Index"
+            },
+            {
+                "code": 966,
+                "value": "All-Bond שקלי"
+            },
+            {
+                "code": 967,
+                "value": "אינדקס שירותי מסחר במטבעות דיגיטליים ובני\"ע גלובלי"
+            },
+            {
+                "code": 968,
+                "value": "אינדקס מניות ערך ישראל"
+            },
+            {
+                "code": 970,
+                "value": "אינדקס נדל\"ן למגורים ארה\"ב Top10"
+            },
+            {
+                "code": 971,
+                "value": "אינדקס Global Metals & Minerals Producers"
+            },
+            {
+                "code": 972,
+                "value": "אינדקס Global Semiconductors"
+            },
+            {
+                "code": 973,
+                "value": "FTSE CHINA A50"
+            },
+            {
+                "code": 974,
+                "value": "אינדקס אנרגיה ירוקה חו\"ל-ישראל"
+            },
+            {
+                "code": 975,
+                "value": "ת\"א- מניב חו\"ל"
+            },
+            {
+                "code": 977,
+                "value": "אינדקס בינוי והנדסת תשתיות"
+            },
+            {
+                "code": 980,
+                "value": "אינדקס A מנגנון שקלי-צמוד"
+            },
+            {
+                "code": 981,
+                "value": "אינדקס AA מנגנון שקלי-צמוד"
+            },
+            {
+                "code": 982,
+                "value": "אינדקס Fitness & Wellness"
+            },
+            {
+                "code": 983,
+                "value": "אינדקס פודטק גלובלי "
+            },
+            {
+                "code": 984,
+                "value": "S&P Europe 350 ESG Index"
+            },
+            {
+                "code": 985,
+                "value": "ת\"א-תשתיות אנרגיה"
+            },
+            {
+                "code": 986,
+                "value": "AlphaBeta SmartBeta Mid – Small Cap MultiFactor Top 30 TA"
+            },
+            {
+                "code": 987,
+                "value": "אינדקס ביטוח משקל שווה"
+            },
+            {
+                "code": 991,
+                "value": "INDXX SEMICONDUCTOR EQUIPMENT PROVIDERS"
+            },
+            {
+                "code": 992,
+                "value": "ת\"א-רשתות שיווק"
+            },
+            {
+                "code": 994,
+                "value": "Morningstar Pitchbook Developed Markets Listed Private Equity"
+            },
+            {
+                "code": 995,
+                "value": "אינדקס לפדיון 2026 מנפיקים במשקל שווה (מתגלגל כל 6 שנים)"
+            },
+            {
+                "code": 997,
+                "value": "אינדקס מדינה מנגנון שקלי-צמוד"
+            },
+            {
+                "code": 998,
+                "value": "S&P North American Expanded Technology Software"
+            },
+            {
+                "code": 999,
+                "value": "אינדקס Sport Brands"
+            },
+            {
+                "code": 1000,
+                "value": "אינדקס Marine Shipping"
+            },
+            {
+                "code": 1001,
+                "value": "אינדקס Climate Control Systems"
+            },
+            {
+                "code": 1002,
+                "value": "אינדקס צמוד מדורג ללא דלקים ונשק "
+            },
+            {
+                "code": 1003,
+                "value": "אינדקס שקלי מדורג ללא דלקים ונשק "
+            },
+            {
+                "code": 1004,
+                "value": "Bloomberg US Analyst Recommendations Index "
+            },
+            {
+                "code": 1006,
+                "value": "S&P Global REIT"
+            },
+            {
+                "code": 1007,
+                "value": "מדד אינדקס ת\"א-125 Smart Momentum"
+            },
+            {
+                "code": 1008,
+                "value": "Indxx US Tech Top 10 – MR"
+            },
+            {
+                "code": 1009,
+                "value": "אינדקס 100 ESG אנטרופי"
+            },
+            {
+                "code": 1010,
+                "value": "אינדקס סייבר גלובלי משקל שווה"
+            },
+            {
+                "code": 1015,
+                "value": "אינדקס A שקלי אופק דירוג יציב או חיובי"
+            },
+            {
+                "code": 1017,
+                "value": "אינדקס Metaverse Economy "
+            },
+            {
+                "code": 1020,
+                "value": "אינדקס Food Brands Top 10"
+            },
+            {
+                "code": 1022,
+                "value": "אינדקס Top 60 צמוד - משקל תשואה לפדיון"
+            },
+            {
+                "code": 1023,
+                "value": "מדד אינדקס Top 50 שקלי - משקל תשואה לפדיון "
+            },
+            {
+                "code": 1024,
+                "value": "S&P Select Sector Capped 20% Financials"
+            },
+            {
+                "code": 1025,
+                "value": "S&P Select Sector Capped 20% Health Care Index"
+            },
+            {
+                "code": 1026,
+                "value": "אינדקס ת\"א-125 מומנטום ענפי"
+            },
+            {
+                "code": 1028,
+                "value": "BlueStar Top-10 US Residential Real Estate"
+            },
+            {
+                "code": 1033,
+                "value": "אינדקס סייבר ארה\"ב מבוסס AI"
+            },
+            {
+                "code": 1034,
+                "value": "אינדקס A מח\"מ 4 סינטטי"
+            },
+            {
+                "code": 1035,
+                "value": "אינדקס A מח\"מ 3 סינטטי"
+            },
+            {
+                "code": 1038,
+                "value": "אינדקס A-AA מח\"מ 3 סינטטי"
+            },
+            {
+                "code": 1040,
+                "value": "PHLX Semiconductor Sector Index - GTR"
+            },
+            {
+                "code": 1041,
+                "value": "אינדקס מניות ערך ארה''ב"
+            },
+            {
+                "code": 1043,
+                "value": "CoinShares Blockchain Global Equity Index"
+            },
+            {
+                "code": 1044,
+                "value": "S&P Select Sector Capped 20% Technology Index"
+            },
+            {
+                "code": 1045,
+                "value": "MSCI China All Shares Stock Connect Select Index"
+            },
+            {
+                "code": 1046,
+                "value": "iBoxx USD Contingent Convertible Liquid Developed Market AT1 (8/5% Issuer Cap) Index"
+            },
+            {
+                "code": 1047,
+                "value": "MSCI KLD 400 Social Index"
+            },
+            {
+                "code": 1048,
+                "value": "טכנולוגיה ישראל AlphaBeta SmartBeta"
+            },
+            {
+                "code": 1049,
+                "value": "נדל\"ן ישראל AlphaBeta SmartBeta"
+            },
+            {
+                "code": 1050,
+                "value": "אינדקס ישראל הנהגה נשית"
+            },
+            {
+                "code": 1051,
+                "value": "PHLX Semiconductor Equal Weighted "
+            },
+            {
+                "code": 1053,
+                "value": "MVIS US Business Development Companies Index"
+            },
+            {
+                "code": 1054,
+                "value": "אינדקס תעשיה ישראל"
+            },
+            {
+                "code": 1056,
+                "value": "BlueStar Israel Infrastructure"
+            },
+            {
+                "code": 1058,
+                "value": "אינדקס מניות ערך ישראל איזון סקטוריאלי"
+            },
+            {
+                "code": 1059,
+                "value": "תל גוב-שקלי 10+"
+            },
+            {
+                "code": 1060,
+                "value": "תל גוב-צמודות 10+"
+            },
+            {
+                "code": 1061,
+                "value": "Indxx SPAC & NextGen IPO"
+            },
+            {
+                "code": 1065,
+                "value": "S&P 500 Value Index"
+            },
+            {
+                "code": 1066,
+                "value": "אינדקס AA ומעלה צמוד 0-3"
+            },
+            {
+                "code": 1067,
+                "value": "אינדקס AA ומעלה שקלי 0-3"
+            },
+            {
+                "code": 1070,
+                "value": "FTSE DEVELOPED Index - Net TR USD"
+            },
+            {
+                "code": 1071,
+                "value": "S&P 500 Pure Value - NTR"
+            },
+            {
+                "code": 1072,
+                "value": "אינדקס אג\"ח בנקים וחב' ממשלתיות"
+            },
+            {
+                "code": 1073,
+                "value": "אינדקס A-AAA לפדיון 2025 (מתגלגל כל 4 שנים)"
+            },
+            {
+                "code": 1074,
+                "value": "S&P 1500 Composite Pure Value"
+            },
+            {
+                "code": 1075,
+                "value": "Bloomberg US Treasuey 1-5 Years"
+            },
+            {
+                "code": 1076,
+                "value": "אינדקס שקלי לפדיון 2026 (מתגלגל כל 5 שנים) 10/90"
+            },
+            {
+                "code": 1077,
+                "value": "אינדקס שבבים ארה\"ב Top10"
+            },
+            {
+                "code": 1078,
+                "value": "אינדקס ישראל AA מאוזן 2-4"
+            },
+            {
+                "code": 1079,
+                "value": "אינדקס A-AA לפדיון 2025 (מתגלגל כל 3 שנים)"
+            },
+            {
+                "code": 1080,
+                "value": "אינדקס Mega 20 US Banks"
+            },
+            {
+                "code": 1081,
+                "value": "אינדקס פודטק גלובלי מבוסס AI "
+            },
+            {
+                "code": 1082,
+                "value": "אינדקס ערך עולמי"
+            },
+            {
+                "code": 1084,
+                "value": "אינדקס מומנטום ארה\"ב"
+            },
+            {
+                "code": 1085,
+                "value": "אינדקס צמיחה עולמי"
+            },
+            {
+                "code": 1087,
+                "value": "אינדקס Bullet ישראל 2026"
+            },
+            {
+                "code": 1090,
+                "value": "אינדקס מניות צמיחה ישראל"
+            },
+            {
+                "code": 1091,
+                "value": "אינדקס אנרגיה ירוקה גלובלי מבוסס AI "
+            },
+            {
+                "code": 1094,
+                "value": "אינדקס מנגנון אג\"ח חברות-מדינה"
+            },
+            {
+                "code": 1095,
+                "value": "אינדקס מנגנון מניות ישראל-ארהב"
+            },
+            {
+                "code": 1096,
+                "value": "אינדקס מק\"מ"
+            },
+            {
+                "code": 1097,
+                "value": "אינדקס LV ישראל 10/90 "
+            },
+            {
+                "code": 1098,
+                "value": "אינדקס ממשלתי שקלי לפדיון - רבעון 4"
+            },
+            {
+                "code": 1099,
+                "value": "אינדקס שבבים גלובלי - מבוסס AI"
+            },
+            {
+                "code": 1100,
+                "value": "S&P Banks Select Industry Index"
+            },
+            {
+                "code": 1101,
+                "value": "S&P Kensho Cyber Security Index"
+            },
+            {
+                "code": 1102,
+                "value": "ICE Semiconductor Index"
+            },
+            {
+                "code": 1103,
+                "value": "Dynamic Leisure & Entertainment Intellidex Index"
+            },
+            {
+                "code": 1104,
+                "value": "אינדקס מניות ארה\"ב Large Cap מומנטום ענפי"
+            },
+            {
+                "code": 1105,
+                "value": "אינדקס מדינה שקלי- מח\"מ 5 קבוע "
+            },
+            {
+                "code": 1106,
+                "value": "אינדקס מדינה צמוד - מח\"מ 5 קבוע "
+            },
+            {
+                "code": 1107,
+                "value": "MSCI ACWI Sustainable Development"
+            },
+            {
+                "code": 1108,
+                "value": "ICE BofA 0-3 Month US Treasury Bill Index"
+            },
+            {
+                "code": 1109,
+                "value": "אינדקס A-AAA שכבות מדורגות מח\"מ"
+            },
+            {
+                "code": 1110,
+                "value": "EQM-Emerita Blockchain BLOK 50 Global Index"
+            },
+            {
+                "code": 1112,
+                "value": "אינדקס Bullet ישראל 2027"
+            },
+            {
+                "code": 1113,
+                "value": "אינדקס Bullet שקלי 2027 "
+            },
+            {
+                "code": 1114,
+                "value": "אינדקס Bullet צמוד 2027 "
+            },
+            {
+                "code": 1116,
+                "value": "MSCI US IMI Real Estate 25/5"
+            },
+            {
+                "code": 1118,
+                "value": "אינדקס CoCo ישראל-10"
+            },
+            {
+                "code": 1119,
+                "value": "אינדקס מניות דיבידנד ישראל"
+            },
+            {
+                "code": 1120,
+                "value": "אינדקס אג\"ח קופון גבוה "
+            },
+            {
+                "code": 1121,
+                "value": "אינדקס יצרני מזון Top10 גלובל"
+            },
+            {
+                "code": 1122,
+                "value": "תל בונד 100"
+            },
+            {
+                "code": 1123,
+                "value": "תל בונד שקלי 100"
+            },
+            {
+                "code": 1126,
+                "value": "אינדקס תשתיות חיוניות גלובלי- מבוסס AI"
+            },
+            {
+                "code": 1127,
+                "value": "Indxx US Airlines Top 10 Index"
+            },
+            {
+                "code": 1128,
+                "value": "INDXX US HEALTHCARE TOP 10 INDEX "
+            },
+            {
+                "code": 1129,
+                "value": "אינדקס AA-AAA י0-3 - פקטור מינוף פיננסי נמוך"
+            },
+            {
+                "code": 1130,
+                "value": "אינדקס מדינה מאוזן - מח\"מ 4 קבוע"
+            },
+            {
+                "code": 1131,
+                "value": "אינדקס Bullet ישראל 2025"
+            },
+            {
+                "code": 1132,
+                "value": "Indxx Luxury Goods Top 10 Index"
+            },
+            {
+                "code": 1133,
+                "value": "אינדקס Tech Top10"
+            },
+            {
+                "code": 1134,
+                "value": "ת\"א 125 EW"
+            },
+            {
+                "code": 1135,
+                "value": "ת\"א בנקים"
+            },
+            {
+                "code": 1137,
+                "value": "אינדקס A-AAA שקלי 1-4"
+            },
+            {
+                "code": 1138,
+                "value": "Indxx US Banks Top 10 "
+            },
+            {
+                "code": 1139,
+                "value": "אינדקס Bullet דולר 2026-גלובלי"
+            },
+            {
+                "code": 1140,
+                "value": "אינדקס Bullet צמוד 2026"
+            },
+            {
+                "code": 1141,
+                "value": "תל בונד תשואות צמודות פיזור רחב"
+            },
+            {
+                "code": 1142,
+                "value": "תל בונד תשואות שקלי פיזור רחב"
+            },
+            {
+                "code": 1143,
+                "value": "אינדקס 120 ישראל "
+            },
+            {
+                "code": 1145,
+                "value": "אינדקס אג\"ח חברות שקלי EW- Top50"
+            },
+            {
+                "code": 1146,
+                "value": "quabify אג״ח לפדיון 2026 צמוד"
+            },
+            {
+                "code": 1147,
+                "value": "quabify אג״ח לפדיון 2026 שקלי "
+            },
+            {
+                "code": 1148,
+                "value": "quabify אג״ח לפדיון 2027 צמוד"
+            },
+            {
+                "code": 1149,
+                "value": "quabify אג״ח לפדיון 2027 שקלי "
+            },
+            {
+                "code": 1151,
+                "value": "אינדקס אג\"ח במרווח גבוה - מח\"מ 0-2"
+            },
+            {
+                "code": 1154,
+                "value": "AlphaBeta SmartBeta USA MultiFactor"
+            },
+            {
+                "code": 1156,
+                "value": "S&P 500 Bond Mega 30 Investment Grade 5-7 Year"
+            },
+            {
+                "code": 1159,
+                "value": "אינדקס אג\"ח ממשלת ארה\"ב - מח\"מ 10 קבוע"
+            },
+            {
+                "code": 1160,
+                "value": "Cboe S&P 500 15% Buffer MAR IC"
+            },
+            {
+                "code": 1161,
+                "value": "אינדקס אנרגיה ישראלית"
+            },
+            {
+                "code": 1163,
+                "value": "אינדקס נדל\"ן ישראלי"
+            },
+            {
+                "code": 1164,
+                "value": "אינדקס שקלים ארוכים עד 20% מדינה"
+            },
+            {
+                "code": 1165,
+                "value": "אינדקס A-AAA צמוד 1-4"
+            },
+            {
+                "code": 1166,
+                "value": "S&P 500 TOP 50"
+            },
+            {
+                "code": 1167,
+                "value": "quabify אג״ח לפדיון 2029 שקלי"
+            },
+            {
+                "code": 1168,
+                "value": "quabify אג״ח לפדיון 2029 צמוד"
+            },
+            {
+                "code": 1169,
+                "value": "quabify אג״ח לפדיון 2028 שקלי"
+            },
+            {
+                "code": 1170,
+                "value": "quabify אג״ח לפדיון 2028 צמוד"
+            },
+            {
+                "code": 1171,
+                "value": "אינדקס תעשיות ביטחוניות ארה\"ב וישראל"
+            },
+            {
+                "code": 1172,
+                "value": "אינדקס Bullet ישראל 2028"
+            },
+            {
+                "code": 1173,
+                "value": "אינדקס Bullet ישראל 2029"
+            },
+            {
+                "code": 1174,
+                "value": "אינדקס Bullet ישראל 2030"
+            },
+            {
+                "code": 1175,
+                "value": "אינדקס Bullet צמוד 2029"
+            },
+            {
+                "code": 1176,
+                "value": "ארה\"ב מודל תמחור מומנטום"
+            },
+            {
+                "code": 1177,
+                "value": "אינדקס Bullet שקלי 2029"
+            },
+            {
+                "code": 1178,
+                "value": "אינדקס AA ומעלה 3+"
+            },
+            {
+                "code": 1179,
+                "value": "אינדקס A-AAA שקלי 3-6"
+            },
+            {
+                "code": 1180,
+                "value": "אינדקס EW TOP100 מרווח מעל הממוצע מותאם מח\"מ"
+            },
+            {
+                "code": 1181,
+                "value": "אינדקס AA-AAA ישראל 5-7"
+            },
+            {
+                "code": 1183,
+                "value": "אינדקס Top 10 US Banks Bonds"
+            },
+            {
+                "code": 1184,
+                "value": "אינדקס AA-AAAי 5+ פקטור מינוף פיננסי נמוך"
+            },
+            {
+                "code": 1185,
+                "value": "A.B. אג\"ח מאוזן Bullet 2028 A-AAA"
+            },
+            {
+                "code": 1186,
+                "value": "INDXX Blockchin Ecosystem"
+            },
+            {
+                "code": 1187,
+                "value": "אינדקס בנייה ישראל - פקטור מינוף פיננסי נמוך"
+            },
+            {
+                "code": 1188,
+                "value": "iBoxx USD Liquid 5-9 Top 50"
+            },
+            {
+                "code": 1189,
+                "value": "DA - Clear Motivation Index Net"
+            },
+            {
+                "code": 1190,
+                "value": "תל בונד שקלי 5-10"
+            },
+            {
+                "code": 1191,
+                "value": "תל בונד צמודות 5-10"
+            },
+            {
+                "code": 1192,
+                "value": "תל בונד צמודות בנקים וחברות ממשלתיות"
+            },
+            {
+                "code": 1193,
+                "value": "Indxx Global Financial Exchanges And Data"
+            },
+            {
+                "code": 1194,
+                "value": "אינדקס ישראליות צמיחה-מומנטום"
+            },
+            {
+                "code": 1195,
+                "value": "(MSCI INDIA (USD"
+            },
+            {
+                "code": 1196,
+                "value": "S&P 500 Growth"
+            },
+            {
+                "code": 1198,
+                "value": "אינדקס AAA צמוד"
+            },
+            {
+                "code": 1199,
+                "value": "אינדקס בנקים לפדיון - מח\"מ עד 3 שנים"
+            },
+            {
+                "code": 1200,
+                "value": "אינדקס צמוד A-AAA פיזור רחב"
+            },
+            {
+                "code": 1201,
+                "value": "אינדקס שקלי A-AAA פיזור רחב"
+            },
+            {
+                "code": 1202,
+                "value": "אינדקס אג\"ח עד A פיזור רחב"
+            },
+            {
+                "code": 1206,
+                "value": "Cboe S&P 500 15% Buffer JUN IC"
+            },
+            {
+                "code": 1207,
+                "value": "Japan 50 Dividend iNDEX"
+            },
+            {
+                "code": 1208,
+                "value": "NASDAQ-100 Equal Weighted"
+            },
+            {
+                "code": 1209,
+                "value": "תל בונד צמודות בנקים "
+            },
+            {
+                "code": 1210,
+                "value": "אינדקס תעשיות ביטחוניות גלובלי"
+            },
+            {
+                "code": 1212,
+                "value": "S&P Bitcoim Futures Daily Roll Index"
+            },
+            {
+                "code": 1213,
+                "value": "Russell 2000 Total Return Index"
+            },
+            {
+                "code": 1214,
+                "value": "Europe Top20 iNDEX"
+            },
+            {
+                "code": 1215,
+                "value": "TipRanks US Momentum Analysts iNDEX"
+            },
+            {
+                "code": 1219,
+                "value": "Cboe S&P 500 15% Buffer AUG IC"
+            },
+            {
+                "code": 1220,
+                "value": "אינדקס מדינת ישראל דולר 1-5"
+            },
+            {
+                "code": 1221,
+                "value": "אינדקס מדינת ישראל דולר 5-10"
+            },
+            {
+                "code": 1224,
+                "value": "אינדקס Bullet מדינת ישראל דולר 2030"
+            },
+            {
+                "code": 1225,
+                "value": "אינדקס תעשיות ביטחוניות גלובלי Top30 EW"
+            },
+            {
+                "code": 1226,
+                "value": "quabify אג״ח לפדיון 2026 מאוזן "
+            },
+            {
+                "code": 1227,
+                "value": "quabify אג״ח לפדיון 2027 מאוזן "
+            },
+            {
+                "code": 1228,
+                "value": "quabify אג״ח לפדיון 2028 מאוזן "
+            },
+            {
+                "code": 1229,
+                "value": "quabify אג״ח לפדיון 2029 מאוזן "
+            },
+            {
+                "code": 1230,
+                "value": "ת\"א-125 ערך"
+            },
+            {
+                "code": 1231,
+                "value": "בונד קצר עד שנה"
+            },
+            {
+                "code": 1232,
+                "value": "אינדקס US Top10 Pure Cyber Security "
+            },
+            {
+                "code": 1233,
+                "value": "FTSE ALL WORLD"
+            },
+            {
+                "code": 1234,
+                "value": "אינדקס Bullet ישראל AA ומעלה 2028"
+            },
+            {
+                "code": 1236,
+                "value": "S&P U.S. Treasury Bond 5-7 Year"
+            },
+            {
+                "code": 1237,
+                "value": "S&P World"
+            },
+            {
+                "code": 1238,
+                "value": "FTSE All-World High Dividend Yield Total Return Index"
+            },
+            {
+                "code": 1240,
+                "value": "אינדקס מדינת ישראל דולר לפדיון 2030 (מתגלגל כל 6 שנים) "
+            },
+            {
+                "code": 1241,
+                "value": "תל בונד 125 ערך שקלי"
+            },
+            {
+                "code": 1242,
+                "value": "תל בונד 125 ערך צמודות"
+            },
+            {
+                "code": 1243,
+                "value": "S&P Israel 100 Index - ILS"
+            },
+            {
+                "code": 1244,
+                "value": "CME CF Bitcoin Reference Rate - New York Variant"
+            },
+            {
+                "code": 1245,
+                "value": "ת\"א 90 ובנקים"
+            },
+            {
+                "code": 1247,
+                "value": "ת\"א-20"
+            },
+            {
+                "code": 1249,
+                "value": "Cboe S&P 500 15% Buffer NOV IC"
+            },
+            {
+                "code": 1250,
+                "value": "ת\"א-50 ריאלי"
+            },
+            {
+                "code": 1251,
+                "value": "ת\"א-200"
+            },
+            {
+                "code": 1252,
+                "value": "S&P 500 Momentum"
+            },
+            {
+                "code": 1253,
+                "value": "Indxx Bitcoin Reference Index"
+            },
+            {
+                "code": 1254,
+                "value": "ICE U.S. Treasury Short Bond Index"
+            },
+            {
+                "code": 1255,
+                "value": "אינדקס צמוד 1-3 פקטור מרווח"
+            },
+            {
+                "code": 1256,
+                "value": "US REITs iNDEX"
+            },
+            {
+                "code": 1258,
+                "value": "אינדקס מדורג פיזור רחב"
+            },
+            {
+                "code": 1259,
+                "value": "אינדקס מיד קאפ ישראל ללא נדל\"ן"
+            },
+            {
+                "code": 1260,
+                "value": "World Quality iNDEX"
+            },
+            {
+                "code": 1262,
+                "value": "S&P Bitcoin Index"
+            },
+            {
+                "code": 1263,
+                "value": "quabify אג״ח לפדיון 2030 שקלי"
+            },
+            {
+                "code": 1264,
+                "value": "quabify אג״ח לפדיון 2030 צמוד"
+            },
+            {
+                "code": 1265,
+                "value": "quabify אג״ח לפדיון 2030 מאוזן"
+            },
+            {
+                "code": 1266,
+                "value": "A.B US Top Tech Ex Top 5"
+            },
+            {
+                "code": 1267,
+                "value": "Cboe S&P 500 15% Buffer DEC IC"
+            },
+            {
+                "code": 1268,
+                "value": "S&P Hotels, Resorts & Cruise lines Select Industry 15% FMC Capped"
+            },
+            {
+                "code": 1269,
+                "value": "quabify קונצרני שקלי מח\"מ 2 קבוע"
+            },
+            {
+                "code": 1270,
+                "value": "quabify קונצרני צמוד מח\"מ 2 קבוע"
+            },
+            {
+                "code": 1273,
+                "value": "תל-בונד בולט 10/2028 צמוד"
+            },
+            {
+                "code": 1274,
+                "value": "תל-בונד בולט 2029 שקלי "
+            },
+            {
+                "code": 1275,
+                "value": "תל-בונד בולט 2029 ישראל "
+            },
+            {
+                "code": 1278,
+                "value": "Indxx Nuclear Energy Industry Index"
+            },
+            {
+                "code": 1279,
+                "value": "אינדקס נדל''ן למגורים בישראל"
+            },
+            {
+                "code": 1280,
+                "value": "NASDAQ OMX Clean Edge Smart Grid Infrastructure Net Total Return Index"
+            },
+            {
+                "code": 1281,
+                "value": "Cboe S&P 500 15% Buffer FEB IC"
+            },
+            {
+                "code": 1282,
+                "value": "אינדקס מיד קאפ ובנקים בישראל"
+            },
+            {
+                "code": 1283,
+                "value": "quabify קונצרני צמוד מח\"מ 3 קבוע"
+            },
+            {
+                "code": 1284,
+                "value": "quabify קונצרני צמוד מח\"מ 4 קבוע"
+            },
+            {
+                "code": 1285,
+                "value": "quabify קונצרני שקלי מח\"מ 3 קבוע"
+            },
+            {
+                "code": 1286,
+                "value": "quabify קונצרני שקלי מח\"מ 4 קבוע"
+            },
+            {
+                "code": 1288,
+                "value": "Bloomberg New Constructs Core Earnings Leaders INDEX "
+            },
+            {
+                "code": 1289,
+                "value": "אינדקס כלכלת ישראל 125"
+            },
+            {
+                "code": 1294,
+                "value": "US Capital Markets iNDEX"
+            },
+            {
+                "code": 1295,
+                "value": "CME CF Ether – Dollar Reference Rate New York Variant"
+            },
+            {
+                "code": 1296,
+                "value": "אינדקס כלכלת ישראל 90"
+            },
+            {
+                "code": 1299,
+                "value": "S&P 500 Market Leaders"
+            },
+            {
+                "code": 1300,
+                "value": "Indxx Top 10 US Oil Industry"
+            },
+            {
+                "code": 1303,
+                "value": "Indxx Top 10 Europe Defense"
+            },
+            {
+                "code": 1308,
+                "value": "Nasdaq ISE Cyber Security Select Net Total Return Index"
+            },
+            {
+                "code": 1312,
+                "value": "אינדקס Bullet ישראל 2032"
+            },
+            {
+                "code": 1313,
+                "value": "אינדקס Bullet שקלי 2031"
+            },
+            {
+                "code": 1319,
+                "value": "S&P 500 Shariah"
+            },
+            {
+                "code": 999999,
+                "value": "אחר"
+            }
+        ],
+        "total": 1035
+    }
+}

@@ -118,3 +118,11 @@ class Funds:
             headers=self._default_header_provider(),
             response_model=funds.TrackingFundClassification
         )
+
+    def get_underlying_assets(self):
+        return self.request_callable(
+            url=self._default_url_provider(self.client.endpoints.funds.underlying_assets),
+            params=BaseParameters(),
+            headers=self._default_header_provider(),
+            response_model=funds.UnderlyingAsset
+        )

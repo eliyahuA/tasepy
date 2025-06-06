@@ -10,3 +10,4 @@ from .share_exposure import ShareExposureProfile
 from .stock_exchange import StockExchange
 from .tax_status import TaxStatus
 from .tracking_fund_classification import TrackingFundClassification
+from .underlyting_asset import UnderlyingAsset

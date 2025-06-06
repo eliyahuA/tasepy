@@ -82,3 +82,8 @@ def test_tax_statuses(client):
 def test_tracking_funds_classifications(client):
     classifications = client.funds.get_tracking_funds_classifications()
     assert classifications.fund_classification.total > 0
+
+
+def test_underlying_assets(client):
+    classifications = client.funds.get_underlying_assets()
+    assert classifications.underlying_asset.total > 0

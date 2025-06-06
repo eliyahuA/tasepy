@@ -14,7 +14,7 @@ if __name__ == "__main__":
         .build(),
         YAMLFactory('./endpoints/endpoints.yaml', Endpoints)
     )
-    types = client.funds.get_tracking_funds_classifications()
+    types = client.funds.get_underlying_assets()
     types.save_pretty_json(
-        Path(r"/tests/unit/responses/funds/samples/tracking-fund-classification.json")
+        Path(__file__).parent.parent / "tests/unit/responses/funds/samples/underlying-asset.json"
     )

@@ -102,3 +102,12 @@ def test_tracking_fund_classification():
     assert model_instance is not None
     assert isinstance(model_instance, funds.TrackingFundClassification)
     assert model_instance.fund_classification.total > 0
+
+
+def test_underlying_asset():
+    with custom_open("underlying-asset") as f:
+        sample_json = f.read()
+    model_instance = funds.UnderlyingAsset.model_validate_json(sample_json)
+    assert model_instance is not None
+    assert isinstance(model_instance, funds.UnderlyingAsset)
+    assert model_instance.underlying_asset.total > 0
