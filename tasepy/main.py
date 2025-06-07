@@ -6,6 +6,7 @@ from settings import SettingsBuilder
 from endpoints.factories.yaml_factory import YAMLFactory
 from requests_.urls import Endpoints
 from pathlib import Path
+from datetime import datetime, timedelta
 
 if __name__ == "__main__":
     client = Client(
@@ -14,7 +15,7 @@ if __name__ == "__main__":
         .build(),
         YAMLFactory('./endpoints/endpoints.yaml', Endpoints)
     )
-    types = client.indices_basic.get_indices_list()
+    types = client.indices_basic.get_index_components(182, datetime.now() - timedelta(days=30))
     types.save_pretty_json(
-        Path(__file__).parent.parent / "tests/unit/responses/indices_basic/samples/indices-list.json"
+        Path(__file__).parent.parent / "tests/unit/responses/indices_basic/samples/components.json"
     )

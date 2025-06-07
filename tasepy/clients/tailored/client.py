@@ -8,6 +8,8 @@ from tasepy.requests_ import headers as head
 from tasepy.requests_ import parameters as parameters
 from tasepy.requests_ import enums as enums
 from tasepy.requests_.urls import Endpoints, EndpointGroup, Endpoint
+from tasepy.requests_.resources import IResource, NoResource
+
 from typing import Optional, Tuple, Type, TypeVar
 from .funds import Funds
 from .indices_basic import IndicesBasic
@@ -32,9 +34,10 @@ class Client(BaseClient):
             url: Tuple[Endpoints, EndpointGroup, Endpoint],
             params: parameters.BaseParameters,
             headers: head.Header,
-            response_model: Type[T]
+            response_model: Type[T],
+            resource: Optional[IResource] = NoResource(),
     ) -> T:
-        _url = f"{url[0].base_url}/{url[1].group_url}/{url[2].url}"
+        _url = f"{url[0].base_url}/{url[1].group_url}/{url[2].url}{resource.resource_path}"
         _params = params.model_dump()
         response = requests.get(
             url=_url,
@@ -55,7 +58,3 @@ class Client(BaseClient):
                                f"was rejected{pretty_rejection}")
 
         return response_model.model_validate_json(response_string)
-
-
-if __name__ == '__main__':
-    pass

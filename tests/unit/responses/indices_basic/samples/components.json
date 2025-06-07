@@ -1,0 +1,205 @@
+{
+    "indexComponents": {
+        "result": [
+            {
+                "securityId": 226019,
+                "isin": "IL0002260193",
+                "symbol": "מבנה",
+                "securityName": "מבנה"
+            },
+            {
+                "securityId": 235010,
+                "isin": "IL0002350101",
+                "symbol": "בזהב",
+                "securityName": "בית הזהב"
+            },
+            {
+                "securityId": 323014,
+                "isin": "IL0003230146",
+                "symbol": "מלסרן",
+                "securityName": "מליסרון"
+            },
+            {
+                "securityId": 366013,
+                "isin": "IL0003660136",
+                "symbol": "ארינ",
+                "securityName": "ארי נדלן"
+            },
+            {
+                "securityId": 390013,
+                "isin": "IL0003900136",
+                "symbol": "אלחץ",
+                "securityName": "אלוני חץ"
+            },
+            {
+                "securityId": 416016,
+                "isin": "IL0004160169",
+                "symbol": "ולאר",
+                "securityName": "וילאר"
+            },
+            {
+                "securityId": 431015,
+                "isin": "IL0004310152",
+                "symbol": "איאס",
+                "securityName": "אייאיאס"
+            },
+            {
+                "securityId": 526012,
+                "isin": "IL0005260125",
+                "symbol": "רבד",
+                "securityName": "רבד"
+            },
+            {
+                "securityId": 612010,
+                "isin": "IL0006120104",
+                "symbol": "הכשרה",
+                "securityName": "הכשרת הישוב"
+            },
+            {
+                "securityId": 613034,
+                "isin": "IL0006130343",
+                "symbol": "ישרס",
+                "securityName": "ישרס"
+            },
+            {
+                "securityId": 634030,
+                "isin": "IL0006340306",
+                "symbol": "שמנד",
+                "securityName": "שמן נדלן"
+            },
+            {
+                "securityId": 639013,
+                "isin": "IL0006390137",
+                "symbol": "דסקש",
+                "securityName": "דיסקונט השקעות"
+            },
+            {
+                "securityId": 699017,
+                "isin": "IL0006990175",
+                "symbol": "נכסבנ",
+                "securityName": "נכסים ובנין"
+            },
+            {
+                "securityId": 745018,
+                "isin": "IL0007450187",
+                "symbol": "פלגן",
+                "securityName": "פוליגון"
+            },
+            {
+                "securityId": 759019,
+                "isin": "IL0007590198",
+                "symbol": "גבים",
+                "securityName": "גב ים"
+            },
+            {
+                "securityId": 1095835,
+                "isin": "IL0010958358",
+                "symbol": "ארפט",
+                "securityName": "ארפורט סיטי"
+            },
+            {
+                "securityId": 1097260,
+                "isin": "IL0010972607",
+                "symbol": "ביג",
+                "securityName": "ביג"
+            },
+            {
+                "securityId": 1097278,
+                "isin": "IL0010972789",
+                "symbol": "אמות",
+                "securityName": "אמות"
+            },
+            {
+                "securityId": 1098565,
+                "isin": "IL0010985658",
+                "symbol": "רבנד",
+                "securityName": "רבוע נדלן"
+            },
+            {
+                "securityId": 1098920,
+                "isin": "IL0010989205",
+                "symbol": "ריט1",
+                "securityName": "ריט 1"
+            },
+            {
+                "securityId": 1104488,
+                "isin": "IL0011044885",
+                "symbol": "מגאר",
+                "securityName": "מגה אור"
+            },
+            {
+                "securityId": 1109644,
+                "isin": "IL0011096448",
+                "symbol": "סלענד",
+                "securityName": "סלע נדלן"
+            },
+            {
+                "securityId": 1109966,
+                "isin": "IL0011099665",
+                "symbol": "ותנה",
+                "securityName": "ויתניה"
+            },
+            {
+                "securityId": 1119478,
+                "isin": "IL0011194789",
+                "symbol": "עזרל",
+                "securityName": "עזריאלי קבוצה"
+            },
+            {
+                "securityId": 1131523,
+                "isin": "IL0011315236",
+                "symbol": "מגתכ",
+                "securityName": "מגדלי תיכון"
+            },
+            {
+                "securityId": 1139195,
+                "isin": "IL0011391955",
+                "symbol": "מריט",
+                "securityName": "מגוריט"
+            },
+            {
+                "securityId": 1140573,
+                "isin": "IL0011405730",
+                "symbol": "מנרט",
+                "securityName": "מניבים ריט"
+            },
+            {
+                "securityId": 1143619,
+                "isin": "IL0011436198",
+                "symbol": "רנצם",
+                "securityName": "רני צים"
+            },
+            {
+                "securityId": 1162775,
+                "isin": "IL0011627754",
+                "symbol": "אזרט",
+                "securityName": "ריט אזורים ליוי"
+            },
+            {
+                "securityId": 1183656,
+                "isin": "IL0011836561",
+                "symbol": "בכפר",
+                "securityName": "בית בכפר"
+            },
+            {
+                "securityId": 1190628,
+                "isin": "IL0011906281",
+                "symbol": "דרסה",
+                "securityName": "דורסל החז"
+            },
+            {
+                "securityId": 1194513,
+                "isin": "IL0011945131",
+                "symbol": "נתנב",
+                "securityName": "נתנאל מניבים"
+            },
+            {
+                "securityId": 1202977,
+                "isin": "IL0012029778",
+                "symbol": "ישאח",
+                "securityName": "ישרס אחזקות"
+            }
+        ],
+        "total": 33
+    }
+}

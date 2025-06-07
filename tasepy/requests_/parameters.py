@@ -34,11 +34,3 @@ class FundList(BaseParameters):
     listing_status_id: enums.ListingStatusId = Field(
         default=enums.ListingStatusId._1
     )
-
-
-if __name__ == "__main__":
-    kwargs = {'listing_status_id': None}
-    m = FundList(**kwargs)
-    # m = FundList(listing_status_id=enums.ListingStatusId._2)
-    print(m)
-    print(m.model_dump())
