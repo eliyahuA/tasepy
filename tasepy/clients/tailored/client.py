@@ -19,12 +19,25 @@ T = TypeVar('T', bound=ResponseComponent)
 
 
 class Client(BaseClient):
+    """Main client for TASE DataWise API interactions.
+    
+    Provides high-level access to all TASE API endpoints through specialized
+    domain clients (funds, indices_basic). Handles request execution, response
+    parsing, and error handling.
+    """
 
     def __init__(self,
                  settings: Settings,
                  endpoints_model_factory: IEndpointsFactory[Endpoints],
                  accept_language: Optional[enums.AcceptLanguage] = None,
                  ):
+        """Initialize the main TASE client.
+        
+        Args:
+            settings: API configuration including authentication credentials
+            endpoints_model_factory: Factory for creating endpoint configurations
+            accept_language: Preferred language for API responses (optional)
+        """
         super().__init__(settings, endpoints_model_factory, accept_language)
         self.funds = Funds(self, self._do_request)
         self.indices_basic = IndicesBasic(self, self._do_request)
@@ -37,6 +50,21 @@ class Client(BaseClient):
             response_model: Type[T],
             resource: Optional[IResource] = NoResource(),
     ) -> T:
+        """Execute HTTP request to TASE API endpoint.
+        
+        Args:
+            url: Tuple containing base URL, endpoint group, and specific endpoint
+            params: Request parameters to include in the API call
+            headers: HTTP headers including authentication and language preferences
+            response_model: Pydantic model class for response validation
+            resource: Optional resource path extension for the URL
+            
+        Returns:
+            Validated response object of the specified model type
+            
+        Raises:
+            RuntimeError: If the request fails or is rejected by the API
+        """
         _url = f"{url[0].base_url}/{url[1].group_url}/{url[2].url}{resource.resource_path}"
         _params = params.model_dump()
         response = requests.get(

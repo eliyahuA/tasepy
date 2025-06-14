@@ -12,12 +12,23 @@ from datetime import datetime
 
 
 class IndicesBasic:
+    """Client for TASE basic indices API endpoints.
+    
+    Provides methods to retrieve index lists and component information
+    from the TASE DataWise API.
+    """
 
     @typeguard.typechecked
     def __init__(self,
                  client: BaseClient,
                  request_callable: APIRequestExecutor,
                  ):
+        """Initialize the IndicesBasic client.
+        
+        Args:
+            client: Base client containing settings and endpoint configuration
+            request_callable: Function to execute API requests
+        """
         self.request_callable = request_callable
         self.client = client
         # capture by reference to have the object instantiate with the client values at the moment of call
@@ -35,6 +46,11 @@ class IndicesBasic:
 
     @typeguard.typechecked
     def get_indices_list(self):
+        """Get list of available indices.
+        
+        Returns:
+            IndicesList containing all available indices
+        """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.indices.indices_list),
             params=BaseParameters(),
@@ -44,6 +60,18 @@ class IndicesBasic:
 
     @typeguard.typechecked
     def get_index_components(self, index_id: int, date: Tuple[int, int, int] | datetime):
+        """Get components of a specific index for a given date.
+        
+        Args:
+            index_id: Unique identifier of the index
+            date: Date as either (day, month, year) tuple or datetime object
+            
+        Returns:
+            IndexComponents data for the specified index and date
+            
+        Raises:
+            ValueError: If date is not a tuple or datetime object
+        """
         if isinstance(date, Tuple):
             resource = DatedIndexResource(index_id=index_id, day=date[0], month=date[1], year=date[2])
         elif isinstance(date, datetime):
