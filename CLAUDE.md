@@ -21,6 +21,20 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Set API_KEY environment variable or create a `.env` file
 - API key can also be loaded from YAML file (see `API key.yaml` template)
 
+### Git Commit Guidelines
+- **IMPORTANT**: Always use "claude" as the author/committer identity for all commits
+- Use this exact commit command format:
+```bash
+GIT_COMMITTER_NAME="claude" GIT_COMMITTER_EMAIL="claude@anthropic.com" git commit --author="claude <claude@anthropic.com>" -m "$(cat <<'EOF'
+[Your commit message here]
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+EOF
+)"
+```
+
 ## Architecture Overview
 
 ### Core Components
