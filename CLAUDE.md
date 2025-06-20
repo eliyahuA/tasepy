@@ -88,6 +88,10 @@ When writing docstrings for domain-specific client methods (e.g., in `Funds`, `I
    - Language used (Hebrew/English descriptions)
    - Total counts and result arrays
 
+### Module vs Class Docstring Guidelines
+
+**Avoid redundant documentation**: If a module contains a single primary class and both would have essentially the same docstring, document only the class. Only add module docstrings when they provide additional context beyond what the class docstring covers.
+
 ### API Integration
 
 This is a Python SDK for the TASE (Tel Aviv Stock Exchange) DataWise API:
