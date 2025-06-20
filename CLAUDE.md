@@ -73,6 +73,21 @@ EOF
 **Test Fixtures**: Centralized client configuration in `tests/integration/client/conftest.py`<br>
 **Sample Data**: JSON response samples stored in `tests/unit/responses/*/samples/`<br>
 
+### Docstring Writing Guidelines
+
+When writing docstrings for domain-specific client methods (e.g., in `Funds`, `IndicesBasic` classes) that return Pydantic models:
+
+1. **Always examine sample JSON data** in `tests/unit/responses/*/samples/` to understand the data structure
+2. **Use concise, descriptive language** following the pattern:
+   - First line: "Get [classification/data type] for [domain]"
+   - Second paragraph: Brief explanation of what the data represents and its purpose
+   - Returns section: "[DataType] pydantic data model including [brief description of contents]"
+3. **Sample JSON examination helps identify**:
+   - Data structure and hierarchy
+   - Available codes, classifications, or categories
+   - Language used (Hebrew/English descriptions)
+   - Total counts and result arrays
+
 ### API Integration
 
 This is a Python SDK for the TASE (Tel Aviv Stock Exchange) DataWise API:
