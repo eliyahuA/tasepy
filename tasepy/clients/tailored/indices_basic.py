@@ -12,7 +12,7 @@ from datetime import datetime
 
 
 class IndicesBasic:
-    """Client for TASE basic indices API endpoints.
+    """Domain specific client for TASE basic indices API endpoints.
     
     Provides methods to retrieve index lists and component information
     from the TASE DataWise API.
@@ -46,10 +46,13 @@ class IndicesBasic:
 
     @typeguard.typechecked
     def get_indices_list(self):
-        """Get list of available indices.
+        """Get index list classifications for indices.
+        
+        Retrieves the available TASE indices with their identifiers,
+        names, and ISIN codes for reference and selection.
         
         Returns:
-            IndicesList containing all available indices
+            Indices list pydantic data model including list of index IDs, names, and ISIN codes
         """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.indices.indices_list),
@@ -60,14 +63,17 @@ class IndicesBasic:
 
     @typeguard.typechecked
     def get_index_components(self, index_id: int, date: Tuple[int, int, int] | datetime):
-        """Get components of a specific index for a given date.
+        """Get index component data for a specific index and date.
+        
+        Retrieves the securities that compose a specific index on a given date,
+        including security identifiers, symbols, and names.
         
         Args:
             index_id: Unique identifier of the index
             date: Date as either (day, month, year) tuple or datetime object
             
         Returns:
-            IndexComponents data for the specified index and date
+            Index components pydantic data model including list of securities with IDs, symbols, and names
             
         Raises:
             ValueError: If date is not a tuple or datetime object
