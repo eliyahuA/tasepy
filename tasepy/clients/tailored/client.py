@@ -22,7 +22,7 @@ class Client(BaseClient):
     """Main client for TASE DataWise API interactions.
     
     Provides high-level access to all TASE API endpoints through specialized
-    domain clients (funds, indices_basic). Handles request execution, response
+    domain clients (funds, indices_basic, etc...). Handles request execution, response
     parsing, and error handling.
     """
 

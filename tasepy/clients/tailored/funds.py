@@ -10,7 +10,7 @@ from .base_client import BaseClient
 
 
 class Funds:
-    """Client for TASE funds-related API endpoints.
+    """Domain specific client for TASE funds-related API endpoints.
     
     Provides methods to retrieve fund information, classifications, exposures,
     and other fund-related data from the TASE DataWise API.
@@ -45,10 +45,10 @@ class Funds:
         """Retrieve list of available funds.
         
         Args:
-            listing_status_id: Optional filter by listing status
+            listing_status_id: Optional filter by listing status on omission default filter will be used
             
         Returns:
-            FundList containing fund information
+            FundList containing fund information for all filtered funds
         """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.funds.funds_list),

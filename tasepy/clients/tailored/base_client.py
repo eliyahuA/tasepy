@@ -10,7 +10,7 @@ class BaseClient:
     """Base client for TASE DataWise API.
     
     Provides common functionality and initialization for specialized clients.
-    Contains shared settings, endpoints configuration, and language preferences.
+    Contains shared settings, endpoints configuration, and default language preferences.
     """
 
     def __init__(self,
@@ -22,7 +22,7 @@ class BaseClient:
         
         Args:
             settings: API configuration including authentication credentials
-            endpoints_model_factory: Factory for creating endpoint configurations
+            endpoints_model_factory: Factory for getting endpoint configurations
             accept_language: Preferred language for API responses (optional)
         """
         self.settings = settings
