@@ -92,6 +92,14 @@ When writing docstrings for domain-specific client methods (e.g., in `Funds`, `I
 
 **Avoid redundant documentation**: If a module contains a single primary class and both would have essentially the same docstring, document only the class. Only add module docstrings when they provide additional context beyond what the class docstring covers.
 
+**Documentation Conciseness**:
+- Each docstring should add unique value without restating concepts
+- Documentation should be concise and focused
+
+### Code Writing Guidelines
+
+- When code is self-documenting, avoid adding docstrings.
+
 ### API Integration
 
 This is a Python SDK for the TASE (Tel Aviv Stock Exchange) DataWise API:
