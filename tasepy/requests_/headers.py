@@ -64,7 +64,3 @@ class LanguageAble(Header):
     Defaults to Hebrew (he-IL) for TASE API compatibility.
     """
     accept_language: enums.AcceptLanguage = enums.AcceptLanguage.he
-
-
-if __name__ == "__main__":
-    pass
