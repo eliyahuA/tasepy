@@ -41,7 +41,7 @@ class Funds:
                 endpoint_url
             )
 
-    def get_funds(self, listing_status_id: Optional[enums] = None) -> funds.fund_list.FundList:
+    def get_funds(self, listing_status_id: Optional[enums.ListingStatusId] = None) -> funds.fund_list.FundList:
         """Retrieve list of available funds.
         
         Args:
