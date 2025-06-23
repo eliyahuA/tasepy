@@ -7,7 +7,7 @@ class AcceptLanguage(Enum):
 
 
 class ListingStatusId(str, Enum):
-    _1 = '1'
-    _2 = '2'
-    _3 = '3'
-    _4 = '4'
+    Active = '1'
+    Merged = '2'
+    Liquidated = '3'
+    Delisted = '4'

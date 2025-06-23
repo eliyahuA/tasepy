@@ -32,5 +32,5 @@ class BaseParameters(BaseModel):
 class FundList(BaseParameters):
 
     listing_status_id: enums.ListingStatusId = Field(
-        default=enums.ListingStatusId._1
+        default=enums.ListingStatusId.Active
     )
