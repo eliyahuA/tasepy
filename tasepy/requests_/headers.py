@@ -42,6 +42,8 @@ class Header(BaseModel):
         
         Forces JSON serialization mode and provides security masking for API keys.
         Works with alias_generator to convert Python field names to HTTP header format.
+        JSON mode ensures consistent serialization of enums and other complex types
+        without requiring callers to specify mode.
         
         Args:
             mask: If True, replaces API key with asterisks for secure logging
