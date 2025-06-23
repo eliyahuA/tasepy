@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
 from pydantic import BaseModel, computed_field
-from typing import Optional
 
 
 class IResource(ABC):
