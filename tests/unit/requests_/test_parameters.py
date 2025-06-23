@@ -1,4 +1,4 @@
-from tasepy.requests_.parameters import BaseParameters
+from tasepy.requests_.parameters import BaseParameters, FundList
 from enum import Enum
 
 
@@ -33,7 +33,8 @@ class TestBaseParameters:
         assert child.model_dump() == {'fieldName': 'default value'}
 
 
-if __name__ == '__main__':
-    TestBaseParameters().test_aliasing()
-    TestBaseParameters().test_enum_serialization()
-    TestBaseParameters().test_null_arguments_for_fields_with_defaults()
+class TestFundListParameters:
+
+    def test_default(self):
+        f = FundList()
+        assert f.model_dump() == {'listingStatusId': '1'}
