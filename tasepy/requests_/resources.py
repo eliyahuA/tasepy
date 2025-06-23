@@ -12,7 +12,10 @@ class IResource(ABC):
 
 
 class NoResource(BaseModel, IResource):
-    resource_path: Optional[str] = ""
+
+    @property
+    def resource_path(self) -> str:
+        return ""
 
 
 class DatedIndexResource(BaseModel, IResource):
