@@ -100,6 +100,29 @@ When writing docstrings for domain-specific client methods (e.g., in `Funds`, `I
 
 - When code is self-documenting, avoid adding docstrings.
 
+### Domain-Agnostic Documentation Principles
+
+**Keep architectural documentation domain-neutral**:
+- ❌ **Avoid**: Hardcoding specific domains/endpoints in foundational component docs
+- ✅ **Do**: Focus on system capabilities and architectural patterns
+- **Example**: Instead of "for funds and indices endpoints" → "for API endpoints"
+
+**Why domain-agnostic documentation matters**:
+- **Future-proofing**: APIs naturally expand beyond initial scope
+- **Maintenance**: Avoids updating docs every time domains are added  
+- **Accuracy**: Prevents misleading scope limitations on general-purpose systems
+- **Focus**: Keeps architectural docs on patterns, not current usage
+
+**Proper domain documentation placement**:
+- ✅ Domain-specific packages (`funds/__init__.py`, `indices_basic/__init__.py`)
+- ✅ Client method docstrings (where specific endpoints are used)
+- ❌ Base classes and architectural foundation components
+
+**Red flags to avoid**:
+- "for X and Y endpoints" → use "for API endpoints"
+- "handles A, B, C data" → use "handles API response data" 
+- Listing current domains in architectural documentation
+
 ### API Integration
 
 This is a Python SDK for the TASE (Tel Aviv Stock Exchange) DataWise API:

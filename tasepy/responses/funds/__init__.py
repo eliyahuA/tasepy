@@ -1,3 +1,8 @@
+"""Fund-related response models for TASE DataWise API.
+
+Models for parsing fund classifications, exposures, types, and listings.
+All models follow consistent code/value pair patterns with descriptions.
+"""
 from . import fund_list, currency_exposure
 from .fund_list import FundList
 from .currency_exposure import CurrencyExposure
