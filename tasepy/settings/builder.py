@@ -8,8 +8,14 @@ import typeguard
 
 
 class SettingsBuilder:
+    """Fluent builder for TASE DataWise API configuration.
+    
+    Provides flexible API key configuration from multiple sources including
+    direct values, environment variables, YAML files, and custom providers.
+    """
 
     def __init__(self):
+        """Initialize empty settings builder."""
         self._api_key: Optional[str] = None
         self._api_key_provider: Optional[Callable[[], str]] = None
 
@@ -51,7 +57,7 @@ class SettingsBuilder:
 
     @typeguard.typechecked
     def build(self) -> Settings:
-        """Build and return a Settings instance."""
+        """Build and return a Settings instance with configured API key."""
         api_key = self._api_key
 
         # Use provider if direct key not set

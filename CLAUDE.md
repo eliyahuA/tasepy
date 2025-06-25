@@ -21,6 +21,20 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Set API_KEY environment variable or create a `.env` file
 - API key can also be loaded from YAML file (see `API key.yaml` template)
 
+### Git Commit Guidelines
+- **IMPORTANT**: Always use "claude" as the author/committer identity for all commits
+- Use this exact commit command format:
+```bash
+GIT_COMMITTER_NAME="claude" GIT_COMMITTER_EMAIL="claude@anthropic.com" git commit --author="claude <claude@anthropic.com>" -m "$(cat <<'EOF'
+[Your commit message here]
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+EOF
+)"
+```
+
 ## Architecture Overview
 
 ### Core Components
@@ -58,6 +72,56 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 **Integration Tests**: Full API calls requiring valid API key<br>
 **Test Fixtures**: Centralized client configuration in `tests/integration/client/conftest.py`<br>
 **Sample Data**: JSON response samples stored in `tests/unit/responses/*/samples/`<br>
+
+### Docstring Writing Guidelines
+
+When writing docstrings for domain-specific client methods (e.g., in `Funds`, `IndicesBasic` classes) that return Pydantic models:
+
+1. **Always examine sample JSON data** in `tests/unit/responses/*/samples/` to understand the data structure
+2. **Use concise, descriptive language** following the pattern:
+   - First line: "Get [classification/data type] for [domain]"
+   - Second paragraph: Brief explanation of what the data represents and its purpose
+   - Returns section: "[DataType] pydantic data model including [brief description of contents]"
+3. **Sample JSON examination helps identify**:
+   - Data structure and hierarchy
+   - Available codes, classifications, or categories
+   - Language used (Hebrew/English descriptions)
+   - Total counts and result arrays
+
+### Module vs Class Docstring Guidelines
+
+**Avoid redundant documentation**: If a module contains a single primary class and both would have essentially the same docstring, document only the class. Only add module docstrings when they provide additional context beyond what the class docstring covers.
+
+**Documentation Conciseness**:
+- Each docstring should add unique value without restating concepts
+- Documentation should be concise and focused
+
+### Code Writing Guidelines
+
+- When code is self-documenting, avoid adding docstrings.
+
+### Domain-Agnostic Documentation Principles
+
+**Keep architectural documentation domain-neutral**:
+- ❌ **Avoid**: Hardcoding specific domains/endpoints in foundational component docs
+- ✅ **Do**: Focus on system capabilities and architectural patterns
+- **Example**: Instead of "for funds and indices endpoints" → "for API endpoints"
+
+**Why domain-agnostic documentation matters**:
+- **Future-proofing**: APIs naturally expand beyond initial scope
+- **Maintenance**: Avoids updating docs every time domains are added  
+- **Accuracy**: Prevents misleading scope limitations on general-purpose systems
+- **Focus**: Keeps architectural docs on patterns, not current usage
+
+**Proper domain documentation placement**:
+- ✅ Domain-specific packages (`funds/__init__.py`, `indices_basic/__init__.py`)
+- ✅ Client method docstrings (where specific endpoints are used)
+- ❌ Base classes and architectural foundation components
+
+**Red flags to avoid**:
+- "for X and Y endpoints" → use "for API endpoints"
+- "handles A, B, C data" → use "handles API response data" 
+- Listing current domains in architectural documentation
 
 ### API Integration
 
