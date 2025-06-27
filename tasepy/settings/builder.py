@@ -6,6 +6,8 @@ from typing import Optional, Callable
 from tasepy.settings import Settings, ApiKeyFile
 import typeguard
 
+DEFAULT_API_KEY_NAME = "TASE_API_KEY"
+
 
 class SettingsBuilder:
     """Fluent builder for TASE DataWise API configuration.
@@ -52,6 +54,12 @@ class SettingsBuilder:
                 self._api_key = ApiKeyFile(**key_yaml).key
         elif key_provider is not None:
             self._api_key_provider = key_provider
+        else:
+            if default_key := os.environ.get(DEFAULT_API_KEY_NAME):
+                self._api_key = default_key
+            else:
+                raise TypeError('At least one method for retrieving API key must be provided, '
+                                f'or default environment variable ({DEFAULT_API_KEY_NAME}) populated.')
 
         return self
 

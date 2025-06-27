@@ -13,7 +13,7 @@ if __name__ == "__main__":
         SettingsBuilder()
         .with_apikey(file_path='./API KEY.yaml')
         .build(),
-        YAMLFactory('./endpoints/endpoints.yaml', Endpoints)
+        YAMLFactory(Endpoints, './endpoints/endpoints.yaml')
     )
     types = client.indices_basic.get_index_components(182, datetime.now() - timedelta(days=30))
     types.save_pretty_json(

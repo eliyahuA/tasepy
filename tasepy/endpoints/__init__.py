@@ -3,5 +3,6 @@
 This module provides factories and utilities for creating endpoint configuration
 objects from various sources, primarily YAML files.
 """
+import pathlib
 
 from . import factories

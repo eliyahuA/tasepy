@@ -1,6 +1,7 @@
 import requests
 
 from bs4 import BeautifulSoup
+
 from tasepy.endpoints.factories.interfaces import IEndpointsFactory
 from tasepy.responses import ResponseComponent
 from tasepy.settings import Settings

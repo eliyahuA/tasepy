@@ -21,7 +21,7 @@ def settings():
 
 @fixture()
 def url_model_factory():
-    return YAMLFactory(Path(str(resources.files(tasepy))) / 'endpoints' / 'endpoints.yaml', Endpoints)
+    return YAMLFactory(Endpoints, Path(str(resources.files(tasepy))) / 'endpoints' / 'endpoints.yaml')
 
 
 @fixture()

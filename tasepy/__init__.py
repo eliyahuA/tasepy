@@ -22,8 +22,8 @@ Example:
     >>> from tasepy.requests_.urls import Endpoints
     >>> 
     >>> client = Client(
-    ...     SettingsBuilder().with_apikey(environment="TASE_API_KEY").build(),
-    ...     YAMLFactory('./endpoints.yaml', Endpoints)
+    ...     SettingsBuilder().with_apikey(environment="API_KEY").build(),
+    ...     YAMLFactory(Endpoints, './endpoints.yaml')
     ... )
     >>> funds = client.funds.get_list()
 """
@@ -32,3 +32,10 @@ from . import endpoints
 from . import requests_
 from . import responses
 from . import settings
+
+
+def quick_client() -> clients.tailored.Client:
+    return clients.tailored.Client(
+        settings.SettingsBuilder().with_apikey().build(),
+        endpoints.factories.YAMLFactory(requests_.urls.Endpoints)
+    )

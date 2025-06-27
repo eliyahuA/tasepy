@@ -10,6 +10,8 @@ from typing import Any, Dict, Type, Union
 
 from .interfaces import IEndpointsFactory
 
+endpoints_default_path = p.Path(__file__).parents[1] / 'endpoints.yaml'
+
 
 class YAMLFactory(IEndpointsFactory[BaseModelGeneric]):
     """Factory for creating Pydantic endpoint models from YAML configuration.
@@ -27,7 +29,11 @@ class YAMLFactory(IEndpointsFactory[BaseModelGeneric]):
     """
 
     @typeguard.typechecked
-    def __init__(self, yaml: Union[str, p.Path, Dict[str, Any]], endpoints_model: Type[BaseModelGeneric]):
+    def __init__(
+            self,
+            endpoints_model: Type[BaseModelGeneric],
+            yaml: Union[str, p.Path, Dict[str, Any]] = endpoints_default_path
+    ):
         """Initialize the YAML factory with configuration source and model type.
         
         Args:

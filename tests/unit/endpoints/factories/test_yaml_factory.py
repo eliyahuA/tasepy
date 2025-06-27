@@ -46,7 +46,7 @@ class TestYAMLFactory:
         indirect=True
     )
     def test_get_endpoints(self, dummy_dict, pydantic_model):
-        yaml_factory = YAMLFactory(dummy_dict, pydantic_model)
+        yaml_factory = YAMLFactory(pydantic_model, dummy_dict)
         loaded_model = yaml_factory.get_endpoints()
         assert isinstance(loaded_model, DummyModel)
         assert 'field' in loaded_model.model_fields.keys()
