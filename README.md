@@ -31,19 +31,20 @@ print(f"Found {len(indices.results)} indices")
 
 The SDK automatically looks for your API key in the following order:
 
-1. **Environment variable**: `API_KEY`
+1. **Argument**
+2. **Environment variable**: `TASE_API_KEY`
 2. **YAML file**: `API key.yaml` in your working directory
-3. **Direct configuration** (see Advanced Usage)
 
-#### Option 1: Environment Variable
+
+#### Option 2: Environment Variable
 ```bash
 export API_KEY="your-tase-api-key"
 ```
 
-#### Option 2: YAML File
+#### Option 3: YAML File
 Create `API key.yaml` in your project directory:
 ```yaml
-api_key: "your-tase-api-key"
+key: "your-tase-api-key"
 ```
 
 ### Working with Funds

@@ -57,12 +57,7 @@ def quick_client(
         factory: Custom endpoints factory. If None, creates default YAML factory.
     
     Returns:
-        Client: Configured tailored client ready for API calls.
-        
-    Example:
-        >>> import tasepy
-        >>> client = tasepy.quick_client()
-        >>> funds = client.funds.get_list()
+        Client: Configured client ready for API calls.
     """
     return clients.tailored.Client(
         settings.SettingsBuilder().with_apikey().build() if settings_instance is None else settings_instance,
