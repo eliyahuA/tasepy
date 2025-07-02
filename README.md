@@ -29,20 +29,61 @@ print(f"Found {len(indices.results)} indices")
 
 ### API Key Setup
 
-The SDK automatically looks for your API key in the following order:
+The SDK provides multiple flexible ways to configure your API key:
 
-1. **Argument**
-2. **Environment variable**: `TASE_API_KEY`
-2. **YAML file**: `API key.yaml` in your working directory
-
-
-#### Option 2: Environment Variable
-```bash
-export API_KEY="your-tase-api-key"
+#### Quick Start (Default)
+```python
+import tasepy
+# Uses TASE_API_KEY environment variable by default
+client = tasepy.quick_client()
 ```
 
-#### Option 3: YAML File
-Create `API key.yaml` in your project directory:
+#### All Configuration Options
+
+**1. Direct API Key**
+```python
+from tasepy.settings import SettingsBuilder
+settings = SettingsBuilder().with_apikey(key="your-direct-api-key").build()
+client = tasepy.quick_client(settings_instance=settings)
+```
+
+**2. Custom Environment Variable**
+```python
+# You can use any environment variable name you prefer
+settings = SettingsBuilder().with_apikey(environment="MY_CUSTOM_API_KEY").build()
+client = tasepy.quick_client(settings_instance=settings)
+```
+
+**3. YAML File**
+```python
+settings = SettingsBuilder().with_apikey(file_path="path/to/your/key.yaml").build()
+client = tasepy.quick_client(settings_instance=settings)
+```
+
+**4. Custom Provider Function**
+```python
+def get_api_key():
+    # Your custom logic to retrieve API key
+    return "your-api-key"
+
+settings = SettingsBuilder().with_apikey(key_provider=get_api_key).build()
+client = tasepy.quick_client(settings_instance=settings)
+```
+
+#### Environment Variable Setup
+
+**Default Environment Variable (TASE_API_KEY)**
+```bash
+export TASE_API_KEY="your-tase-api-key"
+```
+
+**Custom Environment Variable**
+```bash
+export MY_CUSTOM_API_KEY="your-tase-api-key"
+```
+
+#### YAML File Format
+Create a YAML file with this structure:
 ```yaml
 key: "your-tase-api-key"
 ```
