@@ -33,9 +33,14 @@ from . import requests_
 from . import responses
 from . import settings
 
+from typing import Optional
 
-def quick_client() -> clients.tailored.Client:
+
+def quick_client(
+        settings_instance: Optional[settings.Settings] = None,
+        factory: Optional[endpoints.factories.interfaces.IEndpointsFactory] = None
+) -> clients.tailored.Client:
     return clients.tailored.Client(
-        settings.SettingsBuilder().with_apikey().build(),
-        endpoints.factories.YAMLFactory(requests_.urls.Endpoints)
+        settings.SettingsBuilder().with_apikey().build() if settings_instance is None else settings_instance,
+        endpoints.factories.YAMLFactory(requests_.urls.Endpoints) if factory is None else factory,
     )
