@@ -4,18 +4,13 @@ A comprehensive Python SDK for accessing the Tel Aviv Stock Exchange (TASE)
 DataWise API. Provides typed clients, request builders, and response models
 for funds and indices data.
 
-Modules:
-    clients: API client implementations (tailored and OpenAPI-generated)
+Quick Start:
+    >>> import tasepy
+    >>> client = tasepy.quick_client()
+    >>> funds = client.funds.get_list()
+    >>> indices = client.indices_basic.get_list()
 
-    settings: Configuration management with flexible authentication
-
-    requests_: Request building components (headers, parameters, URLs, enums)
-
-    responses: Pydantic models for parsing and validating API responses
-
-    endpoints: YAML-based endpoint configuration and factory patterns
-
-Example:
+Advanced Usage:
     >>> from tasepy.settings import SettingsBuilder
     >>> from tasepy.clients.tailored import Client
     >>> from tasepy.endpoints.factories.yaml_factory import YAMLFactory
@@ -26,6 +21,17 @@ Example:
     ...     YAMLFactory(Endpoints, './endpoints.yaml')
     ... )
     >>> funds = client.funds.get_list()
+
+Modules:
+    clients: API client implementations (tailored and OpenAPI-generated)
+
+    settings: Configuration management with flexible authentication
+
+    requests_: Request building components (headers, parameters, URLs, enums)
+
+    responses: Pydantic models for parsing and validating API responses
+
+    endpoints: YAML-based endpoint configuration and factory patterns
 """
 from . import clients
 from . import endpoints
@@ -40,6 +46,24 @@ def quick_client(
         settings_instance: Optional[settings.Settings] = None,
         factory: Optional[endpoints.factories.interfaces.IEndpointsFactory] = None
 ) -> clients.tailored.Client:
+    """Create a tailored TASE API client with sensible defaults.
+    
+    Convenience function that eliminates the need to manually construct 
+    SettingsBuilder and YAMLFactory objects for basic usage scenarios.
+    
+    Args:
+        settings_instance: Custom settings instance. If None, creates default 
+            settings with API key from environment variable.
+        factory: Custom endpoints factory. If None, creates default YAML factory.
+    
+    Returns:
+        Client: Configured tailored client ready for API calls.
+        
+    Example:
+        >>> import tasepy
+        >>> client = tasepy.quick_client()
+        >>> funds = client.funds.get_list()
+    """
     return clients.tailored.Client(
         settings.SettingsBuilder().with_apikey().build() if settings_instance is None else settings_instance,
         endpoints.factories.YAMLFactory(requests_.urls.Endpoints) if factory is None else factory,
