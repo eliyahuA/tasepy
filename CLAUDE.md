@@ -123,6 +123,42 @@ When writing docstrings for domain-specific client methods (e.g., in `Funds`, `I
 - "handles A, B, C data" → use "handles API response data" 
 - Listing current domains in architectural documentation
 
+### Code Examination Guidelines
+
+**CRITICAL: Always examine actual code implementation before writing documentation or making assumptions**
+
+#### Pre-Documentation Checklist
+Before writing any documentation, docstrings, or making claims about functionality:
+
+1. **Read the actual implementation**:
+   - Use Read tool to examine relevant source files
+   - Check constants, default values, and configuration
+   - Verify method signatures and parameters
+
+2. **Examine usage patterns**:
+   - Look at existing tests and examples in the codebase
+   - Check how functions/classes are actually used
+   - Review sample data and configuration files
+
+3. **Verify assumptions with code**:
+   - Never assume default values - check constants and code
+   - Never assume data structures - examine models and schemas
+   - Never assume naming conventions - verify in actual implementations
+
+#### Documentation Anti-Patterns to Avoid
+- ❌ **Assuming environment variable names** without checking constants
+- ❌ **Guessing data model structures** without reading Pydantic models
+- ❌ **Making up configuration formats** without examining actual config files
+- ❌ **Copying patterns from other projects** without verifying local implementation
+
+#### Fact-Based Documentation Process
+1. **Examine first**: Read relevant source code files
+2. **Verify second**: Check tests, examples, and sample data
+3. **Document third**: Write documentation based on observed facts
+4. **Cross-reference**: Ensure consistency with existing documentation
+
+**Remember**: Documentation should reflect what the code actually does, not what we think it should do.
+
 ### API Integration
 
 This is a Python SDK for the TASE (Tel Aviv Stock Exchange) DataWise API:
