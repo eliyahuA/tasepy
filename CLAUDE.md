@@ -159,6 +159,11 @@ Before writing any documentation, docstrings, or making claims about functionali
 
 **Remember**: Documentation should reflect what the code actually does, not what we think it should do.
 
+### Adding Domain Specific Client
+Addition starts by adding domain's OpenAPI specs to `tase openapi specs`.
+You will be told the file name with the new specs.
+1. Update `endpoints.yaml` with the endpoints from the specs 
+
 ### API Integration
 
 This is a Python SDK for the TASE (Tel Aviv Stock Exchange) DataWise API:
