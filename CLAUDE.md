@@ -159,10 +159,24 @@ Before writing any documentation, docstrings, or making claims about functionali
 
 **Remember**: Documentation should reflect what the code actually does, not what we think it should do.
 
-### Adding Domain Specific Client
+## Adding Domain Specific Client
 Addition starts by adding domain's OpenAPI specs to `tase openapi specs`.
 You will be told the file name with the new specs.
-1. Update `endpoints.yaml` with the endpoints from the specs 
+
+### Extracting Endpoints
+1. Update `endpoints.yaml` with the endpoints from the specs
+2. Follow existing patterns
+3. If you cannot implement with existing patterns, holt and ask the user how to proceed
+
+### Adding Domain Specific Client
+  1. **Examine existing implementations first** - Read funds.py and indices_basic.py to understand the patterns                 
+  2. **Check parameter handling** - Look at requests_/ folder to understand how headers, query params, and path params are handled
+  3. **Extract all securities endpoints** from securities-basic.yaml OpenAPI spec
+  4. **Follow exact patterns** - Same structure, imports, error handling as existing domain clients
+  5. **Use ForgivingResponse** for all response models
+  6. **Add any missing infrastructure** - Create new resource parameters or headers classes if needed for path parameters
+  7. **Update client.py** to expose the new domain client
+  8. **Include comprehensive docstrings** following project guidelines
 
 ### API Integration
 
