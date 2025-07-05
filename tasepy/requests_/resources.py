@@ -24,19 +24,30 @@ class NoResource(BaseModel, IResource):
         return ""
 
 
-class DatedIndexResource(BaseModel, IResource):
-    """Resource for index component endpoints with date parameters.
-    
-    Example:
-        DatedIndexResource(index_id=123, year=2024, month=6, day=23)
-        # Generates: "/123/2024/6/23"
-    """
-    index_id: int
+class MonthlyDatedResource(BaseModel, IResource):
     year: int
     month: int
+
+    @computed_field
+    @property
+    def resource_path(self) -> str:
+        return f"/{self.year}/{self.month}"
+
+
+class DatedResource(MonthlyDatedResource, IResource):
     day: int
 
     @computed_field
     @property
     def resource_path(self) -> str:
-        return f"/{self.index_id}/{self.year}/{self.month}/{self.day}"
+        return f"{super().resource_path}/{self.day}"
+
+
+class DatedIndexResource(DatedResource, IResource):
+
+    index_id: int
+
+    @computed_field
+    @property
+    def resource_path(self) -> str:
+        return f"/{self.index_id}/{super().resource_path}"
