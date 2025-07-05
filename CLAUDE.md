@@ -190,6 +190,13 @@ The following actions should be repeated per an endpoint of the domain specific 
 2. Use `dev-tools\data-sample-fetcher.py` script to retrieve a json sample fot the endpoint
 3. You can change the code in the script file as necessary to achieve your goal of getting the data sample
 
+#### Creating Typed Response Models
+1. Analyze the JSON response structure and data patterns
+2. Create proper Pydantic response model in the appropriate responses/ subdirectory
+3. Follow existing response model patterns and inheritance from ResponseComponent
+4. Replace ForgivingResponse with the new typed model in the domain client method
+5. Update method docstring with proper return type documentation based on actual data structure
+
 
 ## API Integration
 
