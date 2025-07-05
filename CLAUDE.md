@@ -180,7 +180,7 @@ You will be told the file name with the new specs.
   5. **Use ForgivingResponse** for all response models
   6. **Add any missing infrastructure** - Create new resource parameters or headers classes if needed for path parameters
   7. **Update client.py** to expose the new domain client
-  8. **Include comprehensive docstrings** following project guidelines
+  8. **Include comprehensive docstrings** following project guidelines. Do not document the `Returns` part for domain client methods because you haven't studies samples of return data yet.
 
 ### API Integration
 
