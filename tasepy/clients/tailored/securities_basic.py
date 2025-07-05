@@ -54,7 +54,7 @@ class SecuritiesBasic:
             day: Specific day (1-31)
             
         Returns:
-            ForgivingResponse containing traded securities data for the specified date
+
         """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.securities.trade_securities_list),
@@ -76,7 +76,7 @@ class SecuritiesBasic:
             month: Specific month (1-12)
             
         Returns:
-            ForgivingResponse containing delisted securities data for the specified period
+
         """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.securities.delisted_securities_list),
@@ -94,7 +94,7 @@ class SecuritiesBasic:
         providing comprehensive company information and identifiers.
         
         Returns:
-            ForgivingResponse containing list of companies with their details
+
         """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.securities.companies_list),
@@ -111,7 +111,7 @@ class SecuritiesBasic:
         securities traded on the Tel Aviv Stock Exchange for the next trading day.
         
         Returns:
-            ForgivingResponse containing illiquid, maintenance, and suspension lists
+
         """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.securities.illiquid_maintenance_suspension_list),
@@ -128,7 +128,7 @@ class SecuritiesBasic:
         providing reference codes used for securities trading operations.
         
         Returns:
-            ForgivingResponse containing list of trading codes and their descriptions
+
         """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.securities.trading_code_list),
@@ -145,7 +145,7 @@ class SecuritiesBasic:
         providing classification categories for different security instruments.
         
         Returns:
-            ForgivingResponse containing list of security types and classifications
+
         """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.securities.securities_types),
