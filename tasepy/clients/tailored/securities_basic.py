@@ -1,6 +1,7 @@
 import typeguard
 
 from tasepy.responses import ForgivingResponse
+from tasepy.responses.securities_basic.companies_list import CompaniesList
 from .request_callable import APIRequestExecutor
 from tasepy.requests_.parameters import BaseParameters
 from tasepy.requests_.headers import LanguageAble
@@ -94,13 +95,14 @@ class SecuritiesBasic:
         providing comprehensive company information and identifiers.
         
         Returns:
-
+            CompaniesList: Pydantic data model containing company information including 
+            company names, TASE sectors, issuer IDs, corporate IDs, and dual listing status
         """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.securities.companies_list),
             params=BaseParameters(),
             headers=self._default_header_provider(),
-            response_model=ForgivingResponse
+            response_model=CompaniesList
         )
 
     @typeguard.typechecked

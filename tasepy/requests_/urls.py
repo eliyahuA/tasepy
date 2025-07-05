@@ -43,15 +43,29 @@ class BasicIndices(EndpointGroup):
     index_components_basic: Endpoint
 
 
+class Securities(EndpointGroup):
+    """Basic securities API endpoint URL configurations.
+    
+    Contains URLs for securities listings, companies, and trading data in the TASE DataWise API.
+    """
+    trade_securities_list: Endpoint
+    delisted_securities_list: Endpoint
+    companies_list: Endpoint
+    illiquid_maintenance_suspension_list: Endpoint
+    trading_code_list: Endpoint
+    securities_types: Endpoint
+
+
 class Endpoints(BaseModel, Generic[BaseModelGeneric]):
     """Complete API endpoint configuration structure.
     
     Root configuration containing base URL and organized endpoint groups
-    for funds and indices domains.
+    for API domains.
     """
     base_url: str
     funds: Funds
     indices: BasicIndices
+    securities: Securities
 
 
 if __name__ == "__main__":
