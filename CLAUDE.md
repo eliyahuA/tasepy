@@ -100,6 +100,10 @@ When writing docstrings for domain-specific client methods (e.g., in `Funds`, `I
 
 - When code is self-documenting, avoid adding docstrings.
 
+#### Progressive Extension Pattern and DRY Principle Implementation
+- **Progressive Extension Pattern**: Build inheritance hierarchies where each class adds specific functionality while reusing parent logic via `super()`
+- **DRY Principle Implementation**: Eliminate code duplication through inheritance - each class should only define its additional fields and extend parent behavior rather than duplicate it
+
 ### Domain-Agnostic Documentation Principles
 
 **Keep architectural documentation domain-neutral**:

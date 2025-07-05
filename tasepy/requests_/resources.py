@@ -25,6 +25,12 @@ class NoResource(BaseModel, IResource):
 
 
 class MonthlyDatedResource(BaseModel, IResource):
+    """Base resource for year and month path parameters.
+    
+    Example:
+        MonthlyDatedResource(year=2024, month=6)
+        # Generates: "/2024/6"
+    """
     year: int
     month: int
 
@@ -35,6 +41,15 @@ class MonthlyDatedResource(BaseModel, IResource):
 
 
 class DatedResource(MonthlyDatedResource, IResource):
+    """Resource extending MonthlyDatedResource with day parameter.
+    
+    Uses Progressive Extension Pattern to reuse parent month/year logic
+    and append day parameter via super().
+    
+    Example:
+        DatedResource(year=2024, month=6, day=23)
+        # Generates: "/2024/6/23"
+    """
     day: int
 
     @computed_field
@@ -44,10 +59,18 @@ class DatedResource(MonthlyDatedResource, IResource):
 
 
 class DatedIndexResource(DatedResource, IResource):
-
+    """Resource extending DatedResource with index_id prefix parameter.
+    
+    Uses Progressive Extension Pattern to reuse parent date logic
+    and prepend index_id parameter via super().
+    
+    Example:
+        DatedIndexResource(index_id=123, year=2024, month=6, day=23)
+        # Generates: "/123/2024/6/23"
+    """
     index_id: int
 
     @computed_field
     @property
     def resource_path(self) -> str:
-        return f"/{self.index_id}/{super().resource_path}"
+        return f"/{self.index_id}{super().resource_path}"
