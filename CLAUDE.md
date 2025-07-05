@@ -35,6 +35,11 @@ EOF
 )"
 ```
 
+## Development Debugging
+
+### Troubleshooting
+- When having difficulties locating anything always check your current directory as one of the first debugging steps
+
 ## Architecture Overview
 
 ### Core Components
