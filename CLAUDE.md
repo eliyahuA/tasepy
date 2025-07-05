@@ -182,7 +182,16 @@ You will be told the file name with the new specs.
   7. **Update client.py** to expose the new domain client
   8. **Include comprehensive docstrings** following project guidelines. Do not document the `Returns` part for domain client methods because you haven't studies samples of return data yet.
 
-### API Integration
+### Implement Endpoints
+The following actions should be repeated per an endpoint of the domain specific client you have prepared in the last stage
+
+#### Retrieving Data Samples
+1. Choose the next domain specific endpoint that wasn't processed yet
+2. Use `dev-tools\data-sample-fetcher.py` script to retrieve a json sample fot the endpoint
+3. You can change the code in the script file as necessary to achieve your goal of getting the data sample
+
+
+## API Integration
 
 This is a Python SDK for the TASE (Tel Aviv Stock Exchange) DataWise API:
 - Base URL: `https://datawise.tase.co.il/v1`
