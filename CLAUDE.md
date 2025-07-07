@@ -24,6 +24,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### Git Commit Guidelines
 - **IMPORTANT**: Always use "claude" as the author/committer identity for all commits
+- **IMPORTANT**: Do not try to commit work unless you are told so explicitly by the user
 - Use this exact commit command format:
 ```bash
 GIT_COMMITTER_NAME="claude" GIT_COMMITTER_EMAIL="claude@anthropic.com" git commit --author="claude <claude@anthropic.com>" -m "$(cat <<'EOF'
