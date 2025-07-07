@@ -5,6 +5,7 @@ from tasepy.responses.securities_basic.companies_list import CompaniesList
 from tasepy.responses.securities_basic.securities_types import SecuritiesTypes
 from tasepy.responses.securities_basic.trading_code_list import TradingCodeList
 from tasepy.responses.securities_basic.illiquid_maintenance_suspension_list import IlliquidMaintenanceSuspensionList
+from tasepy.responses.securities_basic.delisted_securities_list import DelistedSecuritiesList
 from .request_callable import APIRequestExecutor
 from tasepy.requests_.parameters import BaseParameters
 from tasepy.requests_.headers import LanguageAble
@@ -80,13 +81,14 @@ class SecuritiesBasic:
             month: Specific month (1-12)
             
         Returns:
-
+            DelistedSecuritiesList: Pydantic data model containing delisted security information including
+            security IDs, names, symbols, and final trading dates for the specified period
         """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.securities.delisted_securities_list),
             params=BaseParameters(),
             headers=self._default_header_provider(),
-            response_model=ForgivingResponse,
+            response_model=DelistedSecuritiesList,
             resource=MonthlyDatedResource(year=year, month=month)
         )
 

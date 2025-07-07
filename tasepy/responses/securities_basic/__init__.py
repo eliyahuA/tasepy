@@ -7,3 +7,4 @@ from . import companies_list
 from . import securities_types
 from . import trading_code_list
 from . import illiquid_maintenance_suspension_list
+from . import delisted_securities_list
