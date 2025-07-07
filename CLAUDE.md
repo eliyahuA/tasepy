@@ -20,6 +20,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Integration tests require an API key from TASE (Tel Aviv Stock Exchange)
 - Set API_KEY environment variable or create a `.env` file
 - API key can also be loaded from YAML file (see `API key.yaml` template)
+- As claude coding agent you are might be operating within a wsl instance on a windows machine. Check if you are within an wsl, if so Activate .venv_wsl environment before attempting to execute any tasepy python script
 
 ### Git Commit Guidelines
 - **IMPORTANT**: Always use "claude" as the author/committer identity for all commits
