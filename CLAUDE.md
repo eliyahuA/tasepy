@@ -206,7 +206,7 @@ The following actions should be repeated per an endpoint of the domain specific 
 
 ### Creating Response Tests
 1. Read the existing tests for funds and indices in /tests/unit/responses/funds or /indices_basic
-2. Create similar test package for the specific domain you currently working on
+2. Create similar test package for the specific domain you are currently working on
 
 ## API Integration
 
