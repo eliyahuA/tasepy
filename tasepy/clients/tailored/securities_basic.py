@@ -2,6 +2,7 @@ import typeguard
 
 from tasepy.responses import ForgivingResponse
 from tasepy.responses.securities_basic.companies_list import CompaniesList
+from tasepy.responses.securities_basic.securities_types import SecuritiesTypes
 from .request_callable import APIRequestExecutor
 from tasepy.requests_.parameters import BaseParameters
 from tasepy.requests_.headers import LanguageAble
@@ -147,11 +148,12 @@ class SecuritiesBasic:
         providing classification categories for different security instruments.
         
         Returns:
-
+            SecuritiesTypes: Pydantic data model containing security type classifications including
+            main type codes, full type codes, and descriptions for hierarchical security categorization
         """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.securities.securities_types),
             params=BaseParameters(),
             headers=self._default_header_provider(),
-            response_model=ForgivingResponse
+            response_model=SecuritiesTypes
         )

@@ -1,0 +1,1423 @@
+{
+    "securitiesTypes": {
+        "result": [
+            {
+                "securityMainTypeCode": "01",
+                "securityMainTypeDesc": "מניה",
+                "securityFullTypeCode": "0101",
+                "securityTypeDesc": "מניה רגילה"
+            },
+            {
+                "securityMainTypeCode": "01",
+                "securityMainTypeDesc": "מניה",
+                "securityFullTypeCode": "0102",
+                "securityTypeDesc": "מניה מבוכרת"
+            },
+            {
+                "securityMainTypeCode": "01",
+                "securityMainTypeDesc": "מניה",
+                "securityFullTypeCode": "0103",
+                "securityTypeDesc": "מניה צוברת ומבוכרת"
+            },
+            {
+                "securityMainTypeCode": "01",
+                "securityMainTypeDesc": "מניה",
+                "securityFullTypeCode": "0104",
+                "securityTypeDesc": "מנית סטוק"
+            },
+            {
+                "securityMainTypeCode": "01",
+                "securityMainTypeDesc": "מניה",
+                "securityFullTypeCode": "0105",
+                "securityTypeDesc": "מנית יסוד"
+            },
+            {
+                "securityMainTypeCode": "01",
+                "securityMainTypeDesc": "מניה",
+                "securityFullTypeCode": "0106",
+                "securityTypeDesc": "מניה צוברת"
+            },
+            {
+                "securityMainTypeCode": "01",
+                "securityMainTypeDesc": "מניה",
+                "securityFullTypeCode": "0107",
+                "securityTypeDesc": "מניה משתתפת"
+            },
+            {
+                "securityMainTypeCode": "01",
+                "securityMainTypeDesc": "מניה",
+                "securityFullTypeCode": "0108",
+                "securityTypeDesc": "מניה צוברת ומשתתפת"
+            },
+            {
+                "securityMainTypeCode": "01",
+                "securityMainTypeDesc": "מניה",
+                "securityFullTypeCode": "0109",
+                "securityTypeDesc": "מנית הנהלה"
+            },
+            {
+                "securityMainTypeCode": "01",
+                "securityMainTypeDesc": "מניה",
+                "securityFullTypeCode": "0110",
+                "securityTypeDesc": "מניה נדחת"
+            },
+            {
+                "securityMainTypeCode": "01",
+                "securityMainTypeDesc": "מניה",
+                "securityFullTypeCode": "0111",
+                "securityTypeDesc": "מנית בכורה"
+            },
+            {
+                "securityMainTypeCode": "01",
+                "securityMainTypeDesc": "מניה",
+                "securityFullTypeCode": "0112",
+                "securityTypeDesc": "מנית פדיון"
+            },
+            {
+                "securityMainTypeCode": "01",
+                "securityMainTypeDesc": "מניה",
+                "securityFullTypeCode": "0113",
+                "securityTypeDesc": "קרן נאמנות סגורה"
+            },
+            {
+                "securityMainTypeCode": "01",
+                "securityMainTypeDesc": "מניה",
+                "securityFullTypeCode": "0114",
+                "securityTypeDesc": "מנית ריט"
+            },
+            {
+                "securityMainTypeCode": "01",
+                "securityMainTypeDesc": "מניה",
+                "securityFullTypeCode": "0198",
+                "securityTypeDesc": "מניה ללא הצבעה"
+            },
+            {
+                "securityMainTypeCode": "01",
+                "securityMainTypeDesc": "מניה",
+                "securityFullTypeCode": "0199",
+                "securityTypeDesc": "מניה רדומה"
+            },
+            {
+                "securityMainTypeCode": "02",
+                "securityMainTypeDesc": "אופציה",
+                "securityFullTypeCode": "0201",
+                "securityTypeDesc": "אופציה למניה"
+            },
+            {
+                "securityMainTypeCode": "02",
+                "securityMainTypeDesc": "אופציה",
+                "securityFullTypeCode": "0202",
+                "securityTypeDesc": "אופציה לאג\"ח להמרה"
+            },
+            {
+                "securityMainTypeCode": "02",
+                "securityMainTypeDesc": "אופציה",
+                "securityFullTypeCode": "0203",
+                "securityTypeDesc": "אופציה לאופציה"
+            },
+            {
+                "securityMainTypeCode": "02",
+                "securityMainTypeDesc": "אופציה",
+                "securityFullTypeCode": "0204",
+                "securityTypeDesc": "אופציה ליח' השתתפות"
+            },
+            {
+                "securityMainTypeCode": "02",
+                "securityMainTypeDesc": "אופציה",
+                "securityFullTypeCode": "0205",
+                "securityTypeDesc": "אופציה משולבת"
+            },
+            {
+                "securityMainTypeCode": "02",
+                "securityMainTypeDesc": "אופציה",
+                "securityFullTypeCode": "0206",
+                "securityTypeDesc": "אופציה עובדים"
+            },
+            {
+                "securityMainTypeCode": "02",
+                "securityMainTypeDesc": "אופציה",
+                "securityFullTypeCode": "0207",
+                "securityTypeDesc": "אופציה לאחרים"
+            },
+            {
+                "securityMainTypeCode": "03",
+                "securityMainTypeDesc": "אג\"ח להמרה",
+                "securityFullTypeCode": "0301",
+                "securityTypeDesc": "אג\"ח להמרה"
+            },
+            {
+                "securityMainTypeCode": "03",
+                "securityMainTypeDesc": "אג\"ח להמרה",
+                "securityFullTypeCode": "0302",
+                "securityTypeDesc": "שטר הון"
+            },
+            {
+                "securityMainTypeCode": "03",
+                "securityMainTypeDesc": "אג\"ח להמרה",
+                "securityFullTypeCode": "0303",
+                "securityTypeDesc": "שטר התחייבות"
+            },
+            {
+                "securityMainTypeCode": "03",
+                "securityMainTypeDesc": "אג\"ח להמרה",
+                "securityFullTypeCode": "0304",
+                "securityTypeDesc": "חוב להמרה שלא שולם"
+            },
+            {
+                "securityMainTypeCode": "03",
+                "securityMainTypeDesc": "אג\"ח להמרה",
+                "securityFullTypeCode": "0305",
+                "securityTypeDesc": "אג.להמרה רכישה"
+            },
+            {
+                "securityMainTypeCode": "03",
+                "securityMainTypeDesc": "אג\"ח להמרה",
+                "securityFullTypeCode": "0306",
+                "securityTypeDesc": "אגח\"ה משלם מניות"
+            },
+            {
+                "securityMainTypeCode": "04",
+                "securityMainTypeDesc": "אג\"ח ממשלתי",
+                "securityFullTypeCode": "0401",
+                "securityTypeDesc": "אג\"ח ממשלתי"
+            },
+            {
+                "securityMainTypeCode": "04",
+                "securityMainTypeDesc": "אג\"ח ממשלתי",
+                "securityFullTypeCode": "0402",
+                "securityTypeDesc": "אג\"ח ממשלתי גלבוע"
+            },
+            {
+                "securityMainTypeCode": "04",
+                "securityMainTypeDesc": "אג\"ח ממשלתי",
+                "securityFullTypeCode": "0403",
+                "securityTypeDesc": "אג\"ח ממשלתי רמון"
+            },
+            {
+                "securityMainTypeCode": "04",
+                "securityMainTypeDesc": "אג\"ח ממשלתי",
+                "securityFullTypeCode": "0404",
+                "securityTypeDesc": "אג\"ח ממשלתי שגיא"
+            },
+            {
+                "securityMainTypeCode": "04",
+                "securityMainTypeDesc": "אג\"ח ממשלתי",
+                "securityFullTypeCode": "0405",
+                "securityTypeDesc": "אג\"ח ממשלתי שגיא מש'"
+            },
+            {
+                "securityMainTypeCode": "04",
+                "securityMainTypeDesc": "אג\"ח ממשלתי",
+                "securityFullTypeCode": "0406",
+                "securityTypeDesc": "אג\"ח ממשלתי גליל"
+            },
+            {
+                "securityMainTypeCode": "04",
+                "securityMainTypeDesc": "אג\"ח ממשלתי",
+                "securityFullTypeCode": "0407",
+                "securityTypeDesc": "אג\"ח ממשלתי גליל מש'"
+            },
+            {
+                "securityMainTypeCode": "04",
+                "securityMainTypeDesc": "אג\"ח ממשלתי",
+                "securityFullTypeCode": "0408",
+                "securityTypeDesc": "אג\"ח ממשלתי גבע"
+            },
+            {
+                "securityMainTypeCode": "04",
+                "securityMainTypeDesc": "אג\"ח ממשלתי",
+                "securityFullTypeCode": "0409",
+                "securityTypeDesc": "אג\"ח ממשלתי כפיר"
+            },
+            {
+                "securityMainTypeCode": "04",
+                "securityMainTypeDesc": "אג\"ח ממשלתי",
+                "securityFullTypeCode": "0410",
+                "securityTypeDesc": "אג\"ח ממשלתי גילון"
+            },
+            {
+                "securityMainTypeCode": "04",
+                "securityMainTypeDesc": "אג\"ח ממשלתי",
+                "securityFullTypeCode": "0411",
+                "securityTypeDesc": "אג\"ח ממשלתי שחר"
+            },
+            {
+                "securityMainTypeCode": "04",
+                "securityMainTypeDesc": "אג\"ח ממשלתי",
+                "securityFullTypeCode": "0412",
+                "securityTypeDesc": "אג\"ח ממשלתי כפיר חדש"
+            },
+            {
+                "securityMainTypeCode": "04",
+                "securityMainTypeDesc": "אג\"ח ממשלתי",
+                "securityFullTypeCode": "0413",
+                "securityTypeDesc": "אגח ממשלתי גילון חדש"
+            },
+            {
+                "securityMainTypeCode": "04",
+                "securityMainTypeDesc": "אג\"ח ממשלתי",
+                "securityFullTypeCode": "0414",
+                "securityTypeDesc": "אג\"ח ממשלתית קצרה"
+            },
+            {
+                "securityMainTypeCode": "04",
+                "securityMainTypeDesc": "אג\"ח ממשלתי",
+                "securityFullTypeCode": "0415",
+                "securityTypeDesc": "אג\"ח ממשלתית גלובלית"
+            },
+            {
+                "securityMainTypeCode": "05",
+                "securityMainTypeDesc": "אג\"ח קונצרני",
+                "securityFullTypeCode": "0501",
+                "securityTypeDesc": "אג\"ח קונצרני"
+            },
+            {
+                "securityMainTypeCode": "05",
+                "securityMainTypeDesc": "אג\"ח קונצרני",
+                "securityFullTypeCode": "0502",
+                "securityTypeDesc": "חוב שלא שולם"
+            },
+            {
+                "securityMainTypeCode": "05",
+                "securityMainTypeDesc": "אג\"ח קונצרני",
+                "securityFullTypeCode": "0503",
+                "securityTypeDesc": "אג\"ח להחלפה"
+            },
+            {
+                "securityMainTypeCode": "05",
+                "securityMainTypeDesc": "אג\"ח קונצרני",
+                "securityFullTypeCode": "0504",
+                "securityTypeDesc": "תעודות סל לאג\"ח"
+            },
+            {
+                "securityMainTypeCode": "05",
+                "securityMainTypeDesc": "אג\"ח קונצרני",
+                "securityFullTypeCode": "0505",
+                "securityTypeDesc": "אג\"ח מובנות"
+            },
+            {
+                "securityMainTypeCode": "05",
+                "securityMainTypeDesc": "אג\"ח קונצרני",
+                "securityFullTypeCode": "0506",
+                "securityTypeDesc": "תעודות פקדון"
+            },
+            {
+                "securityMainTypeCode": "05",
+                "securityMainTypeDesc": "אג\"ח קונצרני",
+                "securityFullTypeCode": "0507",
+                "securityTypeDesc": "אג\"ח מרובה פדיונות"
+            },
+            {
+                "securityMainTypeCode": "05",
+                "securityMainTypeDesc": "אג\"ח קונצרני",
+                "securityFullTypeCode": "0508",
+                "securityTypeDesc": "ני\"ע מסחריים"
+            },
+            {
+                "securityMainTypeCode": "05",
+                "securityMainTypeDesc": "אג\"ח קונצרני",
+                "securityFullTypeCode": "0509",
+                "securityTypeDesc": "אג\"ח צמוד מניה"
+            },
+            {
+                "securityMainTypeCode": "05",
+                "securityMainTypeDesc": "אג\"ח קונצרני",
+                "securityFullTypeCode": "0510",
+                "securityTypeDesc": "אגח הוני ניתן להמרה"
+            },
+            {
+                "securityMainTypeCode": "05",
+                "securityMainTypeDesc": "אג\"ח קונצרני",
+                "securityFullTypeCode": "0511",
+                "securityTypeDesc": "אגח הוני ניתן למחיקה"
+            },
+            {
+                "securityMainTypeCode": "05",
+                "securityMainTypeDesc": "אג\"ח קונצרני",
+                "securityFullTypeCode": "0512",
+                "securityTypeDesc": "יהש התחייבותית"
+            },
+            {
+                "securityMainTypeCode": "05",
+                "securityMainTypeDesc": "אג\"ח קונצרני",
+                "securityFullTypeCode": "0513",
+                "securityTypeDesc": "אגח משלם במניות"
+            },
+            {
+                "securityMainTypeCode": "05",
+                "securityMainTypeDesc": "אג\"ח קונצרני",
+                "securityFullTypeCode": "0514",
+                "securityTypeDesc": "אגח היברידי"
+            },
+            {
+                "securityMainTypeCode": "06",
+                "securityMainTypeDesc": "קבוצת תשואה",
+                "securityFullTypeCode": "0601",
+                "securityTypeDesc": "קבוצת תשואה"
+            },
+            {
+                "securityMainTypeCode": "07",
+                "securityMainTypeDesc": "יחידת מו\"פ",
+                "securityFullTypeCode": "0701",
+                "securityTypeDesc": "יחידת מו\"פ"
+            },
+            {
+                "securityMainTypeCode": "08",
+                "securityMainTypeDesc": "מק\"מ",
+                "securityFullTypeCode": "0801",
+                "securityTypeDesc": "מלוה קצר מועד"
+            },
+            {
+                "securityMainTypeCode": "09",
+                "securityMainTypeDesc": "זכויות",
+                "securityFullTypeCode": "0901",
+                "securityTypeDesc": "זכויות"
+            },
+            {
+                "securityMainTypeCode": "10",
+                "securityMainTypeDesc": "קרן נאמנות",
+                "securityFullTypeCode": "1001",
+                "securityTypeDesc": "קרן נאמנות"
+            },
+            {
+                "securityMainTypeCode": "11",
+                "securityMainTypeDesc": "אג\"ח-אופציה",
+                "securityFullTypeCode": "1101",
+                "securityTypeDesc": "אג\"ח אופציה"
+            },
+            {
+                "securityMainTypeCode": "12",
+                "securityMainTypeDesc": "יחידת השתתפות",
+                "securityFullTypeCode": "1201",
+                "securityTypeDesc": "יחידת השתתפות"
+            },
+            {
+                "securityMainTypeCode": "12",
+                "securityMainTypeDesc": "יחידת השתתפות",
+                "securityFullTypeCode": "1202",
+                "securityTypeDesc": "יהש עם מרכיב הוני"
+            },
+            {
+                "securityMainTypeCode": "13",
+                "securityMainTypeDesc": "אופצית רכישה",
+                "securityFullTypeCode": "1301",
+                "securityTypeDesc": "אופצית רכישה"
+            },
+            {
+                "securityMainTypeCode": "13",
+                "securityMainTypeDesc": "אופצית רכישה",
+                "securityFullTypeCode": "1302",
+                "securityTypeDesc": "אופ.רכישה יח.השתתפות"
+            },
+            {
+                "securityMainTypeCode": "14",
+                "securityMainTypeDesc": "אופציה דולרית",
+                "securityFullTypeCode": "1401",
+                "securityTypeDesc": "אופציה $ 3 חודשים"
+            },
+            {
+                "securityMainTypeCode": "14",
+                "securityMainTypeDesc": "אופציה דולרית",
+                "securityFullTypeCode": "1402",
+                "securityTypeDesc": "אופציה $ 12 חודשים"
+            },
+            {
+                "securityMainTypeCode": "15",
+                "securityMainTypeDesc": "אופציה לאגח",
+                "securityFullTypeCode": "1501",
+                "securityTypeDesc": "אופציה לאג\"ח"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1601",
+                "securityTypeDesc": "אופציה CALL (תא35)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1602",
+                "securityTypeDesc": "אופציה CALL (דולר)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1604",
+                "securityTypeDesc": "אופציה CALL (בנק)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1605",
+                "securityTypeDesc": "אופציה CALL (אירו)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1608",
+                "securityTypeDesc": "אופציה CALL (כיל)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1609",
+                "securityTypeDesc": "אופציה CALL (פעל)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1610",
+                "securityTypeDesc": "אופציה CALL (לאמ)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1611",
+                "securityTypeDesc": "אופציה CALL (טבע)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1612",
+                "securityTypeDesc": "אופציה CALL (דסק)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1613",
+                "securityTypeDesc": "אופציה CALL (מזר)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1614",
+                "securityTypeDesc": "אופציה CALL (אבנ)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1615",
+                "securityTypeDesc": "אופציה CALL (ישק)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1616",
+                "securityTypeDesc": "אופציה CALL (רצי)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1617",
+                "securityTypeDesc": "אופציה CALL (ממא)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1618",
+                "securityTypeDesc": "אופציה CALL (ממב)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1619",
+                "securityTypeDesc": "אופציה CALL (בזק)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1620",
+                "securityTypeDesc": "אופציה CALL (פרג)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1621",
+                "securityTypeDesc": "אופציה CALL (תא125)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1622",
+                "securityTypeDesc": "אופציה CALL (בנל)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1623",
+                "securityTypeDesc": "אופציה CALL (ניס)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1624",
+                "securityTypeDesc": "אופציה CALL (דלק)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1625",
+                "securityTypeDesc": "אופציה CALL (ישק)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1626",
+                "securityTypeDesc": "אופציה CALL (חלי)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1627",
+                "securityTypeDesc": "אופציה CALL (אפק)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1628",
+                "securityTypeDesc": "אופציה CALL (פרט)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1629",
+                "securityTypeDesc": "אופציה CALL (אלב)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1630",
+                "securityTypeDesc": "אופציה CALL (עזר)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1631",
+                "securityTypeDesc": "אופציה CALL (דקד)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1632",
+                "securityTypeDesc": "אופציה CALL (פזנ)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1633",
+                "securityTypeDesc": "אופציה CALL (גזת)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1634",
+                "securityTypeDesc": "אופציה CALL (מלס)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1635",
+                "securityTypeDesc": "אופציה CALL (שטר)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1637",
+                "securityTypeDesc": "אופציה CALL (ארמ)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1638",
+                "securityTypeDesc": "אופציה CALL (מלן)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1639",
+                "securityTypeDesc": "אופציה CALL (פרנ)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1640",
+                "securityTypeDesc": "אופציה CALL (סלק)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1641",
+                "securityTypeDesc": "אופציה CALL (הרא)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1642",
+                "securityTypeDesc": "אופציה CALL (שפר)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1643",
+                "securityTypeDesc": "אופציה CALL (פנק)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1644",
+                "securityTypeDesc": "אופציה CALL (בזן)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1645",
+                "securityTypeDesc": "אופציה CALL (אחץ)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1646",
+                "securityTypeDesc": "אופציה CALL (ברס)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1647",
+                "securityTypeDesc": "אופציה CALL (ביג)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1649",
+                "securityTypeDesc": "אופציה CALL (אמת)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1650",
+                "securityTypeDesc": "אופציה CALL (אנל)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1651",
+                "securityTypeDesc": "אופציה CALL (ארג)"
+            },
+            {
+                "securityMainTypeCode": "16",
+                "securityMainTypeDesc": "אופציה CALL",
+                "securityFullTypeCode": "1652",
+                "securityTypeDesc": "אופציה CALL (כלל)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1701",
+                "securityTypeDesc": "אופציה PUT  (תא35)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1702",
+                "securityTypeDesc": "אופציה PUT  (דולר)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1704",
+                "securityTypeDesc": "אופציה PUT  (בנק)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1705",
+                "securityTypeDesc": "אופציה PUT  (אירו)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1708",
+                "securityTypeDesc": "אופציה PUT  (כיל)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1709",
+                "securityTypeDesc": "אופציה PUT  (פעל)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1710",
+                "securityTypeDesc": "אופציה PUT  (לאמ)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1711",
+                "securityTypeDesc": "אופציה PUT  (טבע)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1712",
+                "securityTypeDesc": "אופציה PUT  (דסק)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1713",
+                "securityTypeDesc": "אופציה PUT  (מזר)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1714",
+                "securityTypeDesc": "אופציה PUT  (אבנ)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1715",
+                "securityTypeDesc": "אופציה PUT  (ישק)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1716",
+                "securityTypeDesc": "אופציה PUT  (רצי)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1717",
+                "securityTypeDesc": "אופציה PUT  (ממא)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1718",
+                "securityTypeDesc": "אופציה PUT  (ממב)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1719",
+                "securityTypeDesc": "אופציה PUT  (בזק)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1720",
+                "securityTypeDesc": "אופציה PUT  (פרג)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1721",
+                "securityTypeDesc": "אופציה PUT  (תא125)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1722",
+                "securityTypeDesc": "אופציה PUT  (בנל)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1723",
+                "securityTypeDesc": "אופציה PUT  (ניס)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1724",
+                "securityTypeDesc": "אופציה PUT  (דלק)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1725",
+                "securityTypeDesc": "אופציה PUT  (ישק)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1726",
+                "securityTypeDesc": "אופציה PUT  (חלי)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1727",
+                "securityTypeDesc": "אופציה PUT  (אפק)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1728",
+                "securityTypeDesc": "אופציה PUT  (פרט)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1729",
+                "securityTypeDesc": "אופציה PUT  (אלב)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1730",
+                "securityTypeDesc": "אופציה PUT  (עזר)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1731",
+                "securityTypeDesc": "אופציה PUT  (דקד)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1732",
+                "securityTypeDesc": "אופציה PUT  (פזנ)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1733",
+                "securityTypeDesc": "אופציה PUT  (גזת)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1734",
+                "securityTypeDesc": "אופציה PUT  (מלס)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1735",
+                "securityTypeDesc": "אופציה PUT  (שטר)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1737",
+                "securityTypeDesc": "אופציה PUT  (ארמ)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1738",
+                "securityTypeDesc": "אופציה PUT  (מלן)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1739",
+                "securityTypeDesc": "אופציה PUT  (פרנ)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1740",
+                "securityTypeDesc": "אופציה PUT  (סלק)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1741",
+                "securityTypeDesc": "אופציה PUT  (הרא)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1742",
+                "securityTypeDesc": "אופציה PUT  (שפר)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1743",
+                "securityTypeDesc": "אופציה PUT  (פנק)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1744",
+                "securityTypeDesc": "אופציה PUT  (בזן)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1745",
+                "securityTypeDesc": "אופציה PUT  (אחץ)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1746",
+                "securityTypeDesc": "אופציה PUT  (ברס)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1747",
+                "securityTypeDesc": "אופציה PUT  (ביג)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1749",
+                "securityTypeDesc": "אופציה PUT  (אמת)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1750",
+                "securityTypeDesc": "אופציה PUT  (אנל)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1751",
+                "securityTypeDesc": "אופציה PUT  (ארג)"
+            },
+            {
+                "securityMainTypeCode": "17",
+                "securityMainTypeDesc": "אופציה PUT",
+                "securityFullTypeCode": "1752",
+                "securityTypeDesc": "אופציה PUT  (כלל)"
+            },
+            {
+                "securityMainTypeCode": "18",
+                "securityMainTypeDesc": "חוזה עתידי",
+                "securityFullTypeCode": "1801",
+                "securityTypeDesc": "חוזה עתידי  (תא35)"
+            },
+            {
+                "securityMainTypeCode": "18",
+                "securityMainTypeDesc": "חוזה עתידי",
+                "securityFullTypeCode": "1802",
+                "securityTypeDesc": "חוזה עתידי  (דולר)"
+            },
+            {
+                "securityMainTypeCode": "18",
+                "securityMainTypeDesc": "חוזה עתידי",
+                "securityFullTypeCode": "1803",
+                "securityTypeDesc": "חוזה עתידי  (ריב3)"
+            },
+            {
+                "securityMainTypeCode": "18",
+                "securityMainTypeDesc": "חוזה עתידי",
+                "securityFullTypeCode": "1804",
+                "securityTypeDesc": "חוזה עתידי  (בנק)"
+            },
+            {
+                "securityMainTypeCode": "18",
+                "securityMainTypeDesc": "חוזה עתידי",
+                "securityFullTypeCode": "1805",
+                "securityTypeDesc": "חוזה עתידי  (אירו)"
+            },
+            {
+                "securityMainTypeCode": "18",
+                "securityMainTypeDesc": "חוזה עתידי",
+                "securityFullTypeCode": "1806",
+                "securityTypeDesc": "חוזה עתידי  (שחר-ב)"
+            },
+            {
+                "securityMainTypeCode": "18",
+                "securityMainTypeDesc": "חוזה עתידי",
+                "securityFullTypeCode": "1807",
+                "securityTypeDesc": "חוזה עתידי  (שחר-א)"
+            },
+            {
+                "securityMainTypeCode": "18",
+                "securityMainTypeDesc": "חוזה עתידי",
+                "securityFullTypeCode": "1821",
+                "securityTypeDesc": "חוזה עתידי  (תא125)"
+            },
+            {
+                "securityMainTypeCode": "18",
+                "securityMainTypeDesc": "חוזה עתידי",
+                "securityFullTypeCode": "1848",
+                "securityTypeDesc": "חוזה עתידי  (תא90)"
+            },
+            {
+                "securityMainTypeCode": "19",
+                "securityMainTypeDesc": "אופציה CALL שב.",
+                "securityFullTypeCode": "1901",
+                "securityTypeDesc": "אופCALL. שב.(תא35)"
+            },
+            {
+                "securityMainTypeCode": "19",
+                "securityMainTypeDesc": "אופציה CALL שב.",
+                "securityFullTypeCode": "1902",
+                "securityTypeDesc": "אופCALL. שב.(דולר)"
+            },
+            {
+                "securityMainTypeCode": "20",
+                "securityMainTypeDesc": "אופציה PUT שב.",
+                "securityFullTypeCode": "2001",
+                "securityTypeDesc": "אופPUT.  שב.(תא35)"
+            },
+            {
+                "securityMainTypeCode": "20",
+                "securityMainTypeDesc": "אופציה PUT שב.",
+                "securityFullTypeCode": "2002",
+                "securityTypeDesc": "אופPUT.  שב.(דולר)"
+            },
+            {
+                "securityMainTypeCode": "21",
+                "securityMainTypeDesc": "חוזה עתידי שב.",
+                "securityFullTypeCode": "2101",
+                "securityTypeDesc": "ח.עתידי  שב.(תא35)"
+            },
+            {
+                "securityMainTypeCode": "21",
+                "securityMainTypeDesc": "חוזה עתידי שב.",
+                "securityFullTypeCode": "2102",
+                "securityTypeDesc": "ח.עתידי  שב.(דולר)"
+            },
+            {
+                "securityMainTypeCode": "32",
+                "securityMainTypeDesc": "תעודות סל מניות",
+                "securityFullTypeCode": "3201",
+                "securityTypeDesc": "ת.סל מנ מקומי"
+            },
+            {
+                "securityMainTypeCode": "32",
+                "securityMainTypeDesc": "תעודות סל מניות",
+                "securityFullTypeCode": "3202",
+                "securityTypeDesc": "ת.סל מנ בינלאומי"
+            },
+            {
+                "securityMainTypeCode": "32",
+                "securityMainTypeDesc": "תעודות סל מניות",
+                "securityFullTypeCode": "3203",
+                "securityTypeDesc": "ת.סחורה-מניות"
+            },
+            {
+                "securityMainTypeCode": "32",
+                "securityMainTypeDesc": "תעודות סל מניות",
+                "securityFullTypeCode": "3204",
+                "securityTypeDesc": "ת. נוסחה מניה"
+            },
+            {
+                "securityMainTypeCode": "32",
+                "securityMainTypeDesc": "תעודות סל מניות",
+                "securityFullTypeCode": "3205",
+                "securityTypeDesc": "ת. שילוב מניה"
+            },
+            {
+                "securityMainTypeCode": "32",
+                "securityMainTypeDesc": "תעודות סל מניות",
+                "securityFullTypeCode": "3206",
+                "securityTypeDesc": "ת.נכס מנ מתחלף"
+            },
+            {
+                "securityMainTypeCode": "32",
+                "securityMainTypeDesc": "תעודות סל מניות",
+                "securityFullTypeCode": "3207",
+                "securityTypeDesc": "ת.נוס.סחורה מנ"
+            },
+            {
+                "securityMainTypeCode": "32",
+                "securityMainTypeDesc": "תעודות סל מניות",
+                "securityFullTypeCode": "3208",
+                "securityTypeDesc": "ת.שילוב סחורה מנ"
+            },
+            {
+                "securityMainTypeCode": "32",
+                "securityMainTypeDesc": "תעודות סל מניות",
+                "securityFullTypeCode": "3209",
+                "securityTypeDesc": "ת.מתחלף סחורה מנ"
+            },
+            {
+                "securityMainTypeCode": "32",
+                "securityMainTypeDesc": "תעודות סל מניות",
+                "securityFullTypeCode": "3210",
+                "securityTypeDesc": "ת.חוזה-מניה"
+            },
+            {
+                "securityMainTypeCode": "33",
+                "securityMainTypeDesc": "ת.בחסר מניות",
+                "securityFullTypeCode": "3301",
+                "securityTypeDesc": "ת.חסר מנ מקומי"
+            },
+            {
+                "securityMainTypeCode": "33",
+                "securityMainTypeDesc": "ת.בחסר מניות",
+                "securityFullTypeCode": "3302",
+                "securityTypeDesc": "ת.חסר מנ בינלאומי"
+            },
+            {
+                "securityMainTypeCode": "33",
+                "securityMainTypeDesc": "ת.בחסר מניות",
+                "securityFullTypeCode": "3303",
+                "securityTypeDesc": "ת.ח.סחורה-מניות"
+            },
+            {
+                "securityMainTypeCode": "34",
+                "securityMainTypeDesc": "א.כיסוי רכש מנ.",
+                "securityFullTypeCode": "3401",
+                "securityTypeDesc": "אכ.רכש מנ מקומי"
+            },
+            {
+                "securityMainTypeCode": "34",
+                "securityMainTypeDesc": "א.כיסוי רכש מנ.",
+                "securityFullTypeCode": "3402",
+                "securityTypeDesc": "אכ.רכש מנ בנלאומי"
+            },
+            {
+                "securityMainTypeCode": "34",
+                "securityMainTypeDesc": "א.כיסוי רכש מנ.",
+                "securityFullTypeCode": "3403",
+                "securityTypeDesc": "אכ.רכש מנ סחורה"
+            },
+            {
+                "securityMainTypeCode": "34",
+                "securityMainTypeDesc": "א.כיסוי רכש מנ.",
+                "securityFullTypeCode": "3404",
+                "securityTypeDesc": "אכ.רכש למנית חו\"ל"
+            },
+            {
+                "securityMainTypeCode": "35",
+                "securityMainTypeDesc": "א.כיסוי מכר מנ.",
+                "securityFullTypeCode": "3501",
+                "securityTypeDesc": "אכ.מכר מנ מקומי"
+            },
+            {
+                "securityMainTypeCode": "35",
+                "securityMainTypeDesc": "א.כיסוי מכר מנ.",
+                "securityFullTypeCode": "3502",
+                "securityTypeDesc": "אכ.מכר מנ בנלאומי"
+            },
+            {
+                "securityMainTypeCode": "35",
+                "securityMainTypeDesc": "א.כיסוי מכר מנ.",
+                "securityFullTypeCode": "3503",
+                "securityTypeDesc": "אכ.מכר מנ סחורה"
+            },
+            {
+                "securityMainTypeCode": "35",
+                "securityMainTypeDesc": "א.כיסוי מכר מנ.",
+                "securityFullTypeCode": "3504",
+                "securityTypeDesc": "אכ.מכר למנית חו\"ל"
+            },
+            {
+                "securityMainTypeCode": "36",
+                "securityMainTypeDesc": "תעודות סל לאג\"ח",
+                "securityFullTypeCode": "3601",
+                "securityTypeDesc": "ת.סל אגח מקומי"
+            },
+            {
+                "securityMainTypeCode": "36",
+                "securityMainTypeDesc": "תעודות סל לאג\"ח",
+                "securityFullTypeCode": "3602",
+                "securityTypeDesc": "ת.סל אגח בינלאומי"
+            },
+            {
+                "securityMainTypeCode": "36",
+                "securityMainTypeDesc": "תעודות סל לאג\"ח",
+                "securityFullTypeCode": "3603",
+                "securityTypeDesc": "ת.סחורה-אגח"
+            },
+            {
+                "securityMainTypeCode": "36",
+                "securityMainTypeDesc": "תעודות סל לאג\"ח",
+                "securityFullTypeCode": "3604",
+                "securityTypeDesc": "ת. נוסחה אגח"
+            },
+            {
+                "securityMainTypeCode": "36",
+                "securityMainTypeDesc": "תעודות סל לאג\"ח",
+                "securityFullTypeCode": "3605",
+                "securityTypeDesc": "ת. שילוב אגח"
+            },
+            {
+                "securityMainTypeCode": "36",
+                "securityMainTypeDesc": "תעודות סל לאג\"ח",
+                "securityFullTypeCode": "3606",
+                "securityTypeDesc": "ת.נכס אגח מתחלף"
+            },
+            {
+                "securityMainTypeCode": "36",
+                "securityMainTypeDesc": "תעודות סל לאג\"ח",
+                "securityFullTypeCode": "3607",
+                "securityTypeDesc": "ת.נוס.סחורה אגח"
+            },
+            {
+                "securityMainTypeCode": "36",
+                "securityMainTypeDesc": "תעודות סל לאג\"ח",
+                "securityFullTypeCode": "3608",
+                "securityTypeDesc": "ת.שילוב סחורה אגח"
+            },
+            {
+                "securityMainTypeCode": "36",
+                "securityMainTypeDesc": "תעודות סל לאג\"ח",
+                "securityFullTypeCode": "3609",
+                "securityTypeDesc": "ת.מתחלף סחורה אגח"
+            },
+            {
+                "securityMainTypeCode": "36",
+                "securityMainTypeDesc": "תעודות סל לאג\"ח",
+                "securityFullTypeCode": "3610",
+                "securityTypeDesc": "ת.חוזה-אג\"ח"
+            },
+            {
+                "securityMainTypeCode": "37",
+                "securityMainTypeDesc": "ת.בחסר לאג\"ח",
+                "securityFullTypeCode": "3701",
+                "securityTypeDesc": "ת.חסר אגח מקומי"
+            },
+            {
+                "securityMainTypeCode": "37",
+                "securityMainTypeDesc": "ת.בחסר לאג\"ח",
+                "securityFullTypeCode": "3702",
+                "securityTypeDesc": "ת.חסר אגח בנלאומי"
+            },
+            {
+                "securityMainTypeCode": "37",
+                "securityMainTypeDesc": "ת.בחסר לאג\"ח",
+                "securityFullTypeCode": "3703",
+                "securityTypeDesc": "ת.ח.סחורה-אגח"
+            },
+            {
+                "securityMainTypeCode": "38",
+                "securityMainTypeDesc": "א.כיסוי רכש אגח",
+                "securityFullTypeCode": "3801",
+                "securityTypeDesc": "אכ.ר אגח מקומי"
+            },
+            {
+                "securityMainTypeCode": "38",
+                "securityMainTypeDesc": "א.כיסוי רכש אגח",
+                "securityFullTypeCode": "3802",
+                "securityTypeDesc": "אכ.ר אגח בנלאומי"
+            },
+            {
+                "securityMainTypeCode": "38",
+                "securityMainTypeDesc": "א.כיסוי רכש אגח",
+                "securityFullTypeCode": "3803",
+                "securityTypeDesc": "אכ.ר סחרה-אגח"
+            },
+            {
+                "securityMainTypeCode": "38",
+                "securityMainTypeDesc": "א.כיסוי רכש אגח",
+                "securityFullTypeCode": "3804",
+                "securityTypeDesc": "אכ.ר מטח-אגח"
+            },
+            {
+                "securityMainTypeCode": "39",
+                "securityMainTypeDesc": "א.כיסוי מכר אגח",
+                "securityFullTypeCode": "3901",
+                "securityTypeDesc": "אכ.מ אגח מקומי"
+            },
+            {
+                "securityMainTypeCode": "39",
+                "securityMainTypeDesc": "א.כיסוי מכר אגח",
+                "securityFullTypeCode": "3902",
+                "securityTypeDesc": "אכ.מ אגח בנלאומי"
+            },
+            {
+                "securityMainTypeCode": "39",
+                "securityMainTypeDesc": "א.כיסוי מכר אגח",
+                "securityFullTypeCode": "3903",
+                "securityTypeDesc": "אכ.מ אגח סחורה"
+            },
+            {
+                "securityMainTypeCode": "39",
+                "securityMainTypeDesc": "א.כיסוי מכר אגח",
+                "securityFullTypeCode": "3904",
+                "securityTypeDesc": "אכ.מ אגח מטח"
+            },
+            {
+                "securityMainTypeCode": "40",
+                "securityMainTypeDesc": "תעודת פקדון",
+                "securityFullTypeCode": "4001",
+                "securityTypeDesc": "תעודת פקדון שקלית"
+            },
+            {
+                "securityMainTypeCode": "40",
+                "securityMainTypeDesc": "תעודת פקדון",
+                "securityFullTypeCode": "4002",
+                "securityTypeDesc": "תעודת פקדון מט\"חית"
+            },
+            {
+                "securityMainTypeCode": "41",
+                "securityMainTypeDesc": "קרן הייטק",
+                "securityFullTypeCode": "4101",
+                "securityTypeDesc": "קרן הייטק"
+            },
+            {
+                "securityMainTypeCode": "42",
+                "securityMainTypeDesc": "קרן סל במניות",
+                "securityFullTypeCode": "4201",
+                "securityTypeDesc": "קרן סל במניות"
+            },
+            {
+                "securityMainTypeCode": "43",
+                "securityMainTypeDesc": "קרן סל באגח",
+                "securityFullTypeCode": "4301",
+                "securityTypeDesc": "קרן סל באג\"ח"
+            },
+            {
+                "securityMainTypeCode": "44",
+                "securityMainTypeDesc": "קרן חוץ מניות",
+                "securityFullTypeCode": "4401",
+                "securityTypeDesc": "קרן חוץ נסחרת מניות"
+            },
+            {
+                "securityMainTypeCode": "45",
+                "securityMainTypeDesc": "קרן חוץ אגח",
+                "securityFullTypeCode": "4501",
+                "securityTypeDesc": "קרן חוץ נסחרת אג\"ח"
+            },
+            {
+                "securityMainTypeCode": "46",
+                "securityMainTypeDesc": "קרן השקעה",
+                "securityFullTypeCode": "4601",
+                "securityTypeDesc": "קרן השקעה נייר יצירה"
+            },
+            {
+                "securityMainTypeCode": "46",
+                "securityMainTypeDesc": "קרן השקעה",
+                "securityFullTypeCode": "4602",
+                "securityTypeDesc": "קרן השקעה נייר פדיון"
+            },
+            {
+                "securityMainTypeCode": "46",
+                "securityMainTypeDesc": "קרן השקעה",
+                "securityFullTypeCode": "4603",
+                "securityTypeDesc": "קרן גידור נייר יצירה"
+            },
+            {
+                "securityMainTypeCode": "46",
+                "securityMainTypeDesc": "קרן השקעה",
+                "securityFullTypeCode": "4604",
+                "securityTypeDesc": "קרן גידור נייר פדיון"
+            },
+            {
+                "securityMainTypeCode": "46",
+                "securityMainTypeDesc": "קרן השקעה",
+                "securityFullTypeCode": "4605",
+                "securityTypeDesc": "ק.מועדים נייר יצירה"
+            },
+            {
+                "securityMainTypeCode": "46",
+                "securityMainTypeDesc": "קרן השקעה",
+                "securityFullTypeCode": "4606",
+                "securityTypeDesc": "ק.מועדים נייר פדיון"
+            },
+            {
+                "securityMainTypeCode": "90",
+                "securityMainTypeDesc": "זיהוי הנפקה",
+                "securityFullTypeCode": "9001",
+                "securityTypeDesc": "זיהוי הנפקה"
+            }
+        ],
+        "total": 236
+    }
+}
