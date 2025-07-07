@@ -1,7 +1,10 @@
 import typeguard
 
 from tasepy.responses import ForgivingResponse
-from tasepy.responses import indices_basic
+from tasepy.responses.indices_basic import (
+    IndicesList,
+    IndexComponents
+)
 from .request_callable import APIRequestExecutor
 from tasepy.requests_.parameters import BaseParameters
 from tasepy.requests_.headers import LanguageAble
@@ -58,7 +61,7 @@ class IndicesBasic:
             url=self._default_url_provider(self.client.endpoints.indices.indices_list),
             params=BaseParameters(),
             headers=self._default_header_provider(),
-            response_model=indices_basic.IndicesList
+            response_model=IndicesList
         )
 
     @typeguard.typechecked
@@ -88,6 +91,6 @@ class IndicesBasic:
             url=self._default_url_provider(self.client.endpoints.indices.index_components_basic),
             params=BaseParameters(),
             headers=self._default_header_provider(),
-            response_model=indices_basic.IndexComponents,
+            response_model=IndexComponents,
             resource=resource
         )

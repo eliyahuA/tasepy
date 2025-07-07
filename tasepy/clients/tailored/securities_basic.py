@@ -1,11 +1,14 @@
 import typeguard
 
 from tasepy.responses import ForgivingResponse
-from tasepy.responses.securities_basic.companies_list import CompaniesList
-from tasepy.responses.securities_basic.securities_types import SecuritiesTypes
-from tasepy.responses.securities_basic.trading_code_list import TradingCodeList
-from tasepy.responses.securities_basic.illiquid_maintenance_suspension_list import IlliquidMaintenanceSuspensionList
-from tasepy.responses.securities_basic.delisted_securities_list import DelistedSecuritiesList
+from tasepy.responses.securities_basic import (
+    CompaniesList,
+    SecuritiesTypes,
+    TradingCodeList,
+    IlliquidMaintenanceSuspensionList,
+    DelistedSecuritiesList,
+    TradeSecuritiesList
+)
 from .request_callable import APIRequestExecutor
 from tasepy.requests_.parameters import BaseParameters
 from tasepy.requests_.headers import LanguageAble
@@ -59,13 +62,14 @@ class SecuritiesBasic:
             day: Specific day (1-31)
             
         Returns:
-
+            TradeSecuritiesList: Pydantic data model containing comprehensive trading data including
+            security details, identification codes, sector classifications, and index inclusions
         """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.securities.trade_securities_list),
             params=BaseParameters(),
             headers=self._default_header_provider(),
-            response_model=ForgivingResponse,
+            response_model=TradeSecuritiesList,
             resource=DatedResource(year=year, month=month, day=day)
         )
 
