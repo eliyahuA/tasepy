@@ -203,6 +203,9 @@ The following actions should be repeated per an endpoint of the domain specific 
 4. Replace ForgivingResponse with the new typed model in the domain client method
 5. Update method docstring with proper return type documentation based on actual data structure
 
+### Creating Response Tests
+1. Read the existing tests for funds and indices in /tests/unit/responses/funds or /indices_basic
+2. Create similar test package for the specific domain you currently working on
 
 ## API Integration
 
