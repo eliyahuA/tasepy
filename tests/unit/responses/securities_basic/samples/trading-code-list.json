@@ -1,0 +1,19 @@
+{
+    "tradingListCode": {
+        "result": [
+            {
+                "listTypeId": 1,
+                "listTypeDesc": "רשימת שימור"
+            },
+            {
+                "listTypeId": 2,
+                "listTypeDesc": "השעיה"
+            },
+            {
+                "listTypeId": 3,
+                "listTypeDesc": "רשימת דלי סחירות"
+            }
+        ],
+        "total": 3
+    }
+}

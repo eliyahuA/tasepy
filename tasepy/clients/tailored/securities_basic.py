@@ -3,6 +3,7 @@ import typeguard
 from tasepy.responses import ForgivingResponse
 from tasepy.responses.securities_basic.companies_list import CompaniesList
 from tasepy.responses.securities_basic.securities_types import SecuritiesTypes
+from tasepy.responses.securities_basic.trading_code_list import TradingCodeList
 from .request_callable import APIRequestExecutor
 from tasepy.requests_.parameters import BaseParameters
 from tasepy.requests_.headers import LanguageAble
@@ -131,13 +132,14 @@ class SecuritiesBasic:
         providing reference codes used for securities trading operations.
         
         Returns:
-
+            TradingCodeList: Pydantic data model containing trading list classifications including
+            list type IDs and descriptions for maintenance, suspension and liquidity status
         """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.securities.trading_code_list),
             params=BaseParameters(),
             headers=self._default_header_provider(),
-            response_model=ForgivingResponse
+            response_model=TradingCodeList
         )
 
     @typeguard.typechecked
