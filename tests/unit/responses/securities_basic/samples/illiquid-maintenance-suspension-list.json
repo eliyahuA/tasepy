@@ -1,0 +1,232 @@
+{
+    "illiquidMaintenanceAndSuspensionList": {
+        "result": [
+            {
+                "securityID": 169011,
+                "listTypeId": "1",
+                "statusDate": "2023-07-16T00:00:00"
+            },
+            {
+                "securityID": 290023,
+                "listTypeId": "3",
+                "statusDate": "2025-04-29T00:00:00"
+            },
+            {
+                "securityID": 424010,
+                "listTypeId": "1",
+                "statusDate": "2024-07-21T00:00:00"
+            },
+            {
+                "securityID": 448019,
+                "listTypeId": "2",
+                "statusDate": "2022-10-03T00:00:00"
+            },
+            {
+                "securityID": 474015,
+                "listTypeId": "1",
+                "statusDate": "2022-02-16T00:00:00"
+            },
+            {
+                "securityID": 673012,
+                "listTypeId": "1",
+                "statusDate": "2023-09-10T00:00:00"
+            },
+            {
+                "securityID": 1081116,
+                "listTypeId": "1",
+                "statusDate": "2022-09-04T00:00:00"
+            },
+            {
+                "securityID": 1081983,
+                "listTypeId": "1",
+                "statusDate": "2025-01-23T00:00:00"
+            },
+            {
+                "securityID": 1083658,
+                "listTypeId": "1",
+                "statusDate": "2023-09-27T00:00:00"
+            },
+            {
+                "securityID": 1087949,
+                "listTypeId": "1",
+                "statusDate": "2022-06-09T00:00:00"
+            },
+            {
+                "securityID": 1093558,
+                "listTypeId": "1",
+                "statusDate": "2022-12-17T00:00:00"
+            },
+            {
+                "securityID": 1093558,
+                "listTypeId": "2",
+                "statusDate": "2022-12-18T00:00:00"
+            },
+            {
+                "securityID": 1095405,
+                "listTypeId": "1",
+                "statusDate": "2023-07-16T00:00:00"
+            },
+            {
+                "securityID": 1096007,
+                "listTypeId": "1",
+                "statusDate": "2025-01-23T00:00:00"
+            },
+            {
+                "securityID": 1096890,
+                "listTypeId": "1",
+                "statusDate": "2023-07-16T00:00:00"
+            },
+            {
+                "securityID": 1104744,
+                "listTypeId": "1",
+                "statusDate": "2024-01-30T00:00:00"
+            },
+            {
+                "securityID": 1106806,
+                "listTypeId": "2",
+                "statusDate": "2022-07-13T00:00:00"
+            },
+            {
+                "securityID": 1108638,
+                "listTypeId": "1",
+                "statusDate": "2023-02-09T00:00:00"
+            },
+            {
+                "securityID": 1109917,
+                "listTypeId": "3",
+                "statusDate": "2017-08-03T00:00:00"
+            },
+            {
+                "securityID": 1119833,
+                "listTypeId": "1",
+                "statusDate": "2023-07-16T00:00:00"
+            },
+            {
+                "securityID": 1119833,
+                "listTypeId": "2",
+                "statusDate": "2024-10-10T00:00:00"
+            },
+            {
+                "securityID": 1120161,
+                "listTypeId": "1",
+                "statusDate": "2024-07-21T00:00:00"
+            },
+            {
+                "securityID": 1122688,
+                "listTypeId": "1",
+                "statusDate": "2022-06-23T00:00:00"
+            },
+            {
+                "securityID": 1123785,
+                "listTypeId": "2",
+                "statusDate": "2016-03-17T00:00:00"
+            },
+            {
+                "securityID": 1142603,
+                "listTypeId": "2",
+                "statusDate": "2024-10-10T00:00:00"
+            },
+            {
+                "securityID": 1144781,
+                "listTypeId": "1",
+                "statusDate": "2022-07-21T00:00:00"
+            },
+            {
+                "securityID": 1169721,
+                "listTypeId": "3",
+                "statusDate": "2024-11-07T00:00:00"
+            },
+            {
+                "securityID": 1169838,
+                "listTypeId": "2",
+                "statusDate": "2025-06-17T00:00:00"
+            },
+            {
+                "securityID": 1169895,
+                "listTypeId": "1",
+                "statusDate": "2024-03-11T00:00:00"
+            },
+            {
+                "securityID": 1169945,
+                "listTypeId": "2",
+                "statusDate": "2025-04-07T00:00:00"
+            },
+            {
+                "securityID": 1170000,
+                "listTypeId": "1",
+                "statusDate": "2025-07-07T00:00:00"
+            },
+            {
+                "securityID": 1173723,
+                "listTypeId": "1",
+                "statusDate": "2025-05-22T00:00:00"
+            },
+            {
+                "securityID": 1175819,
+                "listTypeId": "1",
+                "statusDate": "2024-03-28T00:00:00"
+            },
+            {
+                "securityID": 1176619,
+                "listTypeId": "1",
+                "statusDate": "2023-08-27T00:00:00"
+            },
+            {
+                "securityID": 1176635,
+                "listTypeId": "1",
+                "statusDate": "2024-07-21T00:00:00"
+            },
+            {
+                "securityID": 1177765,
+                "listTypeId": "2",
+                "statusDate": "2023-10-02T00:00:00"
+            },
+            {
+                "securityID": 1181676,
+                "listTypeId": "3",
+                "statusDate": "2025-04-29T00:00:00"
+            },
+            {
+                "securityID": 1182260,
+                "listTypeId": "1",
+                "statusDate": "2024-05-02T00:00:00"
+            },
+            {
+                "securityID": 1182559,
+                "listTypeId": "1",
+                "statusDate": "2023-02-09T00:00:00"
+            },
+            {
+                "securityID": 1198324,
+                "listTypeId": "1",
+                "statusDate": "2024-01-30T00:00:00"
+            },
+            {
+                "securityID": 2860237,
+                "listTypeId": "3",
+                "statusDate": "2025-04-29T00:00:00"
+            },
+            {
+                "securityID": 3230190,
+                "listTypeId": "2",
+                "statusDate": "2025-07-07T00:00:00"
+            },
+            {
+                "securityID": 3230208,
+                "listTypeId": "2",
+                "statusDate": "2025-07-07T00:00:00"
+            },
+            {
+                "securityID": 4000055,
+                "listTypeId": "2",
+                "statusDate": "2022-09-07T00:00:00"
+            },
+            {
+                "securityID": 4480190,
+                "listTypeId": "2",
+                "statusDate": "2022-10-03T00:00:00"
+            }
+        ],
+        "total": 45
+    }
+}

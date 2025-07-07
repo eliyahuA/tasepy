@@ -4,6 +4,7 @@ from tasepy.responses import ForgivingResponse
 from tasepy.responses.securities_basic.companies_list import CompaniesList
 from tasepy.responses.securities_basic.securities_types import SecuritiesTypes
 from tasepy.responses.securities_basic.trading_code_list import TradingCodeList
+from tasepy.responses.securities_basic.illiquid_maintenance_suspension_list import IlliquidMaintenanceSuspensionList
 from .request_callable import APIRequestExecutor
 from tasepy.requests_.parameters import BaseParameters
 from tasepy.requests_.headers import LanguageAble
@@ -115,13 +116,14 @@ class SecuritiesBasic:
         securities traded on the Tel Aviv Stock Exchange for the next trading day.
         
         Returns:
-
+            IlliquidMaintenanceSuspensionList: Pydantic data model containing security status information including
+            security IDs, list type classifications, and effective status dates for maintenance and suspension tracking
         """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.securities.illiquid_maintenance_suspension_list),
             params=BaseParameters(),
             headers=self._default_header_provider(),
-            response_model=ForgivingResponse
+            response_model=IlliquidMaintenanceSuspensionList
         )
 
     @typeguard.typechecked
