@@ -1,4 +1,5 @@
 from datetime import datetime
+from pydantic import Field
 from ..responses import ResponseComponent, Root
 
 
@@ -8,7 +9,7 @@ class IlliquidMaintenanceSuspensionItem(ResponseComponent):
     Represents a security with its status classification and effective date
     for maintenance, suspension, and illiquidity tracking.
     """
-    security_id: int
+    security_id: int = Field(alias="securityID")
     list_type_id: str
     status_date: datetime
 

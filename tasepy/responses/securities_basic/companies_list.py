@@ -12,7 +12,7 @@ class CompanyItem(ResponseComponent):
     tase_sector: str
     company_full_name: str
     issuer_id: int
-    corporate_id: str
+    corporate_id: Optional[str]
     is_dual: bool
 
 
