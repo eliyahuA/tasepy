@@ -216,6 +216,11 @@ The following actions should be repeated per an endpoint of the domain specific 
 2. Create similar test package for the specific domain you are currently working on
 3. Execute the tests
 
+### Creating Domain Specific Integration Tests
+1. Read the existing tests for funds and indices in /tests/integration/client/test_basic_indices and test_funds
+2. Create similar test package for the specific domain you are currently working on
+3. Execute the tests
+
 ## API Integration
 
 This is a Python SDK for the TASE (Tel Aviv Stock Exchange) DataWise API:
