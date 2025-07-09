@@ -31,3 +31,17 @@ indices:
     url: indices-list
   index_components_basic:
     url: index-components-basic
+securities:
+  group_url: basic-securities
+  trade_securities_list:
+    url: trade-securities-list
+  delisted_securities_list:
+    url: delisted-securities-list
+  companies_list:
+    url: companies-list
+  illiquid_maintenance_suspension_list:
+    url: illiquid-maintenance-suspension-list
+  trading_code_list:
+    url: trading-code-list
+  securities_types:
+    url: securities-types

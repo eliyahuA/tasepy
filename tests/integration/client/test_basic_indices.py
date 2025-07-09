@@ -1,3 +1,5 @@
+from datetime import datetime, timedelta
+
 
 def test_indices_list(client):
     indices = client.indices_basic.get_indices_list()
@@ -5,6 +7,5 @@ def test_indices_list(client):
 
 
 def test_index_components(client):
-    from datetime import datetime, timedelta
     indices = client.indices_basic.get_index_components(182, datetime.now() - timedelta(days=30))
     assert indices.index_components.total > 0

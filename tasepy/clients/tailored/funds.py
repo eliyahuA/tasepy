@@ -2,7 +2,21 @@ from typing import Optional
 
 
 from tasepy.requests_ import enums as enums
-from tasepy.responses import funds, ForgivingResponse
+from tasepy.responses import ForgivingResponse
+from tasepy.responses.funds import (
+    FundList as FundListResponse,
+    CurrencyExposure,
+    DistributionCommission,
+    FundType,
+    ListingStatus,
+    MutualFundClassification,
+    PaymentPolicy,
+    ShareExposureProfile,
+    StockExchange,
+    TaxStatus,
+    TrackingFundClassification,
+    UnderlyingAsset
+)
 from .request_callable import APIRequestExecutor
 from tasepy.requests_.parameters import BaseParameters, FundList
 from tasepy.requests_.headers import LanguageAble
@@ -41,7 +55,7 @@ class Funds:
                 endpoint_url
             )
 
-    def get_funds(self, listing_status_id: Optional[enums.ListingStatusId] = None) -> funds.fund_list.FundList:
+    def get_funds(self, listing_status_id: Optional[enums.ListingStatusId] = None) -> FundListResponse:
         """Retrieve list of available funds.
         
         Args:
@@ -54,7 +68,7 @@ class Funds:
             url=self._default_url_provider(self.client.endpoints.funds.funds_list),
             params=FundList(listing_status_id=listing_status_id),
             headers=self._default_header_provider(),
-            response_model=funds.fund_list.FundList
+            response_model=FundListResponse
         )
 
     def get_currency_exposure_profiles(self):
@@ -70,7 +84,7 @@ class Funds:
             url=self._default_url_provider(self.client.endpoints.funds.currencies_exposure_profile),
             params=BaseParameters(),
             headers=self._default_header_provider(),
-            response_model=funds.CurrencyExposure
+            response_model=CurrencyExposure
         )
 
     def get_commissions(self):
@@ -86,7 +100,7 @@ class Funds:
             url=self._default_url_provider(self.client.endpoints.funds.distribution_commission),
             params=BaseParameters(),
             headers=self._default_header_provider(),
-            response_model=funds.DistributionCommission
+            response_model=DistributionCommission
         )
 
     def get_types(self):
@@ -102,7 +116,7 @@ class Funds:
                 url=self._default_url_provider(self.client.endpoints.funds.fund_types),
                 params=BaseParameters(),
                 headers=self._default_header_provider(),
-                response_model=funds.FundType
+                response_model=FundType
             )
 
     def get_listing_statuses(self):
@@ -118,7 +132,7 @@ class Funds:
                 url=self._default_url_provider(self.client.endpoints.funds.listing_status),
                 params=BaseParameters(),
                 headers=self._default_header_provider(),
-                response_model=funds.ListingStatus
+                response_model=ListingStatus
             )
 
     def get_mutual_fund_classifications(self):
@@ -135,7 +149,7 @@ class Funds:
                 url=self._default_url_provider(self.client.endpoints.funds.classification),
                 params=BaseParameters(),
                 headers=self._default_header_provider(),
-                response_model=funds.MutualFundClassification
+                response_model=MutualFundClassification
             )
 
     def get_payment_policies(self):
@@ -151,7 +165,7 @@ class Funds:
                 url=self._default_url_provider(self.client.endpoints.funds.payment_policy),
                 params=BaseParameters(),
                 headers=self._default_header_provider(),
-                response_model=funds.PaymentPolicy
+                response_model=PaymentPolicy
             )
 
     def get_share_exposure_profiles(self):
@@ -167,7 +181,7 @@ class Funds:
                 url=self._default_url_provider(self.client.endpoints.funds.shares_exposure_profile),
                 params=BaseParameters(),
                 headers=self._default_header_provider(),
-                response_model=funds.ShareExposureProfile
+                response_model=ShareExposureProfile
             )
 
     def get_stock_exchanges(self):
@@ -183,7 +197,7 @@ class Funds:
                 url=self._default_url_provider(self.client.endpoints.funds.stock_exchange),
                 params=BaseParameters(),
                 headers=self._default_header_provider(),
-                response_model=funds.StockExchange
+                response_model=StockExchange
             )
 
     def get_tax_statuses(self):
@@ -199,7 +213,7 @@ class Funds:
                 url=self._default_url_provider(self.client.endpoints.funds.tax_status),
                 params=BaseParameters(),
                 headers=self._default_header_provider(),
-                response_model=funds.TaxStatus
+                response_model=TaxStatus
             )
 
     def get_tracking_funds_classifications(self):
@@ -216,7 +230,7 @@ class Funds:
             url=self._default_url_provider(self.client.endpoints.funds.tracking_fund_classification),
             params=BaseParameters(),
             headers=self._default_header_provider(),
-            response_model=funds.TrackingFundClassification
+            response_model=TrackingFundClassification
         )
 
     def get_underlying_assets(self):
@@ -232,5 +246,5 @@ class Funds:
             url=self._default_url_provider(self.client.endpoints.funds.underlying_assets),
             params=BaseParameters(),
             headers=self._default_header_provider(),
-            response_model=funds.UnderlyingAsset
+            response_model=UnderlyingAsset
         )

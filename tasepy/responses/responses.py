@@ -17,6 +17,10 @@ class ResponseComponent(BaseModel):
         extra='forbid'
     )
 
+    def save_pretty_json(self, target_file_path: Path) -> None:
+        with open(target_file_path, 'w', encoding='utf-8') as f:
+            f.write(self.model_dump_json(indent=4))
+
 
 class CodeValuePair(ResponseComponent):
     """Standard code-value pair structure.
@@ -52,7 +56,3 @@ class ForgivingResponse(ResponseComponent):
         validate_assignment=False,
         arbitrary_types_allowed=True
     )
-
-    def save_pretty_json(self, target_file_path: Path) -> None:
-        with open(target_file_path, 'w', encoding='utf-8') as f:
-            f.write(self.model_dump_json(indent=4))

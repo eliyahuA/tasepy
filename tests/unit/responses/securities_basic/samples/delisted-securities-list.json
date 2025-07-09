@@ -1,0 +1,61 @@
+{
+    "delistedSecuritiesList": {
+        "result": [
+            {
+                "dateLastTrade": "2024-12-25T00:00:00",
+                "securityId": 1171412,
+                "securityName": "פלנטארק  אפ 1",
+                "symbol": "פלנט.א1"
+            },
+            {
+                "dateLastTrade": "2024-12-12T00:00:00",
+                "securityId": 1175868,
+                "securityName": "גמלא הראל",
+                "symbol": "גמלא"
+            },
+            {
+                "dateLastTrade": "2024-12-09T00:00:00",
+                "securityId": 1182278,
+                "securityName": "קונטניואל אפ1-ש",
+                "symbol": "קנט.א1-ש"
+            },
+            {
+                "dateLastTrade": "2024-12-26T00:00:00",
+                "securityId": 1182906,
+                "securityName": "מדיפרס אפ 1",
+                "symbol": "מפרס.א1"
+            },
+            {
+                "dateLastTrade": "2024-12-05T00:00:00",
+                "securityId": 1199033,
+                "securityName": "איירטאצ  אפ 1",
+                "symbol": "ארטצ.א1"
+            },
+            {
+                "dateLastTrade": "2024-12-26T00:00:00",
+                "securityId": 1201011,
+                "securityName": "ריט אזורים אפ 1",
+                "symbol": "אזרט.א1"
+            },
+            {
+                "dateLastTrade": "2024-12-17T00:00:00",
+                "securityId": 3450392,
+                "securityName": "מודיעין  אג א",
+                "symbol": "מדע.ה1"
+            },
+            {
+                "dateLastTrade": "2024-12-11T00:00:00",
+                "securityId": 7440308,
+                "securityName": "גיקס אפ 4",
+                "symbol": "גיקס.א4"
+            },
+            {
+                "dateLastTrade": "2024-12-17T00:00:00",
+                "securityId": 8230294,
+                "securityName": "חג'ג'   אג י",
+                "symbol": "חגג.ה10"
+            }
+        ],
+        "total": 9
+    }
+}
