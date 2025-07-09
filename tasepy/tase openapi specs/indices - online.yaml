@@ -1,0 +1,191 @@
+openapi: 3.0.0
+info:
+  title: TASE indices Online 1.0.0
+  description: Online display of the rates of the indices calculated by TASE.
+  version: 1.0.0
+  x-git:
+    repo: http://gitappdvl1:7990/scm/maya/datahub.git
+    branch: development
+    commit: 7b621d2a0
+  x-build-info:
+    build-number: "217"
+    spec-version: 1.0.0
+    artifact-version: 1.0.0.217
+    pipeline-version: origin/release/konnect/2.2.0
+servers:
+  - url: "https://datawise.tase.co.il"
+    description: "Tase API"
+tags:
+#   - name: Please enter a tag (optional, you can set more than 1 tag)
+#     description: Please enter a tag description (optional)
+paths:
+  /v1/tase-indices-online-data/intraday:
+    get:
+      tags:
+        - APIs
+      summary: TASE indices online data- intraday
+      description: In this interface, the intraday index prices can be found.
+      operationId: getIndexTradingDataIntraDay
+      parameters:
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum: [en-US, he-IL]
+            default: he-IL
+          required: true
+        - in: query
+          name: indexId
+          required: false
+          description: Enter Index Id
+          schema:
+            type: integer
+            example: 22
+        - in: query
+          name: startTime
+          required: false
+          description: Start Time
+          schema:
+            type: string
+            format: HH:mm:ss
+            example: '09:40:54'
+            pattern: ^(?:(?:([01]?\d|2[0-3]):)?([0-5]?\d):)?([0-5]?\d)$
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/IntraDayResponse'
+        '400':
+          description: Invalid status value
+  /v1/tase-indices-online-data/last-rate:
+    get:
+      tags:
+        - APIs
+      summary: TASE indices online data - Last Rate
+      description: In this product, the latest prices update can be found for the indices calculated by TASE.
+      operationId: getIndexTradingDataLastRate
+      parameters:
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum: [en-US, he-IL]
+            default: he-IL
+          required: true
+        - in: query
+          name: indexId
+          required: false
+          description: Enter Index Id
+          schema:
+            type: integer
+            example: 22
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/IntraDayResponse'
+        '400':
+          description: Invalid status value
+  /v1/tase-indices-online-data/index-trading-rate-types:
+    get:
+      tags:
+        - APIs
+      summary: Index trading rate type
+      description: In this interface, the phases of index trading can be found.
+      operationId: getIndexTradingRateType
+      parameters:
+        - in: header
+          name: accept-language
+          schema:
+            type: string
+            enum: [en-US, he-IL]
+            default: he-IL
+          required: true
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/TradingRateDataResponse'
+        '400':
+          description: Invalid status value
+components:
+  schemas:
+    TradingRateDataResponse:
+      type: object
+      description: 'List of Trading Rate Data'
+      properties:
+        TradingRateData:
+          type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                properties:
+                  indexTradingRateTypeId:
+                    type: string
+                    example: E
+                    description: Index Trading Rate Type Id
+                  indexTradingRateTypeDesc:
+                    type: string
+                    description: Index TradeRate Type description
+                    example: Final - End of day
+            total:
+              type: integer
+              description: Total items
+              example: 50
+    IntraDayResponse:
+      type: object
+      description: 'List of IntraDay Data'
+      properties:
+        getIndexTradingDataIntraDay:
+          type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                properties:
+                  lastSaleTime:
+                    type: string
+                    example: '16:55:55.000'
+                    description: last sale time
+                  indexId:
+                    type: integer
+                    description: Index Id
+                    example: 22
+                  lastIndexRate:
+                    type: string
+                    description: Last Index Rate
+                    example: 991.4
+                  change:
+                    type: string
+                    description: Change %
+                    example: 22
+                  indexTradingRateTypeId:
+                    type: string
+                    description: E
+                    example: 22
+            total:
+              type: integer
+              description: Total items
+              example: 50
+  securitySchemes:
+    apiKey:
+      type: apiKey
+      in: header
+      name: apikey
+security:
+  - apiKey: []
