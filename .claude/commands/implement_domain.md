@@ -35,7 +35,11 @@ The following actions should be repeated per an endpoint of the domain specific 
   Optional[FieldType]
    2. Check array consistency: For fields nested under array items (result[]), examine multiple items (not just the first few) to see if some items are missing fields that others have - mark inconsistent fields as optional
    3. Use search tools: Use rg "null" or similar tools to systematically find all null values in the JSON samples rather than just reading the first few lines"
-   4. Verify field naming: Compare JSON field names with current default alias generator for response modules, add Field(alias="originalName") for any mismatches (e.g., security_id will be converted to securityId by the alias generator, while securityID is the actual name in the JSON)
+   4. Verify field naming: 
+      1. Compare JSON field names with current default alias generator for response modules. 
+      2. ResponseComponent uses to_camel alias generator that automatically converts snake_case field names to camelCase (e.g., date_time → dateTime). 
+      3. Only use explicit Field(alias="...") when the JSON field name doesn't match the auto-generated camelCase conversion. 
+      4. Example when explicit alias is required: security_id will be converted to securityId by the alias generator, while securityID is the actual name in the JSON.
 4. Follow existing response model patterns and inheritance from ResponseComponent
 5. Replace ForgivingResponse with the new typed model in the domain client method
 6. Update method docstring with proper return type documentation based on actual data structure
