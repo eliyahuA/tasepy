@@ -4,8 +4,31 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tasepy"
-version = "0.0.1"
+version = "0.1.0"
+description = "A comprehensive Python SDK for accessing the Tel Aviv Stock Exchange (TASE) DataWise API"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Eliyahu Arlev", email = "eliyahu.arlev@gmail.com"}]
+requires-python = ">=3.13"
 dynamic = ["dependencies"]
+keywords = ["tase", "stock-exchange", "finance", "api", "sdk", "tel-aviv"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://github.com/eliyahuA/tasepy"
+Repository = "https://github.com/eliyahuA/tasepy.git"
+"Bug Tracker" = "https://github.com/eliyahuA/tasepy/issues"
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
