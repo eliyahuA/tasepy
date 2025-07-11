@@ -7,7 +7,6 @@ def test_trading_rate_types(client):
 def test_intraday(client):
     intraday = client.indices_online.get_intraday(index_id=182)
     assert intraday.get_index_trading_data_intra_day.total >= 0
-    # Note: result may be empty outside market hours
 
 
 def test_last_rate_single(client):
