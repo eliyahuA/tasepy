@@ -65,18 +65,18 @@ class FundList(BaseParameters):
     )
 
 
-class IntradayParameters(BaseParameters):
+class Index(BaseParameters):
+    """Parameters for indices online last rate API requests.
+
+    Supports optional filtering by index ID.
+    """
+    index_id: Optional[int] = None
+
+
+class IndexWithTime(Index):
     """Parameters for indices online intraday API requests.
     
     Supports optional filtering by index ID and start time.
     """
-    index_id: Optional[int] = Field(default=None)
-    start_time: Optional[str] = Field(default=None)
 
-
-class LastRateParameters(BaseParameters):
-    """Parameters for indices online last rate API requests.
-    
-    Supports optional filtering by index ID.
-    """
-    index_id: Optional[int] = Field(default=None)
+    start_time: Optional[str] = None

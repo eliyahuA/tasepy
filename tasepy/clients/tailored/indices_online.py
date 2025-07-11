@@ -3,7 +3,7 @@ from typing import Optional
 from tasepy.responses import ForgivingResponse
 from tasepy.responses.indices_online import TradingRateTypes, IntraDay, LastRate
 from .request_callable import APIRequestExecutor
-from tasepy.requests_.parameters import BaseParameters, IntradayParameters, LastRateParameters
+from tasepy.requests_.parameters import BaseParameters, IndexWithTime, Index
 from tasepy.requests_.headers import LanguageAble
 from .base_client import BaseClient
 
@@ -55,7 +55,7 @@ class IndicesOnline:
         """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.indices_online.intraday),
-            params=IntradayParameters(index_id=index_id, start_time=start_time),
+            params=IndexWithTime(index_id=index_id, start_time=start_time),
             headers=self._default_header_provider(),
             response_model=IntraDay
         )
@@ -74,7 +74,7 @@ class IndicesOnline:
         """
         return self.request_callable(
             url=self._default_url_provider(self.client.endpoints.indices_online.last_rate),
-            params=LastRateParameters(index_id=index_id),
+            params=Index(index_id=index_id),
             headers=self._default_header_provider(),
             response_model=LastRate
         )
