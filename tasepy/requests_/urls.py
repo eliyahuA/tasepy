@@ -56,6 +56,17 @@ class Securities(EndpointGroup):
     securities_types: Endpoint
 
 
+class IndicesOnline(EndpointGroup):
+    """Online indices API endpoint URL configurations.
+    
+    Contains URLs for real-time indices data including intraday rates, 
+    last rates, and trading rate types in the TASE DataWise API.
+    """
+    intraday: Endpoint
+    last_rate: Endpoint
+    trading_rate_types: Endpoint
+
+
 class Endpoints(BaseModel, Generic[BaseModelGeneric]):
     """Complete API endpoint configuration structure.
     
@@ -66,6 +77,7 @@ class Endpoints(BaseModel, Generic[BaseModelGeneric]):
     funds: Funds
     indices: BasicIndices
     securities: Securities
+    indices_online: IndicesOnline
 
 
 if __name__ == "__main__":

@@ -45,3 +45,11 @@ securities:
     url: trading-code-list
   securities_types:
     url: securities-types
+indices_online:
+  group_url: tase-indices-online-data
+  intraday:
+    url: intraday
+  last_rate:
+    url: last-rate
+  trading_rate_types:
+    url: index-trading-rate-types

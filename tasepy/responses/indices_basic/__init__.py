@@ -7,3 +7,5 @@ from . import index_components
 
 from .indices_list import IndicesList
 from .index_components import IndexComponents
+
+__all__ = ["IndicesList", "IndexComponents"]

@@ -1,0 +1,27 @@
+{
+    "getIndexTradingRateTypes": {
+        "result": [
+            {
+                "indexTradingRateTypeId": "B",
+                "indexTradingRateTypeDesc": "מדד בסיס"
+            },
+            {
+                "indexTradingRateTypeId": "E",
+                "indexTradingRateTypeDesc": "מדד קובע"
+            },
+            {
+                "indexTradingRateTypeId": "O",
+                "indexTradingRateTypeDesc": "מדד פתיחה"
+            },
+            {
+                "indexTradingRateTypeId": "P",
+                "indexTradingRateTypeDesc": "תיאורטי"
+            },
+            {
+                "indexTradingRateTypeId": "T",
+                "indexTradingRateTypeDesc": "רציף"
+            }
+        ],
+        "total": 5
+    }
+}
