@@ -14,6 +14,7 @@ from tasepy.requests_.resources import IResource, NoResource
 from typing import Optional, Tuple, Type, TypeVar
 from .funds import Funds
 from .indices_basic import IndicesBasic
+from .indices_online import IndicesOnline
 from .securities_basic import SecuritiesBasic
 from .base_client import BaseClient
 
@@ -24,7 +25,7 @@ class Client(BaseClient):
     """Main client for TASE DataWise API interactions.
     
     Provides high-level access to all TASE API endpoints through specialized
-    domain clients (funds, indices_basic, etc...). Handles request execution, response
+    domain clients (funds, indices_basic, indices_online, securities_basic). Handles request execution, response
     parsing, and error handling.
     """
 
@@ -43,6 +44,7 @@ class Client(BaseClient):
         super().__init__(settings, endpoints_model_factory, accept_language)
         self.funds = Funds(self, self._do_request)
         self.indices_basic = IndicesBasic(self, self._do_request)
+        self.indices_online = IndicesOnline(self, self._do_request)
         self.securities_basic = SecuritiesBasic(self, self._do_request)
 
     @staticmethod

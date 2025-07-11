@@ -1,0 +1,9 @@
+{
+    "getIndexTradingDataIntraDay": {
+        "indexId": 182,
+        "lastIndexRate": 1295.02,
+        "change": 0,
+        "lastSaleTime": "17:24:21",
+        "indexTradingRateTypeId": "E"
+    }
+}

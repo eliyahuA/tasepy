@@ -1,5 +1,6 @@
 from pydantic import BaseModel, Field, ConfigDict, model_validator
 from pydantic.alias_generators import to_camel
+from typing import Optional
 
 from . import enums
 
@@ -62,3 +63,20 @@ class FundList(BaseParameters):
     listing_status_id: enums.ListingStatusId = Field(
         default=enums.ListingStatusId.Active
     )
+
+
+class IntradayParameters(BaseParameters):
+    """Parameters for indices online intraday API requests.
+    
+    Supports optional filtering by index ID and start time.
+    """
+    index_id: Optional[int] = Field(default=None)
+    start_time: Optional[str] = Field(default=None)
+
+
+class LastRateParameters(BaseParameters):
+    """Parameters for indices online last rate API requests.
+    
+    Supports optional filtering by index ID.
+    """
+    index_id: Optional[int] = Field(default=None)

@@ -1,0 +1,31 @@
+{
+    "getIndexTradingDataIntraDay": {
+        "result": [
+            {
+                "dateTime": "2025-07-10T07:45:17",
+                "indexId": 166,
+                "lastIndexRate": 4388,
+                "change": null,
+                "lastSaleTime": null,
+                "indexTradingRateTypeId": "B"
+            },
+            {
+                "dateTime": "2025-07-10T09:35:13",
+                "indexId": 709,
+                "lastIndexRate": 402.51,
+                "change": -0.01,
+                "lastSaleTime": "09:35:13",
+                "indexTradingRateTypeId": "P"
+            },
+            {
+                "dateTime": "2025-07-10T17:24:21",
+                "indexId": 182,
+                "lastIndexRate": 1295.02,
+                "change": 0,
+                "lastSaleTime": "17:24:21",
+                "indexTradingRateTypeId": "E"
+            }
+        ],
+        "total": 3
+    }
+}
