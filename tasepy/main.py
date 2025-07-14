@@ -1,7 +1,7 @@
 """
     For production set environment variable TYPEGUARD_DISABLED=1 if you want to disable typeguard for better performance
 """
-from clients.tailored.client import Client
+from client.client import Client
 from settings import SettingsBuilder
 from endpoints.factories.yaml_factory import YAMLFactory
 from requests_.urls import Endpoints

@@ -83,3 +83,6 @@ __pycache__/
 .env
 # WSL virtual environment for Claude Code actions
 .venv_wsl
+# Package build artifacts
+dist/
+build/

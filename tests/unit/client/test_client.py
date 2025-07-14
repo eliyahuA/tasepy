@@ -1,6 +1,6 @@
 from tasepy.responses import funds
 
-from tasepy.clients.tailored import Client
+from tasepy.client import Client
 
 
 def test_get_funds(mocker):
