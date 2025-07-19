@@ -1,0 +1,2 @@
+include tasepy/endpoints/*.yaml
+prune tasepy/dev-tools

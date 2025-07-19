@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tasepy"
-version = "0.1.1.dev3"
+version = "0.1.1.dev4"
 description = "A comprehensive Python SDK for accessing the Tel Aviv Stock Exchange (TASE) DataWise API"
 readme = "README.md"
 license = {text = "MIT"}
@@ -40,3 +40,4 @@ dependencies = {file = ["requirements.txt"]}
 include-package-data = true
 
 [tool.setuptools.packages.find]
+exclude = ["tests*"]
