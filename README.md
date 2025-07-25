@@ -228,6 +228,8 @@ We welcome contributions to TasePy! Here's how you can help:
 
 ### Running Tests
 
+This package has been validated across Python versions 3.10-3.13 using GitHub Codespaces for consistent, isolated testing environments.
+
 ```bash
 # Install development dependencies
 pip install -r dev-requirements.txt
@@ -239,6 +241,10 @@ pytest
 pytest tests/unit/          # Unit tests only
 pytest tests/integration/   # Integration tests (requires API key)
 ```
+
+#### Multi-Version Testing
+
+For contributors interested in cross-version validation, we maintain a [testing repository](https://github.com/eliyahuA/tasepy-testing) configured with GitHub Codespaces environments for Python 3.10-3.13 testing.
 
 ### AI Coding Assistance
 

@@ -7,9 +7,6 @@
     <orderEntry type="jdk" jdkName="Python 3.13 (tasepy)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
-  <component name="PackageRequirementsSettings">
-    <option name="requirementsPath" value="dev-requirements.txt" />
-  </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="py.test" />
   </component>
