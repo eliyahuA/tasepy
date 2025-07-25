@@ -22,7 +22,7 @@ def dummy_dict() -> Dict[str, Any]:
 
 
 @pytest.fixture
-def dummy_yaml_file(tmp_path, dummy_dict) -> Generator[Path]:
+def dummy_yaml_file(tmp_path, dummy_dict) -> Generator[Path, None, None]:
     yaml_file_path = tmp_path / 'dummy.yaml'
     with open(yaml_file_path, 'w') as f:
         yaml.dump(dummy_dict, f)
@@ -49,5 +49,5 @@ class TestYAMLFactory:
         yaml_factory = YAMLFactory(pydantic_model, dummy_dict)
         loaded_model = yaml_factory.get_endpoints()
         assert isinstance(loaded_model, DummyModel)
-        assert 'field' in loaded_model.model_fields.keys()
+        assert 'field' in loaded_model.model_fields_set
         assert loaded_model.field == 'value'
