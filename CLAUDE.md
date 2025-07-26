@@ -79,6 +79,7 @@ EOF
 **Integration Tests**: Full API calls requiring valid API key<br>
 **Test Fixtures**: Centralized client configuration in `tests/integration/client/conftest.py`<br>
 **Sample Data**: JSON response samples stored in `tests/unit/responses/*/samples/`<br>
+- When writing tests remember to use fixtures for repeating test components<br>
 
 ### Docstring Writing Guidelines
 

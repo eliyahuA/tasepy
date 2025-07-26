@@ -12,7 +12,7 @@ Quick Start:
 
 Advanced Usage:
     >>> from tasepy.settings import SettingsBuilder
-    >>> from tasepy.clients.tailored import Client
+    >>> from tasepy.client import Client
     >>> from tasepy.endpoints.factories.yaml_factory import YAMLFactory
     >>> from tasepy.requests_.urls import Endpoints
     >>> 
@@ -23,7 +23,7 @@ Advanced Usage:
     >>> funds = client.funds.get_list()
 
 Modules:
-    clients: API client implementations (tailored and OpenAPI-generated)
+    client: API client implementation
 
     settings: Configuration management with flexible authentication
 
@@ -33,7 +33,7 @@ Modules:
 
     endpoints: YAML-based endpoint configuration and factory patterns
 """
-from . import clients
+from . import client
 from . import endpoints
 from . import requests_
 from . import responses
@@ -45,7 +45,7 @@ from typing import Optional
 def quick_client(
         settings_instance: Optional[settings.Settings] = None,
         factory: Optional[endpoints.factories.interfaces.IEndpointsFactory] = None
-) -> clients.tailored.Client:
+) -> client.Client:
     """Create a tailored TASE API client with sensible defaults.
     
     Convenience function that eliminates the need to manually construct 
@@ -59,7 +59,7 @@ def quick_client(
     Returns:
         Client: Configured client ready for API calls.
     """
-    return clients.tailored.Client(
+    return client.Client(
         settings.SettingsBuilder().with_apikey().build() if settings_instance is None else settings_instance,
         endpoints.factories.YAMLFactory(requests_.urls.Endpoints) if factory is None else factory,
     )

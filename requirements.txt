@@ -1,7 +1,5 @@
 requests~=2.32.3
 pydantic~=2.11.4
 PyYAML~=6.0.2
-openapi3~=1.8.2
 typeguard~=4.4.2
 beautifulsoup4~=4.13.4
-tasepy~=0.0.1

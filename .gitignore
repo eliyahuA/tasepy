@@ -78,8 +78,11 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 *API key.yaml
-/tasepy.egg-info/
+*tasepy.egg-info/
 __pycache__/
 .env
 # WSL virtual environment for Claude Code actions
 .venv_wsl
+# Package build artifacts
+dist/
+build/
