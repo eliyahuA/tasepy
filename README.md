@@ -36,11 +36,11 @@ import tasepy
 client = tasepy.quick_client()
 
 # Get list of all funds
-funds = client.funds.get_list()
+funds = client.funds.get_funds()
 print(f"Found {len(funds.results)} funds")
 
 # Get basic indices information
-indices = client.indices_basic.get_list()
+indices = client.indices_basic.get_indices_list()
 print(f"Found {len(indices.results)} indices")
 ```
 
@@ -113,15 +113,15 @@ import tasepy
 client = tasepy.quick_client()
 
 # Get all funds
-funds = client.funds.get_list()
+funds = client.funds.get_funds()
 
 # Get fund classifications
-fund_types = client.funds.get_fund_types()
+fund_types = client.funds.get_types()
 classifications = client.funds.get_mutual_fund_classifications()
 
 # Get fund exposures and profiles
-currency_exposure = client.funds.get_currency_exposure()
-share_exposure = client.funds.get_share_exposure()
+currency_exposure = client.funds.get_currency_exposure_profiles()
+share_exposure = client.funds.get_share_exposure_profiles()
 
 # Get fund operational data
 exchanges = client.funds.get_stock_exchanges()
@@ -136,10 +136,14 @@ import tasepy
 client = tasepy.quick_client()
 
 # Get all indices
-indices = client.indices_basic.get_list() 
+indices = client.indices_basic.get_indices_list() 
 
-# Get components of a specific index
-components = client.indices_basic.get_components(index_id="your-index-id")
+# Get components of a specific index (requires date)
+from datetime import datetime
+components = client.indices_basic.get_index_components(
+    index_id=123,
+    date=datetime(2024, 1, 15)  # or use tuple: (15, 1, 2024) for (day, month, year)
+)
 ```
 
 ## Advanced Usage
@@ -169,23 +173,23 @@ client = tasepy.quick_client(settings_instance=settings)
 
 ### Funds Methods
 
-- `get_list()` - Get all available funds
-- `get_fund_types()` - Get fund type classifications
+- `get_funds(listing_status_id=None)` - Get all available funds
+- `get_types()` - Get fund type classifications
 - `get_mutual_fund_classifications()` - Get mutual fund classifications
-- `get_currency_exposure()` - Get currency exposure profiles
-- `get_share_exposure()` - Get share exposure profiles
+- `get_currency_exposure_profiles()` - Get currency exposure profiles
+- `get_share_exposure_profiles()` - Get share exposure profiles
 - `get_stock_exchanges()` - Get stock exchange information
 - `get_tax_statuses()` - Get tax status classifications
 - `get_listing_statuses()` - Get listing status information
 - `get_payment_policies()` - Get payment policy information
-- `get_distribution_commissions()` - Get distribution commission data
-- `get_tracking_fund_classifications()` - Get tracking fund classifications
+- `get_commissions()` - Get distribution commission data
+- `get_tracking_funds_classifications()` - Get tracking fund classifications
 - `get_underlying_assets()` - Get underlying asset information
 
 ### Indices Basic Methods
 
-- `get_list()` - Get all available indices
-- `get_components(index_id)` - Get components of a specific index
+- `get_indices_list()` - Get all available indices
+- `get_index_components(index_id, date)` - Get components of a specific index for a given date (date can be datetime or tuple of (day, month, year))
 
 ### Indices Online Methods
 
