@@ -139,10 +139,9 @@ client = tasepy.quick_client()
 indices = client.indices_basic.get_indices_list() 
 
 # Get components of a specific index (requires date)
-from datetime import datetime
 components = client.indices_basic.get_index_components(
-    index_id=123,
-    date=datetime(2024, 1, 15)  # or use tuple: (15, 1, 2024) for (day, month, year)
+    index_id=709,
+    date=(27, 11, 2025)
 )
 ```
 
@@ -189,7 +188,7 @@ client = tasepy.quick_client(settings_instance=settings)
 ### Indices Basic Methods
 
 - `get_indices_list()` - Get all available indices
-- `get_index_components(index_id, date)` - Get components of a specific index for a given date (date can be datetime or tuple of (day, month, year))
+- `get_index_components(index_id, date)` - Get components of a specific index for a given date
 
 ### Indices Online Methods
 
