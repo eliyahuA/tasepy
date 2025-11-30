@@ -1,5 +1,7 @@
 # Security Policy
 
+[![Known Vulnerabilities](https://snyk.io/test/github/eliyahuA/tasepy/badge.svg)](https://snyk.io/test/github/eliyahuA/tasepy/)
+
 ## Reporting Security Vulnerabilities
 
 If you discover a security vulnerability in TasePy, please report it by emailing:
