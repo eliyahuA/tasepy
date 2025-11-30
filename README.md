@@ -1,5 +1,10 @@
 # TasePy - TASE DataWise API Python SDK
 
+[![PyPI version](https://img.shields.io/pypi/v/tasepy.svg)](https://pypi.org/project/tasepy/)
+[![Python 3.10+](https://img.shields.io/pypi/pyversions/tasepy.svg)](https://pypi.org/project/tasepy/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Known Vulnerabilities](https://snyk.io/test/github/eliyahuA/tasepy/badge.svg)](https://snyk.io/test/github/eliyahuA/tasepy)
+
 A comprehensive Python SDK for accessing the Tel Aviv Stock Exchange (TASE) DataWise API. Provides typed clients, request builders, and response models for funds and indices data.
 
 ## Scope and Limitations

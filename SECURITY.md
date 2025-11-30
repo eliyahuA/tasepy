@@ -1,6 +1,6 @@
 # Security Policy
 
-[![Known Vulnerabilities](https://snyk.io/test/github/eliyahuA/tasepy/badge.svg)](https://snyk.io/test/github/eliyahuA/tasepy/)
+[![Known Vulnerabilities](https://snyk.io/test/github/eliyahuA/tasepy/badge.svg)](https://snyk.io/test/github/eliyahuA/tasepy)
 
 ## Reporting Security Vulnerabilities
 
