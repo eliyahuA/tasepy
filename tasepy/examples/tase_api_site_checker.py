@@ -22,9 +22,9 @@ def get_status_emoji(status_code: int) -> str:
 
 def main(urls: List[str] = Argument(..., help="URL list")):
     table = Table(title="[bold]תוצאות בדיקת אתרי אינטרנט")
-    table.add_column("                     סטטוס", justify="left", style="green")
+    table.add_column("                     סטטוס", justify="left", style="green bold")
     table.add_column("קוד סטטוס", justify="center")
-    table.add_column("כתובת אתר", style="cyan", no_wrap=True)
+    table.add_column("כתובת אתר", justify="center", style="cyan", no_wrap=True)
 
     for url in track(urls, description="[bold] בדיקת אתרים"):
         try:
