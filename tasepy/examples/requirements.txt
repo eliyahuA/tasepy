@@ -1,0 +1,7 @@
+dotenv
+json
+loguru
+pydantic
+rich
+tasepy
+typing

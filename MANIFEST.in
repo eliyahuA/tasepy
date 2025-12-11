@@ -1,2 +1,3 @@
 include tasepy/endpoints/*.yaml
+include tasepy/examples/*.json
 prune tasepy/dev-tools
