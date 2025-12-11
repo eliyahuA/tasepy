@@ -32,7 +32,10 @@ def main(json_dir: str = ".") -> int:
     indices_json=loads(indices.model_dump_json())
     
     # Main indices
-    with open(json_dir + "/selected_indices.json") as input_json:
+    selected_indices_json = json_dir + "/selected_indices.json"
+    if not exists(selected_indices_json):
+       selected_indices_json  = "tasepy/examples/selected_indices.json"
+    with open(selected_indices_json) as input_json:
         selected_indices = load(input_json)
     # Build reverse mapping for O(1) lookup
     name_to_key = {name: int(key) for key, name in selected_indices.items()}
