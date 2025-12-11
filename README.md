@@ -236,7 +236,7 @@ We welcome contributions to TasePy! Here's how you can help:
 
 ### Running Tests
 
-This package has been validated across Python versions 3.10-3.13 using GitHub Codespaces for consistent, isolated testing environments.
+This package has been validated for Python versions 3.12 and 3.14 on Ubuntu 24.04.3 LTS native and Windows11/WSL2
 
 ```bash
 # Install development dependencies
@@ -248,6 +248,7 @@ pytest
 # Run specific test categories
 pytest tests/unit/          # Unit tests only
 pytest tests/integration/   # Integration tests (requires API key)
+pytest tests/examples/      # Test examples (requires API key)
 ```
 
 #### Multi-Version Testing
