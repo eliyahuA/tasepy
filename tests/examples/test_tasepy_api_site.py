@@ -1,5 +1,5 @@
 import sys
-import site_checker
+from tasepy.examples import site_checker
 
 def test_tase_api_site(monkeypatch):
     with monkeypatch.context() as m:

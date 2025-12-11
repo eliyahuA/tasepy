@@ -34,7 +34,7 @@ def main(json_dir: str = ".") -> int:
     # Main indices
     selected_indices_json = json_dir + "/selected_indices.json"
     if not exists(selected_indices_json):
-       selected_indices_json  = "tasepy/examples/selected_indices.json"
+       selected_indices_json  = dirname(realpath(argv[0])) + "/../tasepy/examples/selected_indices.json"
     with open(selected_indices_json) as input_json:
         selected_indices = load(input_json)
     # Build reverse mapping for O(1) lookup

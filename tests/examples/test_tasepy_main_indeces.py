@@ -1,5 +1,5 @@
 import sys
-import tasepy_main_indices
+from tasepy.examples import tasepy_main_indices
 
 def test_tase_api_site(monkeypatch):
     with monkeypatch.context() as m:
